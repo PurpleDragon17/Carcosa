@@ -39,41 +39,908 @@ Filler Text
 
 I wasn’t the first one there, finding a few others scattered around the room. Who should I approach? 
 
+
 Filler Text 
 
-*The Artist 
+* The Artist 
 
 I made my way over to the artist
+
+
 {ShowCharacter("Sage", "Center", "Nat")}
+
+Filler Text 
+
 Sage: “Hm, I never thought to use spray paint on glass. It could be interesting.”
+
+
+Filler Text 
 
 {ShowCharacter("Jess", "Right", "Nat")}
 Jess: “I’d rather try and read what’s under all the spray paint”
 
+
+Filler Text 
+
 {ShowCharacter("Jon", "Left", "Nat")}
 Jon: “I don’t think it's worth it. This whole place is kinda crap” 
 
+
+Filler Text 
+
 Rory: “Wasn’t always like this. It was still a ride cue when I was here last.” 
+
+
+Filler Text 
 
 Jess: “You got a paper too?” 
 
+
+Filler Text 
+
 Sage: “I thought we were going to keep that secret.” 
+
+
+Filler Text 
 
 Rory: “I did. I’m Rory by the way.” 
 
+
+Filler Text 
+
 Jess: “Jess.” 
+
+
+Filler Text 
 
 Sage: “Sage.” 
 
+
+Filler Text 
+
 Jon: "Um, Jon?” 
+
+
+Filler Text 
 
 Sage: “Can you even say your own name?” 
 
+
+Filler Text 
+
 Jon: “Sorry”
+
 
 {HideCharacter("Sage")}
 {HideCharacter("Jess")}
 {HideCharacter("Jon")}
+	** Man with Plants 
+	I made my way over to the man kneeling next to a plant on the floor. 
+
+{ShowCharacter("Warren", "Right", "Nat")}
+
+Filler Text  
+
+Warren: “It’s quite surprising to see you here.” 
+
+Filler Text 
+
+Rory: “I mean-I guess-” 
+
+Filler Text 
+
+Warren: “Nature always finds a way to blossom.” 
+
+Filler Text 
+
+{ShowCharacter("Hendrix", "Center", "Nat")}
+
+Hendrix: “He’s not talking to you.” 
+
+Filler Text 
+
+Rory: “I realized that.” 
+
+Filler Text 
+
+{ShowCharacter("Bonnie", "Left", "Nat")}
+
+Bonnie: “Hey, do you know why the roller coaster was shut down?” 
+
+Filler Text 
+
+Rory: “It was an old wooden thing, half broken. They wanted to redo the whole track in steel but the park didn’t have the money.” 
+
+Filler Text 
+
+Bonnie: “So no one died?” 
+
+Filler Text 
+
+Hendrix: “Told you no one died.” 
+
+Filler Text 
+
+Rory: “If you want to talk about deaths at this park, you should see The Moat Boat.” 
+
+Filler Text 
+
+Hendrix: “You sound like a tabloid headline.” 
+
+Filler Text 
+
+Rory: “Hey, journalists gotta make money somehow.” 
+
+Filler Text 
+
+Bonnie: “Have I read anything you worked on?” 
+
+Filler Text 
+
+Rory: “Rory Conner, I did a lot for game journals.” 
+
+Filler Text 
+
+Bonnie: “I’m Bonnie, and can’t say I have read much of that. The man on the floor is Warren. He drove me here.” 
+
+Filler Text 
+
+Warren: “How are you getting food? I didn’t think the lights were that bright here.” 
+
+Filler Text 
+
+Hendrix: “Detective Shara Hendrix. And Just Hendrix is fine.” 
+
+Filler Text 
+
+Hendrix turned her attention to  Bonnie who had started talking about other dark ride accidents. 
+
+{HideCharacter("Warren")}
+{HideCharacter("Hendrix")}
+{HideCharacter("Bonnie")}
+
+		*** Reading Man
+		{ShowCharacter("Elias", "Center", "Nat")}
+
+	I approached the man sitting alone on one of the prop rocks. 
+
+	Filler Text 
+
+	Rory: “I think your coat’s got something on it.” 
+
+	Filler Text 
+
+	Elias: “Oh? I guess you’re right.” 
+
+	Filler Text 
+
+	Rory: “You here for the Halloween event?” 
+
+	Filler Text 
+
+	Elias: “Are you incapable of taking a hint?” 
+
+	Filler Text 
+
+	Rory: “Name’s Rory.” 
+
+	Filler Text 
+
+	Elias: “Elias. Will you leave me to my book now?” 
+
+	Filler Text 
+
+	{HideCharacter("Elias")}
+
+Some people are just not meant for social interactions. 
+
+		***Girl with Camera
+		A girl with a camera was directing a few other people. I found myself squinting as I tried to recall where, if anywhere, I knew her from. 
+
+{ShowCharacter("Kate", "Center", "Nat")}
+
+Filler Text 
+
+	Kate: “You don’t have lines, just talk” 
+
+{ShowCharacter("Aubri", "Left", "Nat")}
+
+Filler Text 
+
+	Aubri: “But how do you expect me to perform without lines?” 
+
+{ShowCharacter("Zelda", "Right", "Nat")}
+
+Filler Text 
+
+	Zelda: “It’s called improv Hollywood. Don’t they teach you that in acting school?” 
+
+	Filler Text 
+
+	Kate: “If you don’t wanna talk, can’t you just hold the camera?” 
+
+	Filler Text 
+
+Rory: “I can do it.” 
+
+Filler Text 
+
+Kate: “You’re a lifesaver.” 
+
+Filler Text 
+
+She handed me her camera and eagerly jumped in front, her voice jumping the octave with her. 
+
+Filler Text 
+
+Kate: “hey there interweb, You’ll know me I’m Kate, and you should recognize my collaborators, the Jollywood superstar Aubri Hunt,” 
+
+Filler Text 
+
+Aubri: “It’s always so wonderful to meet a fan” 
+
+Filler Text 
+
+Kate: “And the legendary Zelda.” 
+
+Filler Text 
+
+Zelda: “I hope you enjoy the show.” 
+
+Filler Text 
+
+Kate: “We were invited to Carcosa’s exclusive Halloween event and I plan to document everything!” 
+
+Filler Text 
+
+She stared blankly at me until I handed her back the camera. I quickly walked away. 
+
+Filler Text 
+
+{HideCharacter("Kate")}
+{HideCharacter("Aubri")}
+{HideCharacter("Zelda")}
+
+	** Reading Man
+	{ShowCharacter("Elias", "Center", "Nat")}
+
+	I approached the man sitting alone on one of the prop rocks. 
+
+	Filler Text 
+
+	Rory: “I think your coat’s got something on it.” 
+
+	Filler Text 
+
+	Elias: “Oh? I guess you’re right.” 
+
+	Filler Text 
+
+	Rory: “You here for the Halloween event?” 
+
+	Filler Text 
+
+	Elias: “Are you incapable of taking a hint?” 
+
+	Filler Text 
+
+	Rory: “Name’s Rory.” 
+
+	Filler Text 
+
+	Elias: “Elias. Will you leave me to my book now?” 
+
+	Filler Text 
+
+	{HideCharacter("Elias")}
+
+Some people are just not meant for social interactions. 
+
+		*** Man with Plants
+		I made my way over to the man kneeling next to a plant on the floor. 
+
+{ShowCharacter("Warren", "Right", "Nat")}
+
+Filler Text  
+
+Warren: “It’s quite surprising to see you here.” 
+
+Filler Text 
+
+Rory: “I mean-I guess-” 
+
+Filler Text 
+
+Warren: “Nature always finds a way to blossom.” 
+
+Filler Text 
+
+{ShowCharacter("Hendrix", "Center", "Nat")}
+
+Hendrix: “He’s not talking to you.” 
+
+Filler Text 
+
+Rory: “I realized that.” 
+
+Filler Text 
+
+{ShowCharacter("Bonnie", "Left", "Nat")}
+
+Bonnie: “Hey, do you know why the roller coaster was shut down?” 
+
+Filler Text 
+
+Rory: “It was an old wooden thing, half broken. They wanted to redo the whole track in steel but the park didn’t have the money.” 
+
+Filler Text 
+
+Bonnie: “So no one died?” 
+
+Filler Text 
+
+Hendrix: “Told you no one died.” 
+
+Filler Text 
+
+Rory: “If you want to talk about deaths at this park, you should see The Moat Boat.” 
+
+Filler Text 
+
+Hendrix: “You sound like a tabloid headline.” 
+
+Filler Text 
+
+Rory: “Hey, journalists gotta make money somehow.” 
+
+Filler Text 
+
+Bonnie: “Have I read anything you worked on?” 
+
+Filler Text 
+
+Rory: “Rory Conner, I did a lot for game journals.” 
+
+Filler Text 
+
+Bonnie: “I’m Bonnie, and can’t say I have read much of that. The man on the floor is Warren. He drove me here.” 
+
+Filler Text 
+
+Warren: “How are you getting food? I didn’t think the lights were that bright here.” 
+
+Filler Text 
+
+Hendrix: “Detective Shara Hendrix. And Just Hendrix is fine.” 
+
+Filler Text 
+
+Hendrix turned her attention to  Bonnie who had started talking about other dark ride accidents. 
+
+{HideCharacter("Warren")}
+{HideCharacter("Hendrix")}
+{HideCharacter("Bonnie")}
+
+A girl with a camera was directing a few other people. I found myself squinting as I tried to recall where, if anywhere, I knew her from. 
+
+{ShowCharacter("Kate", "Center", "Nat")}
+
+Filler Text 
+
+	Kate: “You don’t have lines, just talk” 
+
+{ShowCharacter("Aubri", "Left", "Nat")}
+
+Filler Text 
+
+	Aubri: “But how do you expect me to perform without lines?” 
+
+{ShowCharacter("Zelda", "Right", "Nat")}
+
+Filler Text 
+
+	Zelda: “It’s called improv Hollywood. Don’t they teach you that in acting school?” 
+
+	Filler Text 
+
+	Kate: “If you don’t wanna talk, can’t you just hold the camera?” 
+
+	Filler Text 
+
+Rory: “I can do it.” 
+
+Filler Text 
+
+Kate: “You’re a lifesaver.” 
+
+Filler Text 
+
+She handed me her camera and eagerly jumped in front, her voice jumping the octave with her. 
+
+Filler Text 
+
+Kate: “hey there interweb, You’ll know me I’m Kate, and you should recognize my collaborators, the Jollywood superstar Aubri Hunt,” 
+
+Filler Text 
+
+Aubri: “It’s always so wonderful to meet a fan” 
+
+Filler Text 
+
+Kate: “And the legendary Zelda.” 
+
+Filler Text 
+
+Zelda: “I hope you enjoy the show.” 
+
+Filler Text 
+
+Kate: “We were invited to Carcosa’s exclusive Halloween event and I plan to document everything!” 
+
+Filler Text 
+
+She stared blankly at me until I handed her back the camera. I quickly walked away. 
+
+Filler Text 
+
+{HideCharacter("Kate")}
+{HideCharacter("Aubri")}
+{HideCharacter("Zelda")}
+
+		***Girl with Camera 
+		A girl with a camera was directing a few other people. I found myself squinting as I tried to recall where, if anywhere, I knew her from. 
+
+{ShowCharacter("Kate", "Center", "Nat")}
+
+Filler Text 
+
+	Kate: “You don’t have lines, just talk” 
+
+{ShowCharacter("Aubri", "Left", "Nat")}
+
+Filler Text 
+
+	Aubri: “But how do you expect me to perform without lines?” 
+
+{ShowCharacter("Zelda", "Right", "Nat")}
+
+Filler Text 
+
+	Zelda: “It’s called improv Hollywood. Don’t they teach you that in acting school?” 
+
+	Filler Text 
+
+	Kate: “If you don’t wanna talk, can’t you just hold the camera?” 
+
+	Filler Text 
+
+Rory: “I can do it.” 
+
+Filler Text 
+
+Kate: “You’re a lifesaver.” 
+
+Filler Text 
+
+She handed me her camera and eagerly jumped in front, her voice jumping the octave with her. 
+
+Filler Text 
+
+Kate: “hey there interweb, You’ll know me I’m Kate, and you should recognize my collaborators, the Jollywood superstar Aubri Hunt,” 
+
+Filler Text 
+
+Aubri: “It’s always so wonderful to meet a fan” 
+
+Filler Text 
+
+Kate: “And the legendary Zelda.” 
+
+Filler Text 
+
+Zelda: “I hope you enjoy the show.” 
+
+Filler Text 
+
+Kate: “We were invited to Carcosa’s exclusive Halloween event and I plan to document everything!” 
+
+Filler Text 
+
+She stared blankly at me until I handed her back the camera. I quickly walked away. 
+
+Filler Text 
+
+{HideCharacter("Kate")}
+{HideCharacter("Aubri")}
+{HideCharacter("Zelda")}
+
+I made my way over to the man kneeling next to a plant on the floor. 
+
+{ShowCharacter("Warren", "Right", "Nat")}
+
+Filler Text  
+
+Warren: “It’s quite surprising to see you here.” 
+
+Filler Text 
+
+Rory: “I mean-I guess-” 
+
+Filler Text 
+
+Warren: “Nature always finds a way to blossom.” 
+
+Filler Text 
+
+{ShowCharacter("Hendrix", "Center", "Nat")}
+
+Hendrix: “He’s not talking to you.” 
+
+Filler Text 
+
+Rory: “I realized that.” 
+
+Filler Text 
+
+{ShowCharacter("Bonnie", "Left", "Nat")}
+
+Bonnie: “Hey, do you know why the roller coaster was shut down?” 
+
+Filler Text 
+
+Rory: “It was an old wooden thing, half broken. They wanted to redo the whole track in steel but the park didn’t have the money.” 
+
+Filler Text 
+
+Bonnie: “So no one died?” 
+
+Filler Text 
+
+Hendrix: “Told you no one died.” 
+
+Filler Text 
+
+Rory: “If you want to talk about deaths at this park, you should see The Moat Boat.” 
+
+Filler Text 
+
+Hendrix: “You sound like a tabloid headline.” 
+
+Filler Text 
+
+Rory: “Hey, journalists gotta make money somehow.” 
+
+Filler Text 
+
+Bonnie: “Have I read anything you worked on?” 
+
+Filler Text 
+
+Rory: “Rory Conner, I did a lot for game journals.” 
+
+Filler Text 
+
+Bonnie: “I’m Bonnie, and can’t say I have read much of that. The man on the floor is Warren. He drove me here.” 
+
+Filler Text 
+
+Warren: “How are you getting food? I didn’t think the lights were that bright here.” 
+
+Filler Text 
+
+Hendrix: “Detective Shara Hendrix. And Just Hendrix is fine.” 
+
+Filler Text 
+
+Hendrix turned her attention to  Bonnie who had started talking about other dark ride accidents. 
+
+{HideCharacter("Warren")}
+{HideCharacter("Hendrix")}
+{HideCharacter("Bonnie")}
+
+	** Girl with Camera 
+	A girl with a camera was directing a few other people. I found myself squinting as I tried to recall where, if anywhere, I knew her from. 
+
+{ShowCharacter("Kate", "Center", "Nat")}
+
+Filler Text 
+
+	Kate: “You don’t have lines, just talk” 
+
+{ShowCharacter("Aubri", "Left", "Nat")}
+
+Filler Text 
+
+	Aubri: “But how do you expect me to perform without lines?” 
+
+{ShowCharacter("Zelda", "Right", "Nat")}
+
+Filler Text 
+
+	Zelda: “It’s called improv Hollywood. Don’t they teach you that in acting school?” 
+
+	Filler Text 
+
+	Kate: “If you don’t wanna talk, can’t you just hold the camera?” 
+
+	Filler Text 
+
+Rory: “I can do it.” 
+
+Filler Text 
+
+Kate: “You’re a lifesaver.” 
+
+Filler Text 
+
+She handed me her camera and eagerly jumped in front, her voice jumping the octave with her. 
+
+Filler Text 
+
+Kate: “hey there interweb, You’ll know me I’m Kate, and you should recognize my collaborators, the Jollywood superstar Aubri Hunt,” 
+
+Filler Text 
+
+Aubri: “It’s always so wonderful to meet a fan” 
+
+Filler Text 
+
+Kate: “And the legendary Zelda.” 
+
+Filler Text 
+
+Zelda: “I hope you enjoy the show.” 
+
+Filler Text 
+
+Kate: “We were invited to Carcosa’s exclusive Halloween event and I plan to document everything!” 
+
+Filler Text 
+
+She stared blankly at me until I handed her back the camera. I quickly walked away. 
+
+Filler Text 
+
+{HideCharacter("Kate")}
+{HideCharacter("Aubri")}
+{HideCharacter("Zelda")}
+
+		*** Man with Plants 
+		I made my way over to the man kneeling next to a plant on the floor. 
+
+{ShowCharacter("Warren", "Right", "Nat")}
+
+Filler Text  
+
+Warren: “It’s quite surprising to see you here.” 
+
+Filler Text 
+
+Rory: “I mean-I guess-” 
+
+Filler Text 
+
+Warren: “Nature always finds a way to blossom.” 
+
+Filler Text 
+
+{ShowCharacter("Hendrix", "Center", "Nat")}
+
+Hendrix: “He’s not talking to you.” 
+
+Filler Text 
+
+Rory: “I realized that.” 
+
+Filler Text 
+
+{ShowCharacter("Bonnie", "Left", "Nat")}
+
+Bonnie: “Hey, do you know why the roller coaster was shut down?” 
+
+Filler Text 
+
+Rory: “It was an old wooden thing, half broken. They wanted to redo the whole track in steel but the park didn’t have the money.” 
+
+Filler Text 
+
+Bonnie: “So no one died?” 
+
+Filler Text 
+
+Hendrix: “Told you no one died.” 
+
+Filler Text 
+
+Rory: “If you want to talk about deaths at this park, you should see The Moat Boat.” 
+
+Filler Text 
+
+Hendrix: “You sound like a tabloid headline.” 
+
+Filler Text 
+
+Rory: “Hey, journalists gotta make money somehow.” 
+
+Filler Text 
+
+Bonnie: “Have I read anything you worked on?” 
+
+Filler Text 
+
+Rory: “Rory Conner, I did a lot for game journals.” 
+
+Filler Text 
+
+Bonnie: “I’m Bonnie, and can’t say I have read much of that. The man on the floor is Warren. He drove me here.” 
+
+Filler Text 
+
+Warren: “How are you getting food? I didn’t think the lights were that bright here.” 
+
+Filler Text 
+
+Hendrix: “Detective Shara Hendrix. And Just Hendrix is fine.” 
+
+Filler Text 
+
+Hendrix turned her attention to  Bonnie who had started talking about other dark ride accidents. 
+
+{HideCharacter("Warren")}
+{HideCharacter("Hendrix")}
+{HideCharacter("Bonnie")}
+{ShowCharacter("Elias", "Center", "Nat")}
+
+	I approached the man sitting alone on one of the prop rocks. 
+
+	Filler Text 
+
+	Rory: “I think your coat’s got something on it.” 
+
+	Filler Text 
+
+	Elias: “Oh? I guess you’re right.” 
+
+	Filler Text 
+
+	Rory: “You here for the Halloween event?” 
+
+	Filler Text 
+
+	Elias: “Are you incapable of taking a hint?” 
+
+	Filler Text 
+
+	Rory: “Name’s Rory.” 
+
+	Filler Text 
+
+	Elias: “Elias. Will you leave me to my book now?” 
+
+	Filler Text 
+
+	{HideCharacter("Elias")}
+
+Some people are just not meant for social interactions. 
+
+		*** Reading Man
+		{ShowCharacter("Elias", "Center", "Nat")}
+
+	I approached the man sitting alone on one of the prop rocks. 
+
+	Filler Text 
+
+	Rory: “I think your coat’s got something on it.” 
+
+	Filler Text 
+
+	Elias: “Oh? I guess you’re right.” 
+
+	Filler Text 
+
+	Rory: “You here for the Halloween event?” 
+
+	Filler Text 
+
+	Elias: “Are you incapable of taking a hint?” 
+
+	Filler Text 
+
+	Rory: “Name’s Rory.” 
+
+	Filler Text 
+
+	Elias: “Elias. Will you leave me to my book now?” 
+
+	Filler Text 
+
+	{HideCharacter("Elias")}
+
+Some people are just not meant for social interactions. 
+
+I made my way over to the man kneeling next to a plant on the floor. 
+
+{ShowCharacter("Warren", "Right", "Nat")}
+
+Filler Text  
+
+Warren: “It’s quite surprising to see you here.” 
+
+Filler Text 
+
+Rory: “I mean-I guess-” 
+
+Filler Text 
+
+Warren: “Nature always finds a way to blossom.” 
+
+Filler Text 
+
+{ShowCharacter("Hendrix", "Center", "Nat")}
+
+Hendrix: “He’s not talking to you.” 
+
+Filler Text 
+
+Rory: “I realized that.” 
+
+Filler Text 
+
+{ShowCharacter("Bonnie", "Left", "Nat")}
+
+Bonnie: “Hey, do you know why the roller coaster was shut down?” 
+
+Filler Text 
+
+Rory: “It was an old wooden thing, half broken. They wanted to redo the whole track in steel but the park didn’t have the money.” 
+
+Filler Text 
+
+Bonnie: “So no one died?” 
+
+Filler Text 
+
+Hendrix: “Told you no one died.” 
+
+Filler Text 
+
+Rory: “If you want to talk about deaths at this park, you should see The Moat Boat.” 
+
+Filler Text 
+
+Hendrix: “You sound like a tabloid headline.” 
+
+Filler Text 
+
+Rory: “Hey, journalists gotta make money somehow.” 
+
+Filler Text 
+
+Bonnie: “Have I read anything you worked on?” 
+
+Filler Text 
+
+Rory: “Rory Conner, I did a lot for game journals.” 
+
+Filler Text 
+
+Bonnie: “I’m Bonnie, and can’t say I have read much of that. The man on the floor is Warren. He drove me here.” 
+
+Filler Text 
+
+Warren: “How are you getting food? I didn’t think the lights were that bright here.” 
+
+Filler Text 
+
+Hendrix: “Detective Shara Hendrix. And Just Hendrix is fine.” 
+
+Filler Text 
+
+Hendrix turned her attention to  Bonnie who had started talking about other dark ride accidents. 
+
+{HideCharacter("Warren")}
+{HideCharacter("Hendrix")}
+{HideCharacter("Bonnie")}
 
 
 * Man with Plants 
@@ -82,43 +949,79 @@ I made my way over to the man kneeling next to a plant on the floor.
 
 {ShowCharacter("Warren", "Right", "Nat")}
 
+Filler Text  
+
 Warren: “It’s quite surprising to see you here.” 
+
+Filler Text 
 
 Rory: “I mean-I guess-” 
 
+Filler Text 
+
 Warren: “Nature always finds a way to blossom.” 
+
+Filler Text 
 
 {ShowCharacter("Hendrix", "Center", "Nat")}
 
 Hendrix: “He’s not talking to you.” 
 
+Filler Text 
+
 Rory: “I realized that.” 
+
+Filler Text 
 
 {ShowCharacter("Bonnie", "Left", "Nat")}
 
 Bonnie: “Hey, do you know why the roller coaster was shut down?” 
 
+Filler Text 
+
 Rory: “It was an old wooden thing, half broken. They wanted to redo the whole track in steel but the park didn’t have the money.” 
+
+Filler Text 
 
 Bonnie: “So no one died?” 
 
+Filler Text 
+
 Hendrix: “Told you no one died.” 
+
+Filler Text 
 
 Rory: “If you want to talk about deaths at this park, you should see The Moat Boat.” 
 
+Filler Text 
+
 Hendrix: “You sound like a tabloid headline.” 
+
+Filler Text 
 
 Rory: “Hey, journalists gotta make money somehow.” 
 
+Filler Text 
+
 Bonnie: “Have I read anything you worked on?” 
+
+Filler Text 
 
 Rory: “Rory Conner, I did a lot for game journals.” 
 
+Filler Text 
+
 Bonnie: “I’m Bonnie, and can’t say I have read much of that. The man on the floor is Warren. He drove me here.” 
+
+Filler Text 
 
 Warren: “How are you getting food? I didn’t think the lights were that bright here.” 
 
+Filler Text 
+
 Hendrix: “Detective Shara Hendrix. And Just Hendrix is fine.” 
+
+Filler Text 
 
 Hendrix turned her attention to  Bonnie who had started talking about other dark ride accidents. 
 
@@ -126,27 +1029,2017 @@ Hendrix turned her attention to  Bonnie who had started talking about other dark
 {HideCharacter("Hendrix")}
 {HideCharacter("Bonnie")}
 
+	** The Artist 
+	I made my way over to the artist
+
+
+{ShowCharacter("Sage", "Center", "Nat")}
+
+Filler Text 
+
+Sage: “Hm, I never thought to use spray paint on glass. It could be interesting.”
+
+
+Filler Text 
+
+{ShowCharacter("Jess", "Right", "Nat")}
+Jess: “I’d rather try and read what’s under all the spray paint”
+
+
+Filler Text 
+
+{ShowCharacter("Jon", "Left", "Nat")}
+Jon: “I don’t think it's worth it. This whole place is kinda crap” 
+
+
+Filler Text 
+
+Rory: “Wasn’t always like this. It was still a ride cue when I was here last.” 
+
+
+Filler Text 
+
+Jess: “You got a paper too?” 
+
+
+Filler Text 
+
+Sage: “I thought we were going to keep that secret.” 
+
+
+Filler Text 
+
+Rory: “I did. I’m Rory by the way.” 
+
+
+Filler Text 
+
+Jess: “Jess.” 
+
+
+Filler Text 
+
+Sage: “Sage.” 
+
+
+Filler Text 
+
+Jon: "Um, Jon?” 
+
+
+Filler Text 
+
+Sage: “Can you even say your own name?” 
+
+
+Filler Text 
+
+Jon: “Sorry”
+
+
+{HideCharacter("Sage")}
+{HideCharacter("Jess")}
+{HideCharacter("Jon")}
+
+		*** Reading Man
+		{ShowCharacter("Elias", "Center", "Nat")}
+
+	I approached the man sitting alone on one of the prop rocks. 
+
+	Filler Text 
+
+	Rory: “I think your coat’s got something on it.” 
+
+	Filler Text 
+
+	Elias: “Oh? I guess you’re right.” 
+
+	Filler Text 
+
+	Rory: “You here for the Halloween event?” 
+
+	Filler Text 
+
+	Elias: “Are you incapable of taking a hint?” 
+
+	Filler Text 
+
+	Rory: “Name’s Rory.” 
+
+	Filler Text 
+
+	Elias: “Elias. Will you leave me to my book now?” 
+
+	Filler Text 
+
+	{HideCharacter("Elias")}
+
+Some people are just not meant for social interactions. 
+
+A girl with a camera was directing a few other people. I found myself squinting as I tried to recall where, if anywhere, I knew her from. 
+
+{ShowCharacter("Kate", "Center", "Nat")}
+
+Filler Text 
+
+	Kate: “You don’t have lines, just talk” 
+
+{ShowCharacter("Aubri", "Left", "Nat")}
+
+Filler Text 
+
+	Aubri: “But how do you expect me to perform without lines?” 
+
+{ShowCharacter("Zelda", "Right", "Nat")}
+
+Filler Text 
+
+	Zelda: “It’s called improv Hollywood. Don’t they teach you that in acting school?” 
+
+	Filler Text 
+
+	Kate: “If you don’t wanna talk, can’t you just hold the camera?” 
+
+	Filler Text 
+
+Rory: “I can do it.” 
+
+Filler Text 
+
+Kate: “You’re a lifesaver.” 
+
+Filler Text 
+
+She handed me her camera and eagerly jumped in front, her voice jumping the octave with her. 
+
+Filler Text 
+
+Kate: “hey there interweb, You’ll know me I’m Kate, and you should recognize my collaborators, the Jollywood superstar Aubri Hunt,” 
+
+Filler Text 
+
+Aubri: “It’s always so wonderful to meet a fan” 
+
+Filler Text 
+
+Kate: “And the legendary Zelda.” 
+
+Filler Text 
+
+Zelda: “I hope you enjoy the show.” 
+
+Filler Text 
+
+Kate: “We were invited to Carcosa’s exclusive Halloween event and I plan to document everything!” 
+
+Filler Text 
+
+She stared blankly at me until I handed her back the camera. I quickly walked away. 
+
+Filler Text 
+
+{HideCharacter("Kate")}
+{HideCharacter("Aubri")}
+{HideCharacter("Zelda")}
+
+		*** Girl with Camera
+		A girl with a camera was directing a few other people. I found myself squinting as I tried to recall where, if anywhere, I knew her from. 
+
+{ShowCharacter("Kate", "Center", "Nat")}
+
+Filler Text 
+
+	Kate: “You don’t have lines, just talk” 
+
+{ShowCharacter("Aubri", "Left", "Nat")}
+
+Filler Text 
+
+	Aubri: “But how do you expect me to perform without lines?” 
+
+{ShowCharacter("Zelda", "Right", "Nat")}
+
+Filler Text 
+
+	Zelda: “It’s called improv Hollywood. Don’t they teach you that in acting school?” 
+
+	Filler Text 
+
+	Kate: “If you don’t wanna talk, can’t you just hold the camera?” 
+
+	Filler Text 
+
+Rory: “I can do it.” 
+
+Filler Text 
+
+Kate: “You’re a lifesaver.” 
+
+Filler Text 
+
+She handed me her camera and eagerly jumped in front, her voice jumping the octave with her. 
+
+Filler Text 
+
+Kate: “hey there interweb, You’ll know me I’m Kate, and you should recognize my collaborators, the Jollywood superstar Aubri Hunt,” 
+
+Filler Text 
+
+Aubri: “It’s always so wonderful to meet a fan” 
+
+Filler Text 
+
+Kate: “And the legendary Zelda.” 
+
+Filler Text 
+
+Zelda: “I hope you enjoy the show.” 
+
+Filler Text 
+
+Kate: “We were invited to Carcosa’s exclusive Halloween event and I plan to document everything!” 
+
+Filler Text 
+
+She stared blankly at me until I handed her back the camera. I quickly walked away. 
+
+Filler Text 
+
+{HideCharacter("Kate")}
+{HideCharacter("Aubri")}
+{HideCharacter("Zelda")}
+
+{ShowCharacter("Elias", "Center", "Nat")}
+
+	I approached the man sitting alone on one of the prop rocks. 
+
+	Filler Text 
+
+	Rory: “I think your coat’s got something on it.” 
+
+	Filler Text 
+
+	Elias: “Oh? I guess you’re right.” 
+
+	Filler Text 
+
+	Rory: “You here for the Halloween event?” 
+
+	Filler Text 
+
+	Elias: “Are you incapable of taking a hint?” 
+
+	Filler Text 
+
+	Rory: “Name’s Rory.” 
+
+	Filler Text 
+
+	Elias: “Elias. Will you leave me to my book now?” 
+
+	Filler Text 
+
+	{HideCharacter("Elias")}
+
+Some people are just not meant for social interactions. 
+
+	** Reading Man 
+	{ShowCharacter("Elias", "Center", "Nat")}
+
+	I approached the man sitting alone on one of the prop rocks. 
+
+	Filler Text 
+
+	Rory: “I think your coat’s got something on it.” 
+
+	Filler Text 
+
+	Elias: “Oh? I guess you’re right.” 
+
+	Filler Text 
+
+	Rory: “You here for the Halloween event?” 
+
+	Filler Text 
+
+	Elias: “Are you incapable of taking a hint?” 
+
+	Filler Text 
+
+	Rory: “Name’s Rory.” 
+
+	Filler Text 
+
+	Elias: “Elias. Will you leave me to my book now?” 
+
+	Filler Text 
+
+	{HideCharacter("Elias")}
+
+Some people are just not meant for social interactions. 
+
+		*** The Artist
+I made my way over to the artist
+
+
+{ShowCharacter("Sage", "Center", "Nat")}
+
+Filler Text 
+
+Sage: “Hm, I never thought to use spray paint on glass. It could be interesting.”
+
+
+Filler Text 
+
+{ShowCharacter("Jess", "Right", "Nat")}
+Jess: “I’d rather try and read what’s under all the spray paint”
+
+
+Filler Text 
+
+{ShowCharacter("Jon", "Left", "Nat")}
+Jon: “I don’t think it's worth it. This whole place is kinda crap” 
+
+
+Filler Text 
+
+Rory: “Wasn’t always like this. It was still a ride cue when I was here last.” 
+
+
+Filler Text 
+
+Jess: “You got a paper too?” 
+
+
+Filler Text 
+
+Sage: “I thought we were going to keep that secret.” 
+
+
+Filler Text 
+
+Rory: “I did. I’m Rory by the way.” 
+
+
+Filler Text 
+
+Jess: “Jess.” 
+
+
+Filler Text 
+
+Sage: “Sage.” 
+
+
+Filler Text 
+
+Jon: "Um, Jon?” 
+
+
+Filler Text 
+
+Sage: “Can you even say your own name?” 
+
+
+Filler Text 
+
+Jon: “Sorry”
+
+
+{HideCharacter("Sage")}
+{HideCharacter("Jess")}
+{HideCharacter("Jon")}
+
+A girl with a camera was directing a few other people. I found myself squinting as I tried to recall where, if anywhere, I knew her from. 
+
+{ShowCharacter("Kate", "Center", "Nat")}
+
+Filler Text 
+
+	Kate: “You don’t have lines, just talk” 
+
+{ShowCharacter("Aubri", "Left", "Nat")}
+
+Filler Text 
+
+	Aubri: “But how do you expect me to perform without lines?” 
+
+{ShowCharacter("Zelda", "Right", "Nat")}
+
+Filler Text 
+
+	Zelda: “It’s called improv Hollywood. Don’t they teach you that in acting school?” 
+
+	Filler Text 
+
+	Kate: “If you don’t wanna talk, can’t you just hold the camera?” 
+
+	Filler Text 
+
+Rory: “I can do it.” 
+
+Filler Text 
+
+Kate: “You’re a lifesaver.” 
+
+Filler Text 
+
+She handed me her camera and eagerly jumped in front, her voice jumping the octave with her. 
+
+Filler Text 
+
+Kate: “hey there interweb, You’ll know me I’m Kate, and you should recognize my collaborators, the Jollywood superstar Aubri Hunt,” 
+
+Filler Text 
+
+Aubri: “It’s always so wonderful to meet a fan” 
+
+Filler Text 
+
+Kate: “And the legendary Zelda.” 
+
+Filler Text 
+
+Zelda: “I hope you enjoy the show.” 
+
+Filler Text 
+
+Kate: “We were invited to Carcosa’s exclusive Halloween event and I plan to document everything!” 
+
+Filler Text 
+
+She stared blankly at me until I handed her back the camera. I quickly walked away. 
+
+Filler Text 
+
+{HideCharacter("Kate")}
+{HideCharacter("Aubri")}
+{HideCharacter("Zelda")}
+
+		***Girl With Camera
+		A girl with a camera was directing a few other people. I found myself squinting as I tried to recall where, if anywhere, I knew her from. 
+
+{ShowCharacter("Kate", "Center", "Nat")}
+
+Filler Text 
+
+	Kate: “You don’t have lines, just talk” 
+
+{ShowCharacter("Aubri", "Left", "Nat")}
+
+Filler Text 
+
+	Aubri: “But how do you expect me to perform without lines?” 
+
+{ShowCharacter("Zelda", "Right", "Nat")}
+
+Filler Text 
+
+	Zelda: “It’s called improv Hollywood. Don’t they teach you that in acting school?” 
+
+	Filler Text 
+
+	Kate: “If you don’t wanna talk, can’t you just hold the camera?” 
+
+	Filler Text 
+
+Rory: “I can do it.” 
+
+Filler Text 
+
+Kate: “You’re a lifesaver.” 
+
+Filler Text 
+
+She handed me her camera and eagerly jumped in front, her voice jumping the octave with her. 
+
+Filler Text 
+
+Kate: “hey there interweb, You’ll know me I’m Kate, and you should recognize my collaborators, the Jollywood superstar Aubri Hunt,” 
+
+Filler Text 
+
+Aubri: “It’s always so wonderful to meet a fan” 
+
+Filler Text 
+
+Kate: “And the legendary Zelda.” 
+
+Filler Text 
+
+Zelda: “I hope you enjoy the show.” 
+
+Filler Text 
+
+Kate: “We were invited to Carcosa’s exclusive Halloween event and I plan to document everything!” 
+
+Filler Text 
+
+She stared blankly at me until I handed her back the camera. I quickly walked away. 
+
+Filler Text 
+
+{HideCharacter("Kate")}
+{HideCharacter("Aubri")}
+{HideCharacter("Zelda")}
+
+I made my way over to the artist
+
+
+{ShowCharacter("Sage", "Center", "Nat")}
+
+Filler Text 
+
+Sage: “Hm, I never thought to use spray paint on glass. It could be interesting.”
+
+
+Filler Text 
+
+{ShowCharacter("Jess", "Right", "Nat")}
+Jess: “I’d rather try and read what’s under all the spray paint”
+
+
+Filler Text 
+
+{ShowCharacter("Jon", "Left", "Nat")}
+Jon: “I don’t think it's worth it. This whole place is kinda crap” 
+
+
+Filler Text 
+
+Rory: “Wasn’t always like this. It was still a ride cue when I was here last.” 
+
+
+Filler Text 
+
+Jess: “You got a paper too?” 
+
+
+Filler Text 
+
+Sage: “I thought we were going to keep that secret.” 
+
+
+Filler Text 
+
+Rory: “I did. I’m Rory by the way.” 
+
+
+Filler Text 
+
+Jess: “Jess.” 
+
+
+Filler Text 
+
+Sage: “Sage.” 
+
+
+Filler Text 
+
+Jon: "Um, Jon?” 
+
+
+Filler Text 
+
+Sage: “Can you even say your own name?” 
+
+
+Filler Text 
+
+Jon: “Sorry”
+
+
+{HideCharacter("Sage")}
+{HideCharacter("Jess")}
+{HideCharacter("Jon")}
+
+	** Girl with Camera
+	A girl with a camera was directing a few other people. I found myself squinting as I tried to recall where, if anywhere, I knew her from. 
+
+{ShowCharacter("Kate", "Center", "Nat")}
+
+Filler Text 
+
+	Kate: “You don’t have lines, just talk” 
+
+{ShowCharacter("Aubri", "Left", "Nat")}
+
+Filler Text 
+
+	Aubri: “But how do you expect me to perform without lines?” 
+
+{ShowCharacter("Zelda", "Right", "Nat")}
+
+Filler Text 
+
+	Zelda: “It’s called improv Hollywood. Don’t they teach you that in acting school?” 
+
+	Filler Text 
+
+	Kate: “If you don’t wanna talk, can’t you just hold the camera?” 
+
+	Filler Text 
+
+Rory: “I can do it.” 
+
+Filler Text 
+
+Kate: “You’re a lifesaver.” 
+
+Filler Text 
+
+She handed me her camera and eagerly jumped in front, her voice jumping the octave with her. 
+
+Filler Text 
+
+Kate: “hey there interweb, You’ll know me I’m Kate, and you should recognize my collaborators, the Jollywood superstar Aubri Hunt,” 
+
+Filler Text 
+
+Aubri: “It’s always so wonderful to meet a fan” 
+
+Filler Text 
+
+Kate: “And the legendary Zelda.” 
+
+Filler Text 
+
+Zelda: “I hope you enjoy the show.” 
+
+Filler Text 
+
+Kate: “We were invited to Carcosa’s exclusive Halloween event and I plan to document everything!” 
+
+Filler Text 
+
+She stared blankly at me until I handed her back the camera. I quickly walked away. 
+
+Filler Text 
+
+{HideCharacter("Kate")}
+{HideCharacter("Aubri")}
+{HideCharacter("Zelda")}
+		***The Artist 
+		I made my way over to the artist
+
+
+{ShowCharacter("Sage", "Center", "Nat")}
+
+Filler Text 
+
+Sage: “Hm, I never thought to use spray paint on glass. It could be interesting.”
+
+
+Filler Text 
+
+{ShowCharacter("Jess", "Right", "Nat")}
+Jess: “I’d rather try and read what’s under all the spray paint”
+
+
+Filler Text 
+
+{ShowCharacter("Jon", "Left", "Nat")}
+Jon: “I don’t think it's worth it. This whole place is kinda crap” 
+
+
+Filler Text 
+
+Rory: “Wasn’t always like this. It was still a ride cue when I was here last.” 
+
+
+Filler Text 
+
+Jess: “You got a paper too?” 
+
+
+Filler Text 
+
+Sage: “I thought we were going to keep that secret.” 
+
+
+Filler Text 
+
+Rory: “I did. I’m Rory by the way.” 
+
+
+Filler Text 
+
+Jess: “Jess.” 
+
+
+Filler Text 
+
+Sage: “Sage.” 
+
+
+Filler Text 
+
+Jon: "Um, Jon?” 
+
+
+Filler Text 
+
+Sage: “Can you even say your own name?” 
+
+
+Filler Text 
+
+Jon: “Sorry”
+
+
+{HideCharacter("Sage")}
+{HideCharacter("Jess")}
+{HideCharacter("Jon")}
+
+{ShowCharacter("Elias", "Center", "Nat")}
+
+	I approached the man sitting alone on one of the prop rocks. 
+
+	Filler Text 
+
+	Rory: “I think your coat’s got something on it.” 
+
+	Filler Text 
+
+	Elias: “Oh? I guess you’re right.” 
+
+	Filler Text 
+
+	Rory: “You here for the Halloween event?” 
+
+	Filler Text 
+
+	Elias: “Are you incapable of taking a hint?” 
+
+	Filler Text 
+
+	Rory: “Name’s Rory.” 
+
+	Filler Text 
+
+	Elias: “Elias. Will you leave me to my book now?” 
+
+	Filler Text 
+
+	{HideCharacter("Elias")}
+
+Some people are just not meant for social interactions. 
+
+		***Reading Man 
+		{ShowCharacter("Elias", "Center", "Nat")}
+
+	I approached the man sitting alone on one of the prop rocks. 
+
+	Filler Text 
+
+	Rory: “I think your coat’s got something on it.” 
+
+	Filler Text 
+
+	Elias: “Oh? I guess you’re right.” 
+
+	Filler Text 
+
+	Rory: “You here for the Halloween event?” 
+
+	Filler Text 
+
+	Elias: “Are you incapable of taking a hint?” 
+
+	Filler Text 
+
+	Rory: “Name’s Rory.” 
+
+	Filler Text 
+
+	Elias: “Elias. Will you leave me to my book now?” 
+
+	Filler Text 
+
+	{HideCharacter("Elias")}
+
+Some people are just not meant for social interactions. 
+
+I made my way over to the artist
+
+
+{ShowCharacter("Sage", "Center", "Nat")}
+
+Filler Text 
+
+Sage: “Hm, I never thought to use spray paint on glass. It could be interesting.”
+
+
+Filler Text 
+
+{ShowCharacter("Jess", "Right", "Nat")}
+Jess: “I’d rather try and read what’s under all the spray paint”
+
+
+Filler Text 
+
+{ShowCharacter("Jon", "Left", "Nat")}
+Jon: “I don’t think it's worth it. This whole place is kinda crap” 
+
+
+Filler Text 
+
+Rory: “Wasn’t always like this. It was still a ride cue when I was here last.” 
+
+
+Filler Text 
+
+Jess: “You got a paper too?” 
+
+
+Filler Text 
+
+Sage: “I thought we were going to keep that secret.” 
+
+
+Filler Text 
+
+Rory: “I did. I’m Rory by the way.” 
+
+
+Filler Text 
+
+Jess: “Jess.” 
+
+
+Filler Text 
+
+Sage: “Sage.” 
+
+
+Filler Text 
+
+Jon: "Um, Jon?” 
+
+
+Filler Text 
+
+Sage: “Can you even say your own name?” 
+
+
+Filler Text 
+
+Jon: “Sorry”
+
+
+{HideCharacter("Sage")}
+{HideCharacter("Jess")}
+{HideCharacter("Jon")}
+
 *Reading Man 
 
 {ShowCharacter("Elias", "Center", "Nat")}
 
 	I approached the man sitting alone on one of the prop rocks. 
 
+	Filler Text 
+
 	Rory: “I think your coat’s got something on it.” 
+
+	Filler Text 
 
 	Elias: “Oh? I guess you’re right.” 
 
+	Filler Text 
+
 	Rory: “You here for the Halloween event?” 
+
+	Filler Text 
 
 	Elias: “Are you incapable of taking a hint?” 
 
+	Filler Text 
+
 	Rory: “Name’s Rory.” 
 
+	Filler Text 
+
 	Elias: “Elias. Will you leave me to my book now?” 
+
+	Filler Text 
 
 	{HideCharacter("Elias")}
 
 Some people are just not meant for social interactions. 
+	**The Artist 
+	I made my way over to the artist
+
+
+{ShowCharacter("Sage", "Center", "Nat")}
+
+Filler Text 
+
+Sage: “Hm, I never thought to use spray paint on glass. It could be interesting.”
+
+
+Filler Text 
+
+{ShowCharacter("Jess", "Right", "Nat")}
+Jess: “I’d rather try and read what’s under all the spray paint”
+
+
+Filler Text 
+
+{ShowCharacter("Jon", "Left", "Nat")}
+Jon: “I don’t think it's worth it. This whole place is kinda crap” 
+
+
+Filler Text 
+
+Rory: “Wasn’t always like this. It was still a ride cue when I was here last.” 
+
+
+Filler Text 
+
+Jess: “You got a paper too?” 
+
+
+Filler Text 
+
+Sage: “I thought we were going to keep that secret.” 
+
+
+Filler Text 
+
+Rory: “I did. I’m Rory by the way.” 
+
+
+Filler Text 
+
+Jess: “Jess.” 
+
+
+Filler Text 
+
+Sage: “Sage.” 
+
+
+Filler Text 
+
+Jon: "Um, Jon?” 
+
+
+Filler Text 
+
+Sage: “Can you even say your own name?” 
+
+
+Filler Text 
+
+Jon: “Sorry”
+
+
+{HideCharacter("Sage")}
+{HideCharacter("Jess")}
+{HideCharacter("Jon")}
+
+		***Man with Plants 
+		I made my way over to the man kneeling next to a plant on the floor. 
+
+{ShowCharacter("Warren", "Right", "Nat")}
+
+Filler Text  
+
+Warren: “It’s quite surprising to see you here.” 
+
+Filler Text 
+
+Rory: “I mean-I guess-” 
+
+Filler Text 
+
+Warren: “Nature always finds a way to blossom.” 
+
+Filler Text 
+
+{ShowCharacter("Hendrix", "Center", "Nat")}
+
+Hendrix: “He’s not talking to you.” 
+
+Filler Text 
+
+Rory: “I realized that.” 
+
+Filler Text 
+
+{ShowCharacter("Bonnie", "Left", "Nat")}
+
+Bonnie: “Hey, do you know why the roller coaster was shut down?” 
+
+Filler Text 
+
+Rory: “It was an old wooden thing, half broken. They wanted to redo the whole track in steel but the park didn’t have the money.” 
+
+Filler Text 
+
+Bonnie: “So no one died?” 
+
+Filler Text 
+
+Hendrix: “Told you no one died.” 
+
+Filler Text 
+
+Rory: “If you want to talk about deaths at this park, you should see The Moat Boat.” 
+
+Filler Text 
+
+Hendrix: “You sound like a tabloid headline.” 
+
+Filler Text 
+
+Rory: “Hey, journalists gotta make money somehow.” 
+
+Filler Text 
+
+Bonnie: “Have I read anything you worked on?” 
+
+Filler Text 
+
+Rory: “Rory Conner, I did a lot for game journals.” 
+
+Filler Text 
+
+Bonnie: “I’m Bonnie, and can’t say I have read much of that. The man on the floor is Warren. He drove me here.” 
+
+Filler Text 
+
+Warren: “How are you getting food? I didn’t think the lights were that bright here.” 
+
+Filler Text 
+
+Hendrix: “Detective Shara Hendrix. And Just Hendrix is fine.” 
+
+Filler Text 
+
+Hendrix turned her attention to  Bonnie who had started talking about other dark ride accidents. 
+
+{HideCharacter("Warren")}
+{HideCharacter("Hendrix")}
+{HideCharacter("Bonnie")}
+
+A girl with a camera was directing a few other people. I found myself squinting as I tried to recall where, if anywhere, I knew her from. 
+
+{ShowCharacter("Kate", "Center", "Nat")}
+
+Filler Text 
+
+	Kate: “You don’t have lines, just talk” 
+
+{ShowCharacter("Aubri", "Left", "Nat")}
+
+Filler Text 
+
+	Aubri: “But how do you expect me to perform without lines?” 
+
+{ShowCharacter("Zelda", "Right", "Nat")}
+
+Filler Text 
+
+	Zelda: “It’s called improv Hollywood. Don’t they teach you that in acting school?” 
+
+	Filler Text 
+
+	Kate: “If you don’t wanna talk, can’t you just hold the camera?” 
+
+	Filler Text 
+
+Rory: “I can do it.” 
+
+Filler Text 
+
+Kate: “You’re a lifesaver.” 
+
+Filler Text 
+
+She handed me her camera and eagerly jumped in front, her voice jumping the octave with her. 
+
+Filler Text 
+
+Kate: “hey there interweb, You’ll know me I’m Kate, and you should recognize my collaborators, the Jollywood superstar Aubri Hunt,” 
+
+Filler Text 
+
+Aubri: “It’s always so wonderful to meet a fan” 
+
+Filler Text 
+
+Kate: “And the legendary Zelda.” 
+
+Filler Text 
+
+Zelda: “I hope you enjoy the show.” 
+
+Filler Text 
+
+Kate: “We were invited to Carcosa’s exclusive Halloween event and I plan to document everything!” 
+
+Filler Text 
+
+She stared blankly at me until I handed her back the camera. I quickly walked away. 
+
+Filler Text 
+
+{HideCharacter("Kate")}
+{HideCharacter("Aubri")}
+{HideCharacter("Zelda")}
+
+		*** Girl with Camera
+		A girl with a camera was directing a few other people. I found myself squinting as I tried to recall where, if anywhere, I knew her from. 
+
+{ShowCharacter("Kate", "Center", "Nat")}
+
+Filler Text 
+
+	Kate: “You don’t have lines, just talk” 
+
+{ShowCharacter("Aubri", "Left", "Nat")}
+
+Filler Text 
+
+	Aubri: “But how do you expect me to perform without lines?” 
+
+{ShowCharacter("Zelda", "Right", "Nat")}
+
+Filler Text 
+
+	Zelda: “It’s called improv Hollywood. Don’t they teach you that in acting school?” 
+
+	Filler Text 
+
+	Kate: “If you don’t wanna talk, can’t you just hold the camera?” 
+
+	Filler Text 
+
+Rory: “I can do it.” 
+
+Filler Text 
+
+Kate: “You’re a lifesaver.” 
+
+Filler Text 
+
+She handed me her camera and eagerly jumped in front, her voice jumping the octave with her. 
+
+Filler Text 
+
+Kate: “hey there interweb, You’ll know me I’m Kate, and you should recognize my collaborators, the Jollywood superstar Aubri Hunt,” 
+
+Filler Text 
+
+Aubri: “It’s always so wonderful to meet a fan” 
+
+Filler Text 
+
+Kate: “And the legendary Zelda.” 
+
+Filler Text 
+
+Zelda: “I hope you enjoy the show.” 
+
+Filler Text 
+
+Kate: “We were invited to Carcosa’s exclusive Halloween event and I plan to document everything!” 
+
+Filler Text 
+
+She stared blankly at me until I handed her back the camera. I quickly walked away. 
+
+Filler Text 
+
+{HideCharacter("Kate")}
+{HideCharacter("Aubri")}
+{HideCharacter("Zelda")}
+
+I made my way over to the man kneeling next to a plant on the floor. 
+
+{ShowCharacter("Warren", "Right", "Nat")}
+
+Filler Text  
+
+Warren: “It’s quite surprising to see you here.” 
+
+Filler Text 
+
+Rory: “I mean-I guess-” 
+
+Filler Text 
+
+Warren: “Nature always finds a way to blossom.” 
+
+Filler Text 
+
+{ShowCharacter("Hendrix", "Center", "Nat")}
+
+Hendrix: “He’s not talking to you.” 
+
+Filler Text 
+
+Rory: “I realized that.” 
+
+Filler Text 
+
+{ShowCharacter("Bonnie", "Left", "Nat")}
+
+Bonnie: “Hey, do you know why the roller coaster was shut down?” 
+
+Filler Text 
+
+Rory: “It was an old wooden thing, half broken. They wanted to redo the whole track in steel but the park didn’t have the money.” 
+
+Filler Text 
+
+Bonnie: “So no one died?” 
+
+Filler Text 
+
+Hendrix: “Told you no one died.” 
+
+Filler Text 
+
+Rory: “If you want to talk about deaths at this park, you should see The Moat Boat.” 
+
+Filler Text 
+
+Hendrix: “You sound like a tabloid headline.” 
+
+Filler Text 
+
+Rory: “Hey, journalists gotta make money somehow.” 
+
+Filler Text 
+
+Bonnie: “Have I read anything you worked on?” 
+
+Filler Text 
+
+Rory: “Rory Conner, I did a lot for game journals.” 
+
+Filler Text 
+
+Bonnie: “I’m Bonnie, and can’t say I have read much of that. The man on the floor is Warren. He drove me here.” 
+
+Filler Text 
+
+Warren: “How are you getting food? I didn’t think the lights were that bright here.” 
+
+Filler Text 
+
+Hendrix: “Detective Shara Hendrix. And Just Hendrix is fine.” 
+
+Filler Text 
+
+Hendrix turned her attention to  Bonnie who had started talking about other dark ride accidents. 
+
+{HideCharacter("Warren")}
+{HideCharacter("Hendrix")}
+{HideCharacter("Bonnie")}
+
+	**Man with Plants 
+	I made my way over to the man kneeling next to a plant on the floor. 
+
+{ShowCharacter("Warren", "Right", "Nat")}
+
+Filler Text  
+
+Warren: “It’s quite surprising to see you here.” 
+
+Filler Text 
+
+Rory: “I mean-I guess-” 
+
+Filler Text 
+
+Warren: “Nature always finds a way to blossom.” 
+
+Filler Text 
+
+{ShowCharacter("Hendrix", "Center", "Nat")}
+
+Hendrix: “He’s not talking to you.” 
+
+Filler Text 
+
+Rory: “I realized that.” 
+
+Filler Text 
+
+{ShowCharacter("Bonnie", "Left", "Nat")}
+
+Bonnie: “Hey, do you know why the roller coaster was shut down?” 
+
+Filler Text 
+
+Rory: “It was an old wooden thing, half broken. They wanted to redo the whole track in steel but the park didn’t have the money.” 
+
+Filler Text 
+
+Bonnie: “So no one died?” 
+
+Filler Text 
+
+Hendrix: “Told you no one died.” 
+
+Filler Text 
+
+Rory: “If you want to talk about deaths at this park, you should see The Moat Boat.” 
+
+Filler Text 
+
+Hendrix: “You sound like a tabloid headline.” 
+
+Filler Text 
+
+Rory: “Hey, journalists gotta make money somehow.” 
+
+Filler Text 
+
+Bonnie: “Have I read anything you worked on?” 
+
+Filler Text 
+
+Rory: “Rory Conner, I did a lot for game journals.” 
+
+Filler Text 
+
+Bonnie: “I’m Bonnie, and can’t say I have read much of that. The man on the floor is Warren. He drove me here.” 
+
+Filler Text 
+
+Warren: “How are you getting food? I didn’t think the lights were that bright here.” 
+
+Filler Text 
+
+Hendrix: “Detective Shara Hendrix. And Just Hendrix is fine.” 
+
+Filler Text 
+
+Hendrix turned her attention to  Bonnie who had started talking about other dark ride accidents. 
+
+{HideCharacter("Warren")}
+{HideCharacter("Hendrix")}
+{HideCharacter("Bonnie")}
+
+		*** The Artist 
+		I made my way over to the artist
+
+
+{ShowCharacter("Sage", "Center", "Nat")}
+
+Filler Text 
+
+Sage: “Hm, I never thought to use spray paint on glass. It could be interesting.”
+
+
+Filler Text 
+
+{ShowCharacter("Jess", "Right", "Nat")}
+Jess: “I’d rather try and read what’s under all the spray paint”
+
+
+Filler Text 
+
+{ShowCharacter("Jon", "Left", "Nat")}
+Jon: “I don’t think it's worth it. This whole place is kinda crap” 
+
+
+Filler Text 
+
+Rory: “Wasn’t always like this. It was still a ride cue when I was here last.” 
+
+
+Filler Text 
+
+Jess: “You got a paper too?” 
+
+
+Filler Text 
+
+Sage: “I thought we were going to keep that secret.” 
+
+
+Filler Text 
+
+Rory: “I did. I’m Rory by the way.” 
+
+
+Filler Text 
+
+Jess: “Jess.” 
+
+
+Filler Text 
+
+Sage: “Sage.” 
+
+
+Filler Text 
+
+Jon: "Um, Jon?” 
+
+
+Filler Text 
+
+Sage: “Can you even say your own name?” 
+
+
+Filler Text 
+
+Jon: “Sorry”
+
+
+{HideCharacter("Sage")}
+{HideCharacter("Jess")}
+{HideCharacter("Jon")}
+
+A girl with a camera was directing a few other people. I found myself squinting as I tried to recall where, if anywhere, I knew her from. 
+
+{ShowCharacter("Kate", "Center", "Nat")}
+
+Filler Text 
+
+	Kate: “You don’t have lines, just talk” 
+
+{ShowCharacter("Aubri", "Left", "Nat")}
+
+Filler Text 
+
+	Aubri: “But how do you expect me to perform without lines?” 
+
+{ShowCharacter("Zelda", "Right", "Nat")}
+
+Filler Text 
+
+	Zelda: “It’s called improv Hollywood. Don’t they teach you that in acting school?” 
+
+	Filler Text 
+
+	Kate: “If you don’t wanna talk, can’t you just hold the camera?” 
+
+	Filler Text 
+
+Rory: “I can do it.” 
+
+Filler Text 
+
+Kate: “You’re a lifesaver.” 
+
+Filler Text 
+
+She handed me her camera and eagerly jumped in front, her voice jumping the octave with her. 
+
+Filler Text 
+
+Kate: “hey there interweb, You’ll know me I’m Kate, and you should recognize my collaborators, the Jollywood superstar Aubri Hunt,” 
+
+Filler Text 
+
+Aubri: “It’s always so wonderful to meet a fan” 
+
+Filler Text 
+
+Kate: “And the legendary Zelda.” 
+
+Filler Text 
+
+Zelda: “I hope you enjoy the show.” 
+
+Filler Text 
+
+Kate: “We were invited to Carcosa’s exclusive Halloween event and I plan to document everything!” 
+
+Filler Text 
+
+She stared blankly at me until I handed her back the camera. I quickly walked away. 
+
+Filler Text 
+
+{HideCharacter("Kate")}
+{HideCharacter("Aubri")}
+{HideCharacter("Zelda")}
+
+		***Girl with Camera
+		A girl with a camera was directing a few other people. I found myself squinting as I tried to recall where, if anywhere, I knew her from. 
+
+{ShowCharacter("Kate", "Center", "Nat")}
+
+Filler Text 
+
+	Kate: “You don’t have lines, just talk” 
+
+{ShowCharacter("Aubri", "Left", "Nat")}
+
+Filler Text 
+
+	Aubri: “But how do you expect me to perform without lines?” 
+
+{ShowCharacter("Zelda", "Right", "Nat")}
+
+Filler Text 
+
+	Zelda: “It’s called improv Hollywood. Don’t they teach you that in acting school?” 
+
+	Filler Text 
+
+	Kate: “If you don’t wanna talk, can’t you just hold the camera?” 
+
+	Filler Text 
+
+Rory: “I can do it.” 
+
+Filler Text 
+
+Kate: “You’re a lifesaver.” 
+
+Filler Text 
+
+She handed me her camera and eagerly jumped in front, her voice jumping the octave with her. 
+
+Filler Text 
+
+Kate: “hey there interweb, You’ll know me I’m Kate, and you should recognize my collaborators, the Jollywood superstar Aubri Hunt,” 
+
+Filler Text 
+
+Aubri: “It’s always so wonderful to meet a fan” 
+
+Filler Text 
+
+Kate: “And the legendary Zelda.” 
+
+Filler Text 
+
+Zelda: “I hope you enjoy the show.” 
+
+Filler Text 
+
+Kate: “We were invited to Carcosa’s exclusive Halloween event and I plan to document everything!” 
+
+Filler Text 
+
+She stared blankly at me until I handed her back the camera. I quickly walked away. 
+
+Filler Text 
+
+{HideCharacter("Kate")}
+{HideCharacter("Aubri")}
+{HideCharacter("Zelda")}
+
+I made my way over to the artist
+
+
+{ShowCharacter("Sage", "Center", "Nat")}
+
+Filler Text 
+
+Sage: “Hm, I never thought to use spray paint on glass. It could be interesting.”
+
+
+Filler Text 
+
+{ShowCharacter("Jess", "Right", "Nat")}
+Jess: “I’d rather try and read what’s under all the spray paint”
+
+
+Filler Text 
+
+{ShowCharacter("Jon", "Left", "Nat")}
+Jon: “I don’t think it's worth it. This whole place is kinda crap” 
+
+
+Filler Text 
+
+Rory: “Wasn’t always like this. It was still a ride cue when I was here last.” 
+
+
+Filler Text 
+
+Jess: “You got a paper too?” 
+
+
+Filler Text 
+
+Sage: “I thought we were going to keep that secret.” 
+
+
+Filler Text 
+
+Rory: “I did. I’m Rory by the way.” 
+
+
+Filler Text 
+
+Jess: “Jess.” 
+
+
+Filler Text 
+
+Sage: “Sage.” 
+
+
+Filler Text 
+
+Jon: "Um, Jon?” 
+
+
+Filler Text 
+
+Sage: “Can you even say your own name?” 
+
+
+Filler Text 
+
+Jon: “Sorry”
+
+
+{HideCharacter("Sage")}
+{HideCharacter("Jess")}
+{HideCharacter("Jon")}
+
+	**Girl With Camera
+	A girl with a camera was directing a few other people. I found myself squinting as I tried to recall where, if anywhere, I knew her from. 
+
+{ShowCharacter("Kate", "Center", "Nat")}
+
+Filler Text 
+
+	Kate: “You don’t have lines, just talk” 
+
+{ShowCharacter("Aubri", "Left", "Nat")}
+
+Filler Text 
+
+	Aubri: “But how do you expect me to perform without lines?” 
+
+{ShowCharacter("Zelda", "Right", "Nat")}
+
+Filler Text 
+
+	Zelda: “It’s called improv Hollywood. Don’t they teach you that in acting school?” 
+
+	Filler Text 
+
+	Kate: “If you don’t wanna talk, can’t you just hold the camera?” 
+
+	Filler Text 
+
+Rory: “I can do it.” 
+
+Filler Text 
+
+Kate: “You’re a lifesaver.” 
+
+Filler Text 
+
+She handed me her camera and eagerly jumped in front, her voice jumping the octave with her. 
+
+Filler Text 
+
+Kate: “hey there interweb, You’ll know me I’m Kate, and you should recognize my collaborators, the Jollywood superstar Aubri Hunt,” 
+
+Filler Text 
+
+Aubri: “It’s always so wonderful to meet a fan” 
+
+Filler Text 
+
+Kate: “And the legendary Zelda.” 
+
+Filler Text 
+
+Zelda: “I hope you enjoy the show.” 
+
+Filler Text 
+
+Kate: “We were invited to Carcosa’s exclusive Halloween event and I plan to document everything!” 
+
+Filler Text 
+
+She stared blankly at me until I handed her back the camera. I quickly walked away. 
+
+Filler Text 
+
+{HideCharacter("Kate")}
+{HideCharacter("Aubri")}
+{HideCharacter("Zelda")}
+
+		*** The Artist
+		I made my way over to the artist
+
+
+{ShowCharacter("Sage", "Center", "Nat")}
+
+Filler Text 
+
+Sage: “Hm, I never thought to use spray paint on glass. It could be interesting.”
+
+
+Filler Text 
+
+{ShowCharacter("Jess", "Right", "Nat")}
+Jess: “I’d rather try and read what’s under all the spray paint”
+
+
+Filler Text 
+
+{ShowCharacter("Jon", "Left", "Nat")}
+Jon: “I don’t think it's worth it. This whole place is kinda crap” 
+
+
+Filler Text 
+
+Rory: “Wasn’t always like this. It was still a ride cue when I was here last.” 
+
+
+Filler Text 
+
+Jess: “You got a paper too?” 
+
+
+Filler Text 
+
+Sage: “I thought we were going to keep that secret.” 
+
+
+Filler Text 
+
+Rory: “I did. I’m Rory by the way.” 
+
+
+Filler Text 
+
+Jess: “Jess.” 
+
+
+Filler Text 
+
+Sage: “Sage.” 
+
+
+Filler Text 
+
+Jon: "Um, Jon?” 
+
+
+Filler Text 
+
+Sage: “Can you even say your own name?” 
+
+
+Filler Text 
+
+Jon: “Sorry”
+
+
+{HideCharacter("Sage")}
+{HideCharacter("Jess")}
+{HideCharacter("Jon")}
+
+I made my way over to the man kneeling next to a plant on the floor. 
+
+{ShowCharacter("Warren", "Right", "Nat")}
+
+Filler Text  
+
+Warren: “It’s quite surprising to see you here.” 
+
+Filler Text 
+
+Rory: “I mean-I guess-” 
+
+Filler Text 
+
+Warren: “Nature always finds a way to blossom.” 
+
+Filler Text 
+
+{ShowCharacter("Hendrix", "Center", "Nat")}
+
+Hendrix: “He’s not talking to you.” 
+
+Filler Text 
+
+Rory: “I realized that.” 
+
+Filler Text 
+
+{ShowCharacter("Bonnie", "Left", "Nat")}
+
+Bonnie: “Hey, do you know why the roller coaster was shut down?” 
+
+Filler Text 
+
+Rory: “It was an old wooden thing, half broken. They wanted to redo the whole track in steel but the park didn’t have the money.” 
+
+Filler Text 
+
+Bonnie: “So no one died?” 
+
+Filler Text 
+
+Hendrix: “Told you no one died.” 
+
+Filler Text 
+
+Rory: “If you want to talk about deaths at this park, you should see The Moat Boat.” 
+
+Filler Text 
+
+Hendrix: “You sound like a tabloid headline.” 
+
+Filler Text 
+
+Rory: “Hey, journalists gotta make money somehow.” 
+
+Filler Text 
+
+Bonnie: “Have I read anything you worked on?” 
+
+Filler Text 
+
+Rory: “Rory Conner, I did a lot for game journals.” 
+
+Filler Text 
+
+Bonnie: “I’m Bonnie, and can’t say I have read much of that. The man on the floor is Warren. He drove me here.” 
+
+Filler Text 
+
+Warren: “How are you getting food? I didn’t think the lights were that bright here.” 
+
+Filler Text 
+
+Hendrix: “Detective Shara Hendrix. And Just Hendrix is fine.” 
+
+Filler Text 
+
+Hendrix turned her attention to  Bonnie who had started talking about other dark ride accidents. 
+
+{HideCharacter("Warren")}
+{HideCharacter("Hendrix")}
+{HideCharacter("Bonnie")}
+
+		*** Man with Plants
+		I made my way over to the man kneeling next to a plant on the floor. 
+
+{ShowCharacter("Warren", "Right", "Nat")}
+
+Filler Text  
+
+Warren: “It’s quite surprising to see you here.” 
+
+Filler Text 
+
+Rory: “I mean-I guess-” 
+
+Filler Text 
+
+Warren: “Nature always finds a way to blossom.” 
+
+Filler Text 
+
+{ShowCharacter("Hendrix", "Center", "Nat")}
+
+Hendrix: “He’s not talking to you.” 
+
+Filler Text 
+
+Rory: “I realized that.” 
+
+Filler Text 
+
+{ShowCharacter("Bonnie", "Left", "Nat")}
+
+Bonnie: “Hey, do you know why the roller coaster was shut down?” 
+
+Filler Text 
+
+Rory: “It was an old wooden thing, half broken. They wanted to redo the whole track in steel but the park didn’t have the money.” 
+
+Filler Text 
+
+Bonnie: “So no one died?” 
+
+Filler Text 
+
+Hendrix: “Told you no one died.” 
+
+Filler Text 
+
+Rory: “If you want to talk about deaths at this park, you should see The Moat Boat.” 
+
+Filler Text 
+
+Hendrix: “You sound like a tabloid headline.” 
+
+Filler Text 
+
+Rory: “Hey, journalists gotta make money somehow.” 
+
+Filler Text 
+
+Bonnie: “Have I read anything you worked on?” 
+
+Filler Text 
+
+Rory: “Rory Conner, I did a lot for game journals.” 
+
+Filler Text 
+
+Bonnie: “I’m Bonnie, and can’t say I have read much of that. The man on the floor is Warren. He drove me here.” 
+
+Filler Text 
+
+Warren: “How are you getting food? I didn’t think the lights were that bright here.” 
+
+Filler Text 
+
+Hendrix: “Detective Shara Hendrix. And Just Hendrix is fine.” 
+
+Filler Text 
+
+Hendrix turned her attention to  Bonnie who had started talking about other dark ride accidents. 
+
+{HideCharacter("Warren")}
+{HideCharacter("Hendrix")}
+{HideCharacter("Bonnie")}
+
+I made my way over to the artist
+
+
+{ShowCharacter("Sage", "Center", "Nat")}
+
+Filler Text 
+
+Sage: “Hm, I never thought to use spray paint on glass. It could be interesting.”
+
+
+Filler Text 
+
+{ShowCharacter("Jess", "Right", "Nat")}
+Jess: “I’d rather try and read what’s under all the spray paint”
+
+
+Filler Text 
+
+{ShowCharacter("Jon", "Left", "Nat")}
+Jon: “I don’t think it's worth it. This whole place is kinda crap” 
+
+
+Filler Text 
+
+Rory: “Wasn’t always like this. It was still a ride cue when I was here last.” 
+
+
+Filler Text 
+
+Jess: “You got a paper too?” 
+
+
+Filler Text 
+
+Sage: “I thought we were going to keep that secret.” 
+
+
+Filler Text 
+
+Rory: “I did. I’m Rory by the way.” 
+
+
+Filler Text 
+
+Jess: “Jess.” 
+
+
+Filler Text 
+
+Sage: “Sage.” 
+
+
+Filler Text 
+
+Jon: "Um, Jon?” 
+
+
+Filler Text 
+
+Sage: “Can you even say your own name?” 
+
+
+Filler Text 
+
+Jon: “Sorry”
+
+
+{HideCharacter("Sage")}
+{HideCharacter("Jess")}
+{HideCharacter("Jon")}
 
 *Girl with Camera 
 
@@ -154,39 +3047,1022 @@ A girl with a camera was directing a few other people. I found myself squinting 
 
 {ShowCharacter("Kate", "Center", "Nat")}
 
+Filler Text 
+
 	Kate: “You don’t have lines, just talk” 
 
 {ShowCharacter("Aubri", "Left", "Nat")}
+
+Filler Text 
 
 	Aubri: “But how do you expect me to perform without lines?” 
 
 {ShowCharacter("Zelda", "Right", "Nat")}
 
+Filler Text 
+
 	Zelda: “It’s called improv Hollywood. Don’t they teach you that in acting school?” 
+
+	Filler Text 
 
 	Kate: “If you don’t wanna talk, can’t you just hold the camera?” 
 
+	Filler Text 
+
 Rory: “I can do it.” 
+
+Filler Text 
 
 Kate: “You’re a lifesaver.” 
 
+Filler Text 
+
 She handed me her camera and eagerly jumped in front, her voice jumping the octave with her. 
+
+Filler Text 
 
 Kate: “hey there interweb, You’ll know me I’m Kate, and you should recognize my collaborators, the Jollywood superstar Aubri Hunt,” 
 
+Filler Text 
+
 Aubri: “It’s always so wonderful to meet a fan” 
+
+Filler Text 
 
 Kate: “And the legendary Zelda.” 
 
+Filler Text 
+
 Zelda: “I hope you enjoy the show.” 
+
+Filler Text 
 
 Kate: “We were invited to Carcosa’s exclusive Halloween event and I plan to document everything!” 
 
+Filler Text 
+
 She stared blankly at me until I handed her back the camera. I quickly walked away. 
+
+Filler Text 
 
 {HideCharacter("Kate")}
 {HideCharacter("Aubri")}
 {HideCharacter("Zelda")}
+
+	** The Artist
+	I made my way over to the artist
+
+
+{ShowCharacter("Sage", "Center", "Nat")}
+
+Filler Text 
+
+Sage: “Hm, I never thought to use spray paint on glass. It could be interesting.”
+
+
+Filler Text 
+
+{ShowCharacter("Jess", "Right", "Nat")}
+Jess: “I’d rather try and read what’s under all the spray paint”
+
+
+Filler Text 
+
+{ShowCharacter("Jon", "Left", "Nat")}
+Jon: “I don’t think it's worth it. This whole place is kinda crap” 
+
+
+Filler Text 
+
+Rory: “Wasn’t always like this. It was still a ride cue when I was here last.” 
+
+
+Filler Text 
+
+Jess: “You got a paper too?” 
+
+
+Filler Text 
+
+Sage: “I thought we were going to keep that secret.” 
+
+
+Filler Text 
+
+Rory: “I did. I’m Rory by the way.” 
+
+
+Filler Text 
+
+Jess: “Jess.” 
+
+
+Filler Text 
+
+Sage: “Sage.” 
+
+
+Filler Text 
+
+Jon: "Um, Jon?” 
+
+
+Filler Text 
+
+Sage: “Can you even say your own name?” 
+
+
+Filler Text 
+
+Jon: “Sorry”
+
+
+{HideCharacter("Sage")}
+{HideCharacter("Jess")}
+{HideCharacter("Jon")}
+
+		*** Man with Plants 
+			I made my way over to the man kneeling next to a plant on the floor. 
+
+{ShowCharacter("Warren", "Right", "Nat")}
+
+Filler Text  
+
+Warren: “It’s quite surprising to see you here.” 
+
+Filler Text 
+
+Rory: “I mean-I guess-” 
+
+Filler Text 
+
+Warren: “Nature always finds a way to blossom.” 
+
+Filler Text 
+
+{ShowCharacter("Hendrix", "Center", "Nat")}
+
+Hendrix: “He’s not talking to you.” 
+
+Filler Text 
+
+Rory: “I realized that.” 
+
+Filler Text 
+
+{ShowCharacter("Bonnie", "Left", "Nat")}
+
+Bonnie: “Hey, do you know why the roller coaster was shut down?” 
+
+Filler Text 
+
+Rory: “It was an old wooden thing, half broken. They wanted to redo the whole track in steel but the park didn’t have the money.” 
+
+Filler Text 
+
+Bonnie: “So no one died?” 
+
+Filler Text 
+
+Hendrix: “Told you no one died.” 
+
+Filler Text 
+
+Rory: “If you want to talk about deaths at this park, you should see The Moat Boat.” 
+
+Filler Text 
+
+Hendrix: “You sound like a tabloid headline.” 
+
+Filler Text 
+
+Rory: “Hey, journalists gotta make money somehow.” 
+
+Filler Text 
+
+Bonnie: “Have I read anything you worked on?” 
+
+Filler Text 
+
+Rory: “Rory Conner, I did a lot for game journals.” 
+
+Filler Text 
+
+Bonnie: “I’m Bonnie, and can’t say I have read much of that. The man on the floor is Warren. He drove me here.” 
+
+Filler Text 
+
+Warren: “How are you getting food? I didn’t think the lights were that bright here.” 
+
+Filler Text 
+
+Hendrix: “Detective Shara Hendrix. And Just Hendrix is fine.” 
+
+Filler Text 
+
+Hendrix turned her attention to  Bonnie who had started talking about other dark ride accidents. 
+
+{HideCharacter("Warren")}
+{HideCharacter("Hendrix")}
+{HideCharacter("Bonnie")}
+
+{ShowCharacter("Elias", "Center", "Nat")}
+
+	I approached the man sitting alone on one of the prop rocks. 
+
+	Filler Text 
+
+	Rory: “I think your coat’s got something on it.” 
+
+	Filler Text 
+
+	Elias: “Oh? I guess you’re right.” 
+
+	Filler Text 
+
+	Rory: “You here for the Halloween event?” 
+
+	Filler Text 
+
+	Elias: “Are you incapable of taking a hint?” 
+
+	Filler Text 
+
+	Rory: “Name’s Rory.” 
+
+	Filler Text 
+
+	Elias: “Elias. Will you leave me to my book now?” 
+
+	Filler Text 
+
+	{HideCharacter("Elias")}
+
+Some people are just not meant for social interactions. 
+
+		***Reading Man
+		{ShowCharacter("Elias", "Center", "Nat")}
+
+	I approached the man sitting alone on one of the prop rocks. 
+
+	Filler Text 
+
+	Rory: “I think your coat’s got something on it.” 
+
+	Filler Text 
+
+	Elias: “Oh? I guess you’re right.” 
+
+	Filler Text 
+
+	Rory: “You here for the Halloween event?” 
+
+	Filler Text 
+
+	Elias: “Are you incapable of taking a hint?” 
+
+	Filler Text 
+
+	Rory: “Name’s Rory.” 
+
+	Filler Text 
+
+	Elias: “Elias. Will you leave me to my book now?” 
+
+	Filler Text 
+
+	{HideCharacter("Elias")}
+
+Some people are just not meant for social interactions. 
+I made my way over to the man kneeling next to a plant on the floor. 
+
+{ShowCharacter("Warren", "Right", "Nat")}
+
+Filler Text  
+
+Warren: “It’s quite surprising to see you here.” 
+
+Filler Text 
+
+Rory: “I mean-I guess-” 
+
+Filler Text 
+
+Warren: “Nature always finds a way to blossom.” 
+
+Filler Text 
+
+{ShowCharacter("Hendrix", "Center", "Nat")}
+
+Hendrix: “He’s not talking to you.” 
+
+Filler Text 
+
+Rory: “I realized that.” 
+
+Filler Text 
+
+{ShowCharacter("Bonnie", "Left", "Nat")}
+
+Bonnie: “Hey, do you know why the roller coaster was shut down?” 
+
+Filler Text 
+
+Rory: “It was an old wooden thing, half broken. They wanted to redo the whole track in steel but the park didn’t have the money.” 
+
+Filler Text 
+
+Bonnie: “So no one died?” 
+
+Filler Text 
+
+Hendrix: “Told you no one died.” 
+
+Filler Text 
+
+Rory: “If you want to talk about deaths at this park, you should see The Moat Boat.” 
+
+Filler Text 
+
+Hendrix: “You sound like a tabloid headline.” 
+
+Filler Text 
+
+Rory: “Hey, journalists gotta make money somehow.” 
+
+Filler Text 
+
+Bonnie: “Have I read anything you worked on?” 
+
+Filler Text 
+
+Rory: “Rory Conner, I did a lot for game journals.” 
+
+Filler Text 
+
+Bonnie: “I’m Bonnie, and can’t say I have read much of that. The man on the floor is Warren. He drove me here.” 
+
+Filler Text 
+
+Warren: “How are you getting food? I didn’t think the lights were that bright here.” 
+
+Filler Text 
+
+Hendrix: “Detective Shara Hendrix. And Just Hendrix is fine.” 
+
+Filler Text 
+
+Hendrix turned her attention to  Bonnie who had started talking about other dark ride accidents. 
+
+{HideCharacter("Warren")}
+{HideCharacter("Hendrix")}
+{HideCharacter("Bonnie")}
+
+	** Man with Plants
+	I made my way over to the man kneeling next to a plant on the floor. 
+
+{ShowCharacter("Warren", "Right", "Nat")}
+
+Filler Text  
+
+Warren: “It’s quite surprising to see you here.” 
+
+Filler Text 
+
+Rory: “I mean-I guess-” 
+
+Filler Text 
+
+Warren: “Nature always finds a way to blossom.” 
+
+Filler Text 
+
+{ShowCharacter("Hendrix", "Center", "Nat")}
+
+Hendrix: “He’s not talking to you.” 
+
+Filler Text 
+
+Rory: “I realized that.” 
+
+Filler Text 
+
+{ShowCharacter("Bonnie", "Left", "Nat")}
+
+Bonnie: “Hey, do you know why the roller coaster was shut down?” 
+
+Filler Text 
+
+Rory: “It was an old wooden thing, half broken. They wanted to redo the whole track in steel but the park didn’t have the money.” 
+
+Filler Text 
+
+Bonnie: “So no one died?” 
+
+Filler Text 
+
+Hendrix: “Told you no one died.” 
+
+Filler Text 
+
+Rory: “If you want to talk about deaths at this park, you should see The Moat Boat.” 
+
+Filler Text 
+
+Hendrix: “You sound like a tabloid headline.” 
+
+Filler Text 
+
+Rory: “Hey, journalists gotta make money somehow.” 
+
+Filler Text 
+
+Bonnie: “Have I read anything you worked on?” 
+
+Filler Text 
+
+Rory: “Rory Conner, I did a lot for game journals.” 
+
+Filler Text 
+
+Bonnie: “I’m Bonnie, and can’t say I have read much of that. The man on the floor is Warren. He drove me here.” 
+
+Filler Text 
+
+Warren: “How are you getting food? I didn’t think the lights were that bright here.” 
+
+Filler Text 
+
+Hendrix: “Detective Shara Hendrix. And Just Hendrix is fine.” 
+
+Filler Text 
+
+Hendrix turned her attention to  Bonnie who had started talking about other dark ride accidents. 
+
+{HideCharacter("Warren")}
+{HideCharacter("Hendrix")}
+{HideCharacter("Bonnie")}
+
+		***The Artist 
+		I made my way over to the artist
+
+
+{ShowCharacter("Sage", "Center", "Nat")}
+
+Filler Text 
+
+Sage: “Hm, I never thought to use spray paint on glass. It could be interesting.”
+
+
+Filler Text 
+
+{ShowCharacter("Jess", "Right", "Nat")}
+Jess: “I’d rather try and read what’s under all the spray paint”
+
+
+Filler Text 
+
+{ShowCharacter("Jon", "Left", "Nat")}
+Jon: “I don’t think it's worth it. This whole place is kinda crap” 
+
+
+Filler Text 
+
+Rory: “Wasn’t always like this. It was still a ride cue when I was here last.” 
+
+
+Filler Text 
+
+Jess: “You got a paper too?” 
+
+
+Filler Text 
+
+Sage: “I thought we were going to keep that secret.” 
+
+
+Filler Text 
+
+Rory: “I did. I’m Rory by the way.” 
+
+
+Filler Text 
+
+Jess: “Jess.” 
+
+
+Filler Text 
+
+Sage: “Sage.” 
+
+
+Filler Text 
+
+Jon: "Um, Jon?” 
+
+
+Filler Text 
+
+Sage: “Can you even say your own name?” 
+
+
+Filler Text 
+
+Jon: “Sorry”
+
+
+{HideCharacter("Sage")}
+{HideCharacter("Jess")}
+{HideCharacter("Jon")}
+
+{ShowCharacter("Elias", "Center", "Nat")}
+
+	I approached the man sitting alone on one of the prop rocks. 
+
+	Filler Text 
+
+	Rory: “I think your coat’s got something on it.” 
+
+	Filler Text 
+
+	Elias: “Oh? I guess you’re right.” 
+
+	Filler Text 
+
+	Rory: “You here for the Halloween event?” 
+
+	Filler Text 
+
+	Elias: “Are you incapable of taking a hint?” 
+
+	Filler Text 
+
+	Rory: “Name’s Rory.” 
+
+	Filler Text 
+
+	Elias: “Elias. Will you leave me to my book now?” 
+
+	Filler Text 
+
+	{HideCharacter("Elias")}
+
+Some people are just not meant for social interactions. 
+
+		***Reading Man 
+
+		{ShowCharacter("Elias", "Center", "Nat")}
+
+	I approached the man sitting alone on one of the prop rocks. 
+
+	Filler Text 
+
+	Rory: “I think your coat’s got something on it.” 
+
+	Filler Text 
+
+	Elias: “Oh? I guess you’re right.” 
+
+	Filler Text 
+
+	Rory: “You here for the Halloween event?” 
+
+	Filler Text 
+
+	Elias: “Are you incapable of taking a hint?” 
+
+	Filler Text 
+
+	Rory: “Name’s Rory.” 
+
+	Filler Text 
+
+	Elias: “Elias. Will you leave me to my book now?” 
+
+	Filler Text 
+
+	{HideCharacter("Elias")}
+
+Some people are just not meant for social interactions. 
+
+I made my way over to the artist
+
+
+{ShowCharacter("Sage", "Center", "Nat")}
+
+Filler Text 
+
+Sage: “Hm, I never thought to use spray paint on glass. It could be interesting.”
+
+
+Filler Text 
+
+{ShowCharacter("Jess", "Right", "Nat")}
+Jess: “I’d rather try and read what’s under all the spray paint”
+
+
+Filler Text 
+
+{ShowCharacter("Jon", "Left", "Nat")}
+Jon: “I don’t think it's worth it. This whole place is kinda crap” 
+
+
+Filler Text 
+
+Rory: “Wasn’t always like this. It was still a ride cue when I was here last.” 
+
+
+Filler Text 
+
+Jess: “You got a paper too?” 
+
+
+Filler Text 
+
+Sage: “I thought we were going to keep that secret.” 
+
+
+Filler Text 
+
+Rory: “I did. I’m Rory by the way.” 
+
+
+Filler Text 
+
+Jess: “Jess.” 
+
+
+Filler Text 
+
+Sage: “Sage.” 
+
+
+Filler Text 
+
+Jon: "Um, Jon?” 
+
+
+Filler Text 
+
+Sage: “Can you even say your own name?” 
+
+
+Filler Text 
+
+Jon: “Sorry”
+
+
+{HideCharacter("Sage")}
+{HideCharacter("Jess")}
+{HideCharacter("Jon")}
+
+
+	** Reading Man
+	{ShowCharacter("Elias", "Center", "Nat")}
+
+	I approached the man sitting alone on one of the prop rocks. 
+
+	Filler Text 
+
+	Rory: “I think your coat’s got something on it.” 
+
+	Filler Text 
+
+	Elias: “Oh? I guess you’re right.” 
+
+	Filler Text 
+
+	Rory: “You here for the Halloween event?” 
+
+	Filler Text 
+
+	Elias: “Are you incapable of taking a hint?” 
+
+	Filler Text 
+
+	Rory: “Name’s Rory.” 
+
+	Filler Text 
+
+	Elias: “Elias. Will you leave me to my book now?” 
+
+	Filler Text 
+
+	{HideCharacter("Elias")}
+
+Some people are just not meant for social interactions. 
+
+		*** The Artist
+			I made my way over to the artist
+
+
+{ShowCharacter("Sage", "Center", "Nat")}
+
+Filler Text 
+
+Sage: “Hm, I never thought to use spray paint on glass. It could be interesting.”
+
+
+Filler Text 
+
+{ShowCharacter("Jess", "Right", "Nat")}
+Jess: “I’d rather try and read what’s under all the spray paint”
+
+
+Filler Text 
+
+{ShowCharacter("Jon", "Left", "Nat")}
+Jon: “I don’t think it's worth it. This whole place is kinda crap” 
+
+
+Filler Text 
+
+Rory: “Wasn’t always like this. It was still a ride cue when I was here last.” 
+
+
+Filler Text 
+
+Jess: “You got a paper too?” 
+
+
+Filler Text 
+
+Sage: “I thought we were going to keep that secret.” 
+
+
+Filler Text 
+
+Rory: “I did. I’m Rory by the way.” 
+
+
+Filler Text 
+
+Jess: “Jess.” 
+
+
+Filler Text 
+
+Sage: “Sage.” 
+
+
+Filler Text 
+
+Jon: "Um, Jon?” 
+
+
+Filler Text 
+
+Sage: “Can you even say your own name?” 
+
+
+Filler Text 
+
+Jon: “Sorry”
+
+
+{HideCharacter("Sage")}
+{HideCharacter("Jess")}
+{HideCharacter("Jon")}
+
+I made my way over to the man kneeling next to a plant on the floor. 
+
+{ShowCharacter("Warren", "Right", "Nat")}
+
+Filler Text  
+
+Warren: “It’s quite surprising to see you here.” 
+
+Filler Text 
+
+Rory: “I mean-I guess-” 
+
+Filler Text 
+
+Warren: “Nature always finds a way to blossom.” 
+
+Filler Text 
+
+{ShowCharacter("Hendrix", "Center", "Nat")}
+
+Hendrix: “He’s not talking to you.” 
+
+Filler Text 
+
+Rory: “I realized that.” 
+
+Filler Text 
+
+{ShowCharacter("Bonnie", "Left", "Nat")}
+
+Bonnie: “Hey, do you know why the roller coaster was shut down?” 
+
+Filler Text 
+
+Rory: “It was an old wooden thing, half broken. They wanted to redo the whole track in steel but the park didn’t have the money.” 
+
+Filler Text 
+
+Bonnie: “So no one died?” 
+
+Filler Text 
+
+Hendrix: “Told you no one died.” 
+
+Filler Text 
+
+Rory: “If you want to talk about deaths at this park, you should see The Moat Boat.” 
+
+Filler Text 
+
+Hendrix: “You sound like a tabloid headline.” 
+
+Filler Text 
+
+Rory: “Hey, journalists gotta make money somehow.” 
+
+Filler Text 
+
+Bonnie: “Have I read anything you worked on?” 
+
+Filler Text 
+
+Rory: “Rory Conner, I did a lot for game journals.” 
+
+Filler Text 
+
+Bonnie: “I’m Bonnie, and can’t say I have read much of that. The man on the floor is Warren. He drove me here.” 
+
+Filler Text 
+
+Warren: “How are you getting food? I didn’t think the lights were that bright here.” 
+
+Filler Text 
+
+Hendrix: “Detective Shara Hendrix. And Just Hendrix is fine.” 
+
+Filler Text 
+
+Hendrix turned her attention to  Bonnie who had started talking about other dark ride accidents. 
+
+{HideCharacter("Warren")}
+{HideCharacter("Hendrix")}
+{HideCharacter("Bonnie")}
+
+		***Man with Plants
+		I made my way over to the man kneeling next to a plant on the floor. 
+
+{ShowCharacter("Warren", "Right", "Nat")}
+
+Filler Text  
+
+Warren: “It’s quite surprising to see you here.” 
+
+Filler Text 
+
+Rory: “I mean-I guess-” 
+
+Filler Text 
+
+Warren: “Nature always finds a way to blossom.” 
+
+Filler Text 
+
+{ShowCharacter("Hendrix", "Center", "Nat")}
+
+Hendrix: “He’s not talking to you.” 
+
+Filler Text 
+
+Rory: “I realized that.” 
+
+Filler Text 
+
+{ShowCharacter("Bonnie", "Left", "Nat")}
+
+Bonnie: “Hey, do you know why the roller coaster was shut down?” 
+
+Filler Text 
+
+Rory: “It was an old wooden thing, half broken. They wanted to redo the whole track in steel but the park didn’t have the money.” 
+
+Filler Text 
+
+Bonnie: “So no one died?” 
+
+Filler Text 
+
+Hendrix: “Told you no one died.” 
+
+Filler Text 
+
+Rory: “If you want to talk about deaths at this park, you should see The Moat Boat.” 
+
+Filler Text 
+
+Hendrix: “You sound like a tabloid headline.” 
+
+Filler Text 
+
+Rory: “Hey, journalists gotta make money somehow.” 
+
+Filler Text 
+
+Bonnie: “Have I read anything you worked on?” 
+
+Filler Text 
+
+Rory: “Rory Conner, I did a lot for game journals.” 
+
+Filler Text 
+
+Bonnie: “I’m Bonnie, and can’t say I have read much of that. The man on the floor is Warren. He drove me here.” 
+
+Filler Text 
+
+Warren: “How are you getting food? I didn’t think the lights were that bright here.” 
+
+Filler Text 
+
+Hendrix: “Detective Shara Hendrix. And Just Hendrix is fine.” 
+
+Filler Text 
+
+Hendrix turned her attention to  Bonnie who had started talking about other dark ride accidents. 
+
+{HideCharacter("Warren")}
+{HideCharacter("Hendrix")}
+{HideCharacter("Bonnie")}
+
+I made my way over to the artist
+
+
+{ShowCharacter("Sage", "Center", "Nat")}
+
+Filler Text 
+
+Sage: “Hm, I never thought to use spray paint on glass. It could be interesting.”
+
+
+Filler Text 
+
+{ShowCharacter("Jess", "Right", "Nat")}
+Jess: “I’d rather try and read what’s under all the spray paint”
+
+
+Filler Text 
+
+{ShowCharacter("Jon", "Left", "Nat")}
+Jon: “I don’t think it's worth it. This whole place is kinda crap” 
+
+
+Filler Text 
+
+Rory: “Wasn’t always like this. It was still a ride cue when I was here last.” 
+
+
+Filler Text 
+
+Jess: “You got a paper too?” 
+
+
+Filler Text 
+
+Sage: “I thought we were going to keep that secret.” 
+
+
+Filler Text 
+
+Rory: “I did. I’m Rory by the way.” 
+
+
+Filler Text 
+
+Jess: “Jess.” 
+
+
+Filler Text 
+
+Sage: “Sage.” 
+
+
+Filler Text 
+
+Jon: "Um, Jon?” 
+
+
+Filler Text 
+
+Sage: “Can you even say your own name?” 
+
+
+Filler Text 
+
+Jon: “Sorry”
+
+
+{HideCharacter("Sage")}
+{HideCharacter("Jess")}
+{HideCharacter("Jon")}
 
 
 - The lights overhead flickered, and the dull hum of the music that I had hardly noticed before was gone. 

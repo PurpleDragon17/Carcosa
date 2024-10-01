@@ -28,7 +28,7 @@ public class CharacterManager : MonoBehaviour
 
     private static List<CharacterData> loadedCharacters; 
     
-    void Start()
+    void Awake()
     {
         characters = new List<Characters>(); 
         if(loadedCharacters != null)

@@ -966,9 +966,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: InkExample, Assembly-CSharp
-        m_MethodName: NextLine
+      - m_Target: {fileID: 57329082}
+        m_TargetAssemblyTypeName: StryImplmnt, Assembly-CSharp
+        m_MethodName: Choose3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

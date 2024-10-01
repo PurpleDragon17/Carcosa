@@ -55,6 +55,7 @@ public class StryImplmnt : MonoBehaviour
         foreach (Choice choice in story.currentChoices)
         {
             ChoiceList.Add(choice.text);
+            Debug.Log(ChoiceList.ToString());
            // story.ChooseChoiceIndex(0);
            // LoadNextNM();
           //  stDs.text = LoadNextNM().ToString();
@@ -69,7 +70,7 @@ public class StryImplmnt : MonoBehaviour
             C0Text.text = ChoiceList[0];
             C1Text.text = ChoiceList[1];
             C2Text.text = ChoiceList[2];
-            C0Text.text = ChoiceList[3];
+            C3Text.text = ChoiceList[3];
         }
         if(story.currentChoices.Count == 3)
         {
