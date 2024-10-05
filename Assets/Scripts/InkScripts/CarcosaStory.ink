@@ -234,6 +234,74 @@ Hendrix turned her attention to  Bonnie who had started talking about other dark
 
 Some people are just not meant for social interactions. 
 
+	Filler Text 
+
+A girl with a camera was directing a few other people. I found myself squinting as I tried to recall where, if anywhere, I knew her from. 
+
+{ShowCharacter("Kate", "Center", "Nat")}
+
+Filler Text 
+
+	Kate: “You don’t have lines, just talk” 
+
+{ShowCharacter("Aubri", "Left", "Nat")}
+
+Filler Text 
+
+	Aubri: “But how do you expect me to perform without lines?” 
+
+{ShowCharacter("Zelda", "Right", "Nat")}
+
+Filler Text 
+
+	Zelda: “It’s called improv Hollywood. Don’t they teach you that in acting school?” 
+
+	Filler Text 
+
+	Kate: “If you don’t wanna talk, can’t you just hold the camera?” 
+
+	Filler Text 
+
+Rory: “I can do it.” 
+
+Filler Text 
+
+Kate: “You’re a lifesaver.” 
+
+Filler Text 
+
+She handed me her camera and eagerly jumped in front, her voice jumping the octave with her. 
+
+Filler Text 
+
+Kate: “hey there interweb, You’ll know me I’m Kate, and you should recognize my collaborators, the Jollywood superstar Aubri Hunt,” 
+
+Filler Text 
+
+Aubri: “It’s always so wonderful to meet a fan” 
+
+Filler Text 
+
+Kate: “And the legendary Zelda.” 
+
+Filler Text 
+
+Zelda: “I hope you enjoy the show.” 
+
+Filler Text 
+
+Kate: “We were invited to Carcosa’s exclusive Halloween event and I plan to document everything!” 
+
+Filler Text 
+
+She stared blankly at me until I handed her back the camera. I quickly walked away. 
+
+Filler Text 
+
+{HideCharacter("Kate")}
+{HideCharacter("Aubri")}
+{HideCharacter("Zelda")}
+
 		***Girl with Camera
 		A girl with a camera was directing a few other people. I found myself squinting as I tried to recall where, if anywhere, I knew her from. 
 
@@ -300,6 +368,40 @@ Filler Text
 {HideCharacter("Kate")}
 {HideCharacter("Aubri")}
 {HideCharacter("Zelda")}
+
+	{ShowCharacter("Elias", "Center", "Nat")}
+
+	I approached the man sitting alone on one of the prop rocks. 
+
+	Filler Text 
+
+	Rory: “I think your coat’s got something on it.” 
+
+	Filler Text 
+
+	Elias: “Oh? I guess you’re right.” 
+
+	Filler Text 
+
+	Rory: “You here for the Halloween event?” 
+
+	Filler Text 
+
+	Elias: “Are you incapable of taking a hint?” 
+
+	Filler Text 
+
+	Rory: “Name’s Rory.” 
+
+	Filler Text 
+
+	Elias: “Elias. Will you leave me to my book now?” 
+
+	Filler Text 
+
+	{HideCharacter("Elias")}
+
+Some people are just not meant for social interactions. 
 
 	** Reading Man
 	{ShowCharacter("Elias", "Center", "Nat")}
@@ -420,6 +522,7 @@ Hendrix turned her attention to  Bonnie who had started talking about other dark
 {HideCharacter("Warren")}
 {HideCharacter("Hendrix")}
 {HideCharacter("Bonnie")}
+Filler Text 
 
 A girl with a camera was directing a few other people. I found myself squinting as I tried to recall where, if anywhere, I knew her from. 
 
@@ -786,6 +889,8 @@ Filler Text
 
 Hendrix turned her attention to  Bonnie who had started talking about other dark ride accidents. 
 
+	Filler Text 
+
 {HideCharacter("Warren")}
 {HideCharacter("Hendrix")}
 {HideCharacter("Bonnie")}
@@ -857,6 +962,8 @@ Some people are just not meant for social interactions.
 	{HideCharacter("Elias")}
 
 Some people are just not meant for social interactions. 
+
+	Filler Text 
 
 I made my way over to the man kneeling next to a plant on the floor. 
 
@@ -1136,6 +1243,8 @@ Jon: “Sorry”
 
 Some people are just not meant for social interactions. 
 
+	Filler Text 
+
 A girl with a camera was directing a few other people. I found myself squinting as I tried to recall where, if anywhere, I knew her from. 
 
 {ShowCharacter("Kate", "Center", "Nat")}
@@ -1405,6 +1514,7 @@ Filler Text
 
 Jon: “Sorry”
 
+	Filler Text 
 
 {HideCharacter("Sage")}
 {HideCharacter("Jess")}
@@ -1747,6 +1857,7 @@ Filler Text
 
 Jon: “Sorry”
 
+	Filler Text 
 
 {HideCharacter("Sage")}
 {HideCharacter("Jess")}
@@ -1820,6 +1931,8 @@ Some people are just not meant for social interactions.
 	{HideCharacter("Elias")}
 
 Some people are just not meant for social interactions. 
+
+	Filler Text 
 
 I made my way over to the artist
 
@@ -2079,6 +2192,8 @@ Hendrix: “Detective Shara Hendrix. And Just Hendrix is fine.”
 Filler Text 
 
 Hendrix turned her attention to  Bonnie who had started talking about other dark ride accidents. 
+
+	Filler Text 
 
 {HideCharacter("Warren")}
 {HideCharacter("Hendrix")}
@@ -2453,6 +2568,7 @@ Filler Text
 
 Jon: “Sorry”
 
+	Filler Text 
 
 {HideCharacter("Sage")}
 {HideCharacter("Jess")}
@@ -2796,7 +2912,7 @@ Filler Text
 
 Jon: “Sorry”
 
-
+	Filler Text 
 {HideCharacter("Sage")}
 {HideCharacter("Jess")}
 {HideCharacter("Jon")}
@@ -2965,6 +3081,8 @@ Hendrix: “Detective Shara Hendrix. And Just Hendrix is fine.”
 Filler Text 
 
 Hendrix turned her attention to  Bonnie who had started talking about other dark ride accidents. 
+
+	Filler Text 
 
 {HideCharacter("Warren")}
 {HideCharacter("Hendrix")}
@@ -3261,6 +3379,8 @@ Hendrix: “Detective Shara Hendrix. And Just Hendrix is fine.”
 Filler Text 
 
 Hendrix turned her attention to  Bonnie who had started talking about other dark ride accidents. 
+
+	Filler Text 
 
 {HideCharacter("Warren")}
 {HideCharacter("Hendrix")}
@@ -3570,6 +3690,7 @@ Filler Text
 
 Jon: “Sorry”
 
+	Filler Text 
 
 {HideCharacter("Sage")}
 {HideCharacter("Jess")}
@@ -3819,6 +3940,7 @@ Filler Text
 
 Jon: “Sorry”
 
+	Filler Text 
 
 {HideCharacter("Sage")}
 {HideCharacter("Jess")}
@@ -3988,6 +4110,8 @@ Hendrix: “Detective Shara Hendrix. And Just Hendrix is fine.”
 Filler Text 
 
 Hendrix turned her attention to  Bonnie who had started talking about other dark ride accidents. 
+
+	Filler Text 
 
 {HideCharacter("Warren")}
 {HideCharacter("Hendrix")}
