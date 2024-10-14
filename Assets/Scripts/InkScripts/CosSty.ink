@@ -1,5 +1,6 @@
 ﻿EXTERNAL ShowCharacter (characterName, position, mood)
 EXTERNAL HideCharacter (characterName)
+EXTERNAL ChangeMood(characterName, mood)
 -> Opening
 
 ==Opening== 
@@ -71,29 +72,36 @@ Filler Text
 
 Sage: “What was that?” 
 
+
 Filler Text
+{ChangeMood ("Sage", "NatDark")}
 {ShowCharacter("Bonnie", "Left", "Nat")}
 
 Bonnie: “Probably just a technical malfunction.” 
 
 Filler Text
-
+{ChangeMood("Bonnie", :NatDark")}
+{ShowCharacter("Kate", "Right", "Nat")}
 Kate: “I hate when the soundtrack stops.” 
 
 Filler Text
-
+{ChangeMood("Kate", "NatDark")}
+{ChangeMood("Sage", "Nat")}
 Sage: “What should we even be doing?” 
 
 Filler Text
+{ChangeMood("Sage", "NatDark")}
 {ShowCharacter ("Hendrix", "Right", "Nat")}
 
 Hendrix: “I think we should go explore.” 
 
 Filler Text
-
+{ChangeMood("Hendrix", "NatDark")}
+{ChangeMood("Bonnie", "Nat")}
 Bonnie: “She has a point. When else are we going to get a chance like this?” 
 
 Filler Text
+{ChangeMood("Bonnie", "NatDark")}
 
 There’s murmuring of agreements as the group split up. The only one who stayed behind was Elias. 
 {HideCharacter("Sage")}
@@ -159,13 +167,13 @@ I made my way over to the artist
 
 
 	Filler Text 
-
+    {ChangeMood("Sage", "NatDark")}
 	{ShowCharacter("Jess", "Right", "Nat")}
 	Jess: “I’d rather try and read what’s under all the spray paint”
 
 
 	Filler Text 
-
+    {ChangeMood("Jess", "NatDark")}
 	{ShowCharacter("Jon", "Left", "Nat")}
 	Jon: “I don’t think it's worth it. This whole place is kinda crap” 
 

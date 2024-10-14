@@ -7,7 +7,8 @@ public class CharacterMoods : MonoBehaviour
 {
     public CharacterName Name;
 
-    public Sprite Nat; 
+    public Sprite Nat;
+    public Sprite NatDark;
 
     public Sprite GetMoodSprite(CharacterMood mood)
     {
@@ -15,6 +16,8 @@ public class CharacterMoods : MonoBehaviour
         {
             case CharacterMood.Nat:
                 return Nat;
+            case CharacterMood.NatDark:
+                return NatDark;
             default:
                 Debug.Log($"Didn't find Sprite for charcater: {Name}, mood: {mood}");
                 return Nat;

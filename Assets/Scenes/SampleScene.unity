@@ -1413,6 +1413,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: 1
   Nat: {fileID: 21300000, guid: 9e8626161861be94b92929c42318cebf, type: 3}
+  NatDark: {fileID: 21300000, guid: c9d108fe9df3a79478c27f59bbdf4a1a, type: 3}
 --- !u!114 &1464544560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1427,6 +1428,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: 0
   Nat: {fileID: 21300000, guid: 0a380a1b8cf070f49bff3f408fbc0db5, type: 3}
+  NatDark: {fileID: 21300000, guid: 90c298354a0b71b4b9a394c071a3b4b0, type: 3}
 --- !u!114 &1464544561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1467,6 +1469,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: 11
   Nat: {fileID: 21300000, guid: 215e506269c4f4d4c8a2e4824a867ab4, type: 3}
+  NatDark: {fileID: 21300000, guid: a67838f01daf6624cb5fa96247549ae8, type: 3}
 --- !u!114 &1464544563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1481,6 +1484,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: 10
   Nat: {fileID: 21300000, guid: 0e333b62100b589439c67a2ae7ac22d5, type: 3}
+  NatDark: {fileID: 21300000, guid: f8a2ba08a0335e6488e3de4a05aeca64, type: 3}
 --- !u!114 &1464544564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1495,6 +1499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: 9
   Nat: {fileID: 21300000, guid: fb9039f8da1db4844b8ab0f70cd60ba2, type: 3}
+  NatDark: {fileID: 21300000, guid: e87ca926b0a8ac5409fa9bd7062587fc, type: 3}
 --- !u!114 &1464544565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1509,6 +1514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: 8
   Nat: {fileID: 21300000, guid: af91dd8741472c74d8db93b492fbb5cf, type: 3}
+  NatDark: {fileID: 21300000, guid: 2bb7f2030d5882a459ec308bd29b0654, type: 3}
 --- !u!114 &1464544566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1523,6 +1529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: 7
   Nat: {fileID: 21300000, guid: f29da9ea300d7564b8e2b16b02448194, type: 3}
+  NatDark: {fileID: 21300000, guid: 278e21db82fe0694fa50f7a6c734bd3a, type: 3}
 --- !u!114 &1464544567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1537,6 +1544,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: 6
   Nat: {fileID: 21300000, guid: 7f9ec96c7b5af82429491fc29bec5567, type: 3}
+  NatDark: {fileID: 21300000, guid: a9f7cca74ba8eb947a7d726d04242401, type: 3}
 --- !u!114 &1464544568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1551,6 +1559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: 5
   Nat: {fileID: 21300000, guid: 99945c2f6edd50e41abbc354339483ac, type: 3}
+  NatDark: {fileID: 21300000, guid: 67d2dad86b5817945b34efa57ecd67cb, type: 3}
 --- !u!114 &1464544569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1565,6 +1574,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: 4
   Nat: {fileID: 21300000, guid: 7f1d9821782df974d8f3bd22037059ab, type: 3}
+  NatDark: {fileID: 21300000, guid: bce3fa6740b7aab4996f7bbc836c6c1b, type: 3}
 --- !u!114 &1464544570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1579,6 +1589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: 3
   Nat: {fileID: 21300000, guid: 64a1db59a70161e438c8f61f5ce5b2b1, type: 3}
+  NatDark: {fileID: 21300000, guid: e9ed6c3318917ed44a5bfc90d1ed4cd6, type: 3}
 --- !u!114 &1464544571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1593,6 +1604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: 2
   Nat: {fileID: 21300000, guid: 24f73d4fbc6da264c845a15960fe2e44, type: 3}
+  NatDark: {fileID: 21300000, guid: f3ed8983b29fdec428a0ee6a59277015, type: 3}
 --- !u!1 &1485922018
 GameObject:
   m_ObjectHideFlags: 0

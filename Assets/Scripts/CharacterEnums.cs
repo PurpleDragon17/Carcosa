@@ -11,5 +11,5 @@ namespace Assets.Scripts
 {
    public enum CharacterName {Rory, Blank, Sage, Jess, Kate, Bonnie, Elias, Jon, Hendrix, Warren, Aubri, Zelda}; 
     public enum CharacterPosition { Center, Left, Right}; 
-    public enum CharacterMood { Nat};
+    public enum CharacterMood { Nat, NatDark};
 }
