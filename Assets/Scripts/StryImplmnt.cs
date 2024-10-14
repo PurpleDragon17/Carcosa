@@ -56,41 +56,52 @@ public class StryImplmnt : MonoBehaviour
         {
             ChoiceList.Add(choice.text);
             Debug.Log(ChoiceList.ToString());
-           // story.ChooseChoiceIndex(0);
-           // LoadNextNM();
-          //  stDs.text = LoadNextNM().ToString();
+            // story.ChooseChoiceIndex(0);
+            // LoadNextNM();
+            //  stDs.text = LoadNextNM().ToString();
         }
         NLButton.SetActive(false);
-        if(story.currentChoices.Count == 4)
+        if (story.KnotContainerWithName("WhoTalk"))
         {
-            Chose0Button.SetActive(true);
-            Chose1Button.SetActive(true);
-            Chose2Button.SetActive(true);
-            Chose3Button.SetActive(true);
-            C0Text.text = ChoiceList[0];
-            C1Text.text = ChoiceList[1];
-            C2Text.text = ChoiceList[2];
-            C3Text.text = ChoiceList[3];
-        }
-        if(story.currentChoices.Count == 3)
-        {
-            Chose0Button.SetActive(true);
-            Chose1Button.SetActive(true);
-            Chose2Button.SetActive(true);
-            C0Text.text = ChoiceList[0];
-            C1Text.text = ChoiceList[1];
-            C2Text.text = ChoiceList[2];
-        }
-        if (story.currentChoices.Count == 2)
-        {
-            Chose0Button.SetActive(true);
-            Chose1Button.SetActive(true);
-            C0Text.text = ChoiceList[0];
-            C1Text.text = ChoiceList[1];
-        }
+            if (story.currentChoices.Count == 4)
+            {
+                Chose0Button.SetActive(true);
+                Chose1Button.SetActive(true);
+                Chose2Button.SetActive(true);
+                Chose3Button.SetActive(true);
+                C0Text.text = ChoiceList[0];
+                C1Text.text = ChoiceList[1];
+                C2Text.text = ChoiceList[2];
+                C3Text.text = ChoiceList[3];
+            }
+            if (story.currentChoices.Count == 3)
+            {
+                Chose0Button.SetActive(true);
+                Chose1Button.SetActive(true);
+                Chose2Button.SetActive(true);
+                C0Text.text = ChoiceList[0];
+                C1Text.text = ChoiceList[1];
+                C2Text.text = ChoiceList[2];
+            }
+            if (story.currentChoices.Count == 2)
+            {
+                Chose0Button.SetActive(true);
+                Chose1Button.SetActive(true);
+                C0Text.text = ChoiceList[0];
+                C1Text.text = ChoiceList[1];
+            }
 
-        ChoiceList.Clear();
+            if (story.currentChoices.Count == 1)
+            {
+                Chose0Button.SetActive(true);
+                C0Text.text = ChoiceList[0];
+            }
+
+            ChoiceList.Clear();
+        }
     }
+
+
 
     public void NL()
     {

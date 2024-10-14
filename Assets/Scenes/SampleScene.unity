@@ -243,7 +243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ef16e92b2095a74da21f9d790e0bafd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkJSONAsset: {fileID: 4900000, guid: f6e55555673e26d4eb064f6066216752, type: 3}
+  inkJSONAsset: {fileID: 4900000, guid: 1314ac45c24154b4b919543c807fa988, type: 3}
   stDs: {fileID: 210111794}
   NLButton: {fileID: 968727964}
   Chose0Button: {fileID: 444701234}
@@ -2160,10 +2160,10 @@ RectTransform:
   - {fileID: 210111793}
   m_Father: {fileID: 57329081}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 6.7333984, y: -347.97293}
-  m_SizeDelta: {x: -161.54663, y: -796.614}
+  m_AnchorMin: {x: 0.50677085, y: 0.24200001}
+  m_AnchorMax: {x: 0.50677085, y: 0.24200001}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1758.4534, y: 283.386}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2072074217
 MonoBehaviour:
