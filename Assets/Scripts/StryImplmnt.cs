@@ -20,8 +20,14 @@ public class StryImplmnt : MonoBehaviour
     public TMP_Text C3Text;
     public List<string> ChoiceList;
    public CharacterManager _characterManager;
+    public GameObject Chose4Button;
+    public GameObject Chose5Button;
+    public GameObject Chose6Button;
+    public GameObject Chose7Button;
+    public GameObject Chose8Button;
+    public GameObject Chose9Button;
+    public int FillerTEXTCount = 0; 
 
-    // Start is called before the first frame update
     void Start()
     {
        
@@ -61,6 +67,43 @@ public class StryImplmnt : MonoBehaviour
             //  stDs.text = LoadNextNM().ToString();
         }
         NLButton.SetActive(false);
+        if (story.KnotContainerWithName("DarkRideInvest"))
+        {
+            if(story.currentChoices.Count == 6)
+            {
+                Chose4Button.SetActive(true);
+                Chose5Button.SetActive(true);
+                Chose6Button.SetActive(true);
+                Chose7Button.SetActive(true);
+                Chose8Button.SetActive(true);
+                Chose9Button.SetActive(true);
+            }
+            if (story.currentChoices.Count == 5)
+            {
+                //Filler Text
+                FillerTEXTCount++;
+            }
+            if (story.currentChoices.Count == 4)
+            {
+                //Filler Text
+                FillerTEXTCount++;
+            }
+            if (story.currentChoices.Count == 3)
+            {
+                //Filler Text
+                FillerTEXTCount++;
+            }
+            if (story.currentChoices.Count == 2)
+            {
+                //Filler Text
+                FillerTEXTCount++;
+            }
+            if (story.currentChoices.Count == 1)
+            {
+                //Filler Text
+                FillerTEXTCount++;
+            }
+        }
         if (story.KnotContainerWithName("WhoTalk"))
         {
             if (story.currentChoices.Count == 4)
@@ -161,5 +204,86 @@ public class StryImplmnt : MonoBehaviour
             (string name, string mood) => _characterManager.ChangeMood(name, mood));
     }
 
-        
+    public void Choose4()
+    {
+        if(story.currentChoices.Count == 2)
+        {
+            Chose4Button.SetActive(false);
+        }
+        story.ChooseChoiceIndex(0);
+        NL();
+        NLButton.SetActive(true);
+    }
+
+    public void Choose5()
+    {
+        if (story.currentChoices.Count == 2)
+        {
+            Chose5Button.SetActive(false);
+        }
+        story.ChooseChoiceIndex(1);
+        NL();
+        NLButton.SetActive(true);
+    }
+    public void Choose6()
+    {
+        if (story.currentChoices.Count == 2)
+        {
+            Chose6Button.SetActive(false);
+        }
+        story.ChooseChoiceIndex(2);
+        NL();
+        NLButton.SetActive(true);
+    }
+    public void Choose7()
+    {
+        if (story.currentChoices.Count == 2)
+        {
+            Chose7Button.SetActive(false);
+        }
+        story.ChooseChoiceIndex(3);
+        NL();
+        NLButton.SetActive(true);
+    }
+    public void Choose8()
+    {
+        if (story.currentChoices.Count == 2)
+        {
+            Chose8Button.SetActive(false);
+        }
+        story.ChooseChoiceIndex(4);
+        NL();
+        NLButton.SetActive(true);
+    }
+    public void Choose9()
+    {
+        if (story.currentChoices.Count == 2)
+        {
+            Chose9Button.SetActive(false);
+        }
+        story.ChooseChoiceIndex(5);
+        NL();
+        NLButton.SetActive(true);
+    }
+
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            story.ContinueMaximally();
+            story.ChooseChoiceIndex(0);
+            story.ContinueMaximally();
+            story.ChooseChoiceIndex(0);
+            story.ContinueMaximally();
+            story.ChooseChoiceIndex(0);
+            story.ContinueMaximally();
+            story.ChooseChoiceIndex(0);
+            story.ContinueMaximally();
+            story.ChooseChoiceIndex(0);
+
+        }
+
+    }
+
+
 }

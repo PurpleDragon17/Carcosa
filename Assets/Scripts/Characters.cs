@@ -63,7 +63,7 @@ public class Characters : MonoBehaviour
         image.preserveAspect = true;
     }
 
-    private void SetAnimationValues()
+    public void SetAnimationValues()
     {
         switch (Position)
         {
