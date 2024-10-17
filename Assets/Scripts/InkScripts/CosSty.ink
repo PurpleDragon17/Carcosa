@@ -124,6 +124,7 @@ EXTERNAL ChangeMood(characterName, mood)
     ->  ExCh1Loop
 
 ==ExCh1Loop==
+    {ChangeMood("Elias", "Nat")}
     Elias: “Where would you like to go?” 
 
     Filler Text
@@ -135,6 +136,7 @@ EXTERNAL ChangeMood(characterName, mood)
         -> rollerCoaster
             
     * Mindway 
+        {ChangeMood("Elias", "NatDark")}
         -> mindway
             
     * 
@@ -423,6 +425,7 @@ EXTERNAL ChangeMood(characterName, mood)
         -> ExCh1Loop
 
 ==rollerCoaster== 
+    {ChangeMood("Elias", "NatDark")}
     The Mindbender held the record for the most inversion on a coaster until the Smiler appeared at Alton Towers. 
     
     Filler Text
@@ -430,27 +433,27 @@ EXTERNAL ChangeMood(characterName, mood)
     The black track was hard to see in the dark, but the glowing red eyes of the statue used for a head chopper effect still blazed. 
 
     Filler Text
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “What even is this?” 
 
     Filler Text
-
+    {ChangeMood("Elias", "NatDark")}
     Rory: “Only the most extreme coaster at the park. The que’s pretty cool too.” 
 
     Filler Text
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “To think a person would ever go on this is laughable.” 
 
     Filler Text
-
+    {ChangeMood("Elias", "NatDark")}
     Rory: “Not a coaster person?”
 
     Filler Text
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “Can’t say I am. Look, just have your fun looking around.” 
 
     Filler Text
-
+    {ChangeMood("Elias", "NatDark")}
     Rory: “At least walk through the cue with me? I promise it'll be worth it.” 
 
     Filler Text
@@ -462,75 +465,76 @@ EXTERNAL ChangeMood(characterName, mood)
     I would have sworn they were fake ones, but Elias picked up a leather bound book and flipped it open. 
    
     Filler Text
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “Shelves of blank books?” 
 
     Filler Text
-
+    {ChangeMood("Elias", "NatDark")}
     Rory: “That’s not the important part. Here, read the sigh.” 
    
     Filler Text
-
-    Elias: “Entering the tavern on a rain soaked night I found that only one patron sat at the bar. He was dressed in a tattered rain coat and hid his face from me.” 
+    {ChangeMood("Elias", "Nat")}
+    Elias: “Ente"ring the tavern on a rain soaked night I found that only one patron sat at the bar. He was dressed in a tattered rain coat and hid his face from me.” 
     
     Filler Text
-
+    {ChangeMood("Elias", "NatDark")}
     Rory: “Come on, the next one’s up here.” 
 
     Filler Text
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “When I asked him what prompted his drink he laughed and said to me-” 
 
     Filler Text
-
+    {ChangeMood("Elias", "NatDark")}
     King: “Any sane man would wish to forget what I had seen.” 
 
     Filler Text
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “What is this?” 
 
     Filler Text
-
+    {ChangeMood("Elias", "NatDark")}
     Rory: “The story of the ride? This is a theme park after all.” 
 
     Filler Text
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “Summarize it. This feels stupid.” 
 
     Filler Text
-
+    {ChangeMood("Elias", "NatDark")}
     Rory: “Why are you even here?” 
 
     Filler Text
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “I could ask you the same thing.” 
 
     Filler Text
-
+    {ChangeMood("Elias", "NatDark")}
     Rory: “I would tell you if you did.” 
 
     Filler Text
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “Exactly why I didn’t.” 
 
     Filler Text
-
+    {ChangeMood("Elias", "NatDark")}
     Rory: “Fine, the speaker here decided that despite the warning from the sailor he would go to the island and when he gets there he mind is nearly torn apart by the malevolent spirit he calls the jester until a goddess that’s not named spares him but claims his eyes as a price.” 
 
     Filler Text
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “And that statue?” 
 
     Filler Text
-
+    {ChangeMood("Elias", "NatDark")}
     Rory: “The goddess. Locals call her Irina.” 
 
     Filler Text
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “Can we move on?” 
 
     Filler Text
     * No 
+        {ChangeMood("Elias", "NatDark")}
         Rory: “Come on, scaredy cat. You don’t have to go on the ride if you don’t want to.” 
 
         Filler Text
@@ -546,11 +550,11 @@ EXTERNAL ChangeMood(characterName, mood)
         As I started to approach I felt a hand on my arm, Elias spoke in my ear. 
 
         Filler Text
-
+        {ChangeMood("Elias", "Nat")}
         Elias: “This is a bad idea. Let’s just look around for a moment.” 
 
         Filler Text
-
+        {ChangeMood("Elias", "NatDark")}
         I nodded and took a moment to take in my surroundings. 
 
         Filler Text
@@ -565,43 +569,43 @@ EXTERNAL ChangeMood(characterName, mood)
     The pavement pathway was lined on either side with game tents that looked ominous in the fog. 
 
     Filler Text 
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “Isn’t this a children’s area?” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "NatDark")}
     Rory: “Don’t like plushies?” 
 
     Filler Text 
-
+    {ChangeMood("ELias", "Nat")}
     Elias: “Don’t see the point.” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "NatDark")}
     Rory: “So you’re clearly single.” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “Why are we even here?” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "NatDark")}
     Rory: “There’s got to be at least one that’s open.” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “You used to win prizes for yourself?” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "NatDark")}
     Rory: “I could have said no to traveling with you.” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “Why didn’t you?” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "NatDark")}
     I didn’t have an answer for that, so I just forced all the empty game stalls. It wouldn’t be hard to turn on one of them, would it? 
 
     Filler Text 
@@ -610,6 +614,7 @@ EXTERNAL ChangeMood(characterName, mood)
     * Shooting Gallery 
         -> shottingGallery
     * Horse Race 
+        {ChangeMood("Elias", "NatDark")}
         -> horseRace
 ==DarkRideExplore==
     {ChangeMood("Elias", "NatDark")}
@@ -728,12 +733,12 @@ EXTERNAL ChangeMood(characterName, mood)
     He held the crystal to his eye, squinting at the light that seemed to glow brighter before slipping it into his pocket. 
 
     Filler 
-    
+    {ChangeMood("Elias", "Nat")}
     Elias: “I can trust you to keep a secret, yes?” 
 
     Filler Text
-
-    This voice sent shivers down my spine. I nodded.
+    {ChangeMood("Elias", "NatDark")}
+    His voice sent shivers down my spine. I nodded.
 
     Filler Text 
     -> DarkRideInvest
@@ -753,17 +758,18 @@ EXTERNAL ChangeMood(characterName, mood)
     The room was washed in a brilliant orange light and a deep melodic cackle filled the air. 
 
     Filler Text
-
+    {ShowCharacter("Elias", "Center", "Nat")}
     Elias: “What in the name-” 
 
     Filler Text
-
+    {ChangeMood("Elias", "NatDark")}
     Rory: “Faulty fire alarm?” 
 
     Filler Text
     -> DarkRideInvest
 
 ==RCInvest==
+    {HideCharacter("Elias")}
     * {(not RCCam)&&(not RCCandles)&&(not RCTapRec)&&(not RCBag)||(not RCCam)||(not RCCandles)||(not RCTapRec)||(not RCBag)} [Attendant]
         -> RCAttenent
     * Camera
@@ -779,7 +785,7 @@ EXTERNAL ChangeMood(characterName, mood)
 
 ==RCAttenent== 
 
-    The attent wa dressed in the classic uniform, a dull yellow shirt with a black turtleneck underneath it. 
+    The attent was dressed in the classic uniform, a dull yellow shirt with a black turtleneck underneath it. 
    
     Filler Text
     
@@ -817,16 +823,18 @@ EXTERNAL ChangeMood(characterName, mood)
     The attendant turned to us, speaking almost robotically. 
 
     Filler Text
-
+    {ShowCharacter("Blank","Right", "Nat")}
     Attendant: “Please take your seats. We don’t have much time. The goddess demands payment. Your blood will do nicely.”
 
     Filler Text
-
+    {ChangeMood("Blabk", "NatDark")}
+    {ShowCharacter("Elias", "Left", "NatDark")}
     I turned to Elias. He shook his head. Who should I trust? 
 
     Filler Text
     * Elias
         I nodded to Elias and we made our way outside. 
+        {HideCharacter("Blank")}
         Filler Text 
         -> ExCh1Loop
     * Attendant 
@@ -835,14 +843,15 @@ EXTERNAL ChangeMood(characterName, mood)
 
 ==RideCoaster==
     I shook my head and made my way to the cart, taking a seat in the front, lowering the lap bar til it clicked. 
-
+    {HideCharacter("Blank")}
+    {HideCharacter("Elias")}
     Filler Text
 
     A laugh played the speaker, the laugh of a Jester. 
 
     Filler Text
-
-    Jester: “I would tell you to hold on tight, but you’ve never been good at following directions normally.” 
+    
+    Jester: “I would tell you to hold on tight, but you’ve never been good at following directions.” 
 
     Filler Text
 
@@ -904,35 +913,35 @@ EXTERNAL ChangeMood(characterName, mood)
     I approached a water gun game, letting out a laugh when I saw the collection of bat plushies that hung upside down from chains that were used to draw in commoners. 
 
     Filler Text 
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “Would you like to play?” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "NatDark")}
     Rory: “You know how to turn it on?” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “Regrettably.” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "NatDark")}
     He climbed over the counter and to the spot where the operator would stand. He cleared his throat and spoke with his best carny impression.  
 
     Filler Text 
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “Step right up. Step up. Best prizes on the lot here. You- come sit.” 
 
     Filler Text 
-
+    {ChangeMood("ELias", "NatDark")}
     I couldn’t help but laugh as I took a seat, lining up the water gun. The lights and music flared to life. 
 
     Filler Text
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “Ready. Aim. Fire.” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "NatDark")}
     The bell sounded and the water started, it was a perfect bullseye, the water pressing the plate into the trigger that lifted a small dragon statue to the top of the tent. 
 
     Filler Text 
@@ -940,11 +949,11 @@ EXTERNAL ChangeMood(characterName, mood)
     The bell sounded again and the lights flashed telling me that I had won. 
 
     Filler Text 
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “Pick any prize little lady.” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "NatDark")}
     I laughed and pointed to one of the bats. 
 
     Filler Text 
@@ -956,11 +965,11 @@ EXTERNAL ChangeMood(characterName, mood)
     Rory: “Thanks.” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “Whatever.” 
 
     Filler Text 
-    
+    {ChangeMood("Elias", "NatDark")}
     He was back to his stuck up tone, rolling his eyes. A thought crossed my mind. Maybe I should give him the bat. 
     
     Fillre Text
@@ -969,6 +978,7 @@ EXTERNAL ChangeMood(characterName, mood)
     * Keep 
         -> keepBat
 ==shottingGallery==
+    {ChangeMood("Elias", "NatDark")}
     My attention was drawn to a reskinned shooting gallery, but rather than fake guns they looked like crossbows. 
 
     Filler Text 
@@ -976,11 +986,11 @@ EXTERNAL ChangeMood(characterName, mood)
     Rory: “You know, I’m really good at these games.” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “You used to shoot at balloons?” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "NatDark")}
     Rory: “yeah.” 
 
     Filler Text 
@@ -988,35 +998,35 @@ EXTERNAL ChangeMood(characterName, mood)
     I approached a game, observing the oversized teddy bears that lined the edges of the play area. 
 
     Filler Text 
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “Would you like to play?” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "NatDark")}
     Rory: "You know how to run it? 
 
     Filler Text 
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “Regrettably.” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "NatDark")}
 	He climbed over the counter and to the spot where the operator would stand. He cleared his throat and spoke with his best carny impression.  
 
     Filler Text 
-
+    {ChangeMood("Elias", "Nat")}
 	Elias: “Step right up. Step up. Best prizes on the lot here. You- step and choose your weapon.” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "NatDark")}
     I couldn’t help but laugh as I picked up the crossbow, a few lights turned on so I could see the target. 
 
     Filler Text 
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “Three shots. All three hit the star, any prize on the wall. Whenever you’re ready.” 
 
     Filler Text 
-
+    {HideCharacter("Elias")}
     He stepped to the side as I held up the cross boy and ook in a long breath. 
 
     Filler Text 
@@ -1024,11 +1034,11 @@ EXTERNAL ChangeMood(characterName, mood)
     I closed one eye and adjusted my aim. I fired once. Twice. Three times. All three perfect hits. 
 
     Filler Text 
-
+    {ShowCharacter("Elias", "Center", "Nat")}
     Elias: “Impressive, take your prize.” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "NatDark")}
     He hunted the bear onto the counter and I took it. It had large golden eyes and a smile that was infectious. 
 
     Filler Text 
@@ -1048,11 +1058,11 @@ EXTERNAL ChangeMood(characterName, mood)
     I took a seat at one of the rouge’s spots, studying the length of the lane and the size of the holes at the end as Elias turned on the game and set up my lane and another lane for the knights. 
 
     Filler Text 
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “It’s no fun without some competition.” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "NatDark")}
     The balls appeared in the basket at the bottom and we both rushed to land the balls into the holes. 
 
     Filler Text 
@@ -1060,19 +1070,19 @@ EXTERNAL ChangeMood(characterName, mood)
     When the lights flashed and the bell sounded I looked to the horses, the knight had won. 
 
     Filler Text 
-
+    {ChangeMood("ELias", "Nat")}
     Elias: “Seems you’re not very good at this.” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "NatDark")}
     Rory: “You’re the one who called them kiddy games.” 
     
     Filler Text 
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “Sometimes people had weird skills.” 
 
     Filler text 
-
+    {ChangeMood("Elias", "NatDark")}
     He picked up a brown wolf push and tossed it to me. 
 
     Filler Text 
@@ -1080,11 +1090,11 @@ EXTERNAL ChangeMood(characterName, mood)
     Rory: “You won, shouldn’t you keep it?” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “You’re right that I'm single.” 
     
     Filler Text
-
+    {ChangeMood("Elias", "NatDark")}
     He started walking away, leaving me to chase after him. 
 
     Filler Text
@@ -1119,11 +1129,11 @@ EXTERNAL ChangeMood(characterName, mood)
     Rory: “Hey, this is a bit big for me to hold.” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “I:m not carrying around your damn teddy bear.” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "NatDark")}
     Rory: “What if it was your damn teddy bear?” 
 
     Filler Text 
@@ -1131,11 +1141,11 @@ EXTERNAL ChangeMood(characterName, mood)
     He held the oversized plush out to him and he took it. 
 
     Filler Text 
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “Don’t think I’ll be telling people how we got this.” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "NatDark")}
     Rory: “wouldn’t ask you to.” 
     
     Filler Text 
