@@ -90,7 +90,7 @@ EXTERNAL ChangeMood(characterName, mood)
     Sage: “What should we even be doing?” 
 
     Filler Text
-    {ChangeMood("Sage", "NatDark")}
+    {HideCharacter("Sage")}
     {ShowCharacter ("Hendrix", "Right", "Nat")}
 
     Hendrix: “I think we should go explore.” 
@@ -104,7 +104,6 @@ EXTERNAL ChangeMood(characterName, mood)
     {ChangeMood("Bonnie", "NatDark")}
 
     There’s murmuring of agreements as the group split up. The only one who stayed behind was Elias. 
-    {HideCharacter("Sage")}
     {HideCharacter("Bonnie")}
     {HideCharacter("Hendrix")}
     {ShowCharacter("Elias", "Center", "Nat")}
@@ -127,6 +126,8 @@ EXTERNAL ChangeMood(characterName, mood)
 ==ExCh1Loop==
     Elias: “Where would you like to go?” 
 
+    Filler Text
+
     * Dark Ride 
         -> darRide
             
@@ -139,9 +140,7 @@ EXTERNAL ChangeMood(characterName, mood)
     * 
         -> murderCh1
 
-==murderCh1==
-    NOTHING HERe YET! 
-    -> END
+
 ==artist== 
     I made my way over to the artist
 
@@ -422,107 +421,257 @@ EXTERNAL ChangeMood(characterName, mood)
         -> DarkRideExplore
     * Nevermind
         -> ExCh1Loop
+
 ==rollerCoaster== 
     The Mindbender held the record for the most inversion on a coaster until the Smiler appeared at Alton Towers. 
+    
+    Filler Text
 
     The black track was hard to see in the dark, but the glowing red eyes of the statue used for a head chopper effect still blazed. 
 
+    Filler Text
+
     Elias: “What even is this?” 
+
+    Filler Text
 
     Rory: “Only the most extreme coaster at the park. The que’s pretty cool too.” 
 
+    Filler Text
+
     Elias: “To think a person would ever go on this is laughable.” 
+
+    Filler Text
 
     Rory: “Not a coaster person?”
 
+    Filler Text
+
     Elias: “Can’t say I am. Look, just have your fun looking around.” 
+
+    Filler Text
 
     Rory: “At least walk through the cue with me? I promise it'll be worth it.” 
 
+    Filler Text
+
     The cue was designed like an old study, with the line snaking past tall bookshelves.  
 
+    Filler Text
+
     I would have sworn they were fake ones, but Elias picked up a leather bound book and flipped it open. 
+   
+    Filler Text
 
     Elias: “Shelves of blank books?” 
 
+    Filler Text
+
     Rory: “That’s not the important part. Here, read the sigh.” 
+   
+    Filler Text
+
     Elias: “Entering the tavern on a rain soaked night I found that only one patron sat at the bar. He was dressed in a tattered rain coat and hid his face from me.” 
+    
+    Filler Text
+
     Rory: “Come on, the next one’s up here.” 
+
+    Filler Text
 
     Elias: “When I asked him what prompted his drink he laughed and said to me-” 
 
+    Filler Text
+
     King: “Any sane man would wish to forget what I had seen.” 
+
+    Filler Text
 
     Elias: “What is this?” 
 
+    Filler Text
+
     Rory: “The story of the ride? This is a theme park after all.” 
+
+    Filler Text
 
     Elias: “Summarize it. This feels stupid.” 
 
+    Filler Text
+
     Rory: “Why are you even here?” 
+
+    Filler Text
 
     Elias: “I could ask you the same thing.” 
 
+    Filler Text
+
     Rory: “I would tell you if you did.” 
+
+    Filler Text
 
     Elias: “Exactly why I didn’t.” 
 
+    Filler Text
+
     Rory: “Fine, the speaker here decided that despite the warning from the sailor he would go to the island and when he gets there he mind is nearly torn apart by the malevolent spirit he calls the jester until a goddess that’s not named spares him but claims his eyes as a price.” 
 
+    Filler Text
+
     Elias: “And that statue?” 
+
+    Filler Text
+
     Rory: “The goddess. Locals call her Irina.” 
+
+    Filler Text
 
     Elias: “Can we move on?” 
 
+    Filler Text
     * No 
         Rory: “Come on, scaredy cat. You don’t have to go on the ride if you don’t want to.” 
 
+        Filler Text
+
         I raced to the end of the cue, Elias’s footsteps chasing after me. 
+
+        Filler Text
 
         I stopped when I saw someone standing behind the control panel. 
 
+        Filler Text
+
         As I started to approach I felt a hand on my arm, Elias spoke in my ear. 
+
+        Filler Text
 
         Elias: “This is a bad idea. Let’s just look around for a moment.” 
 
+        Filler Text
+
         I nodded and took a moment to take in my surroundings. 
 
+        Filler Text
         -> RCInvest
-
+    * Yes 
+        -> ExCh1Loop
 ==mindway== 
-7 
--> DONE
+    It took a long moment for my eyes to adjust to the darkness of the mindway. 
+
+    Filler Text 
+
+    The pavement pathway was lined on either side with game tents that looked ominous in the fog. 
+
+    Filler Text 
+
+    Elias: “Isn’t this a children’s area?” 
+
+    Filler Text 
+
+    Rory: “Don’t like plushies?” 
+
+    Filler Text 
+
+    Elias: “Don’t see the point.” 
+
+    Filler Text 
+
+    Rory: “So you’re clearly single.” 
+
+    Filler Text 
+
+    Elias: “Why are we even here?” 
+
+    Filler Text 
+
+    Rory: “There’s got to be at least one that’s open.” 
+
+    Filler Text 
+
+    Elias: “You used to win prizes for yourself?” 
+
+    Filler Text 
+
+    Rory: “I could have said no to traveling with you.” 
+
+    Filler Text 
+
+    Elias: “Why didn’t you?” 
+
+    Filler Text 
+
+    I didn’t have an answer for that, so I just forced all the empty game stalls. It wouldn’t be hard to turn on one of them, would it? 
+
+    Filler Text 
+    * Water Gun 
+        -> waterGun
+    * Shooting Gallery 
+        -> shottingGallery
+    * Horse Race 
+        -> horseRace
 ==DarkRideExplore==
+    {ChangeMood("Elias", "NatDark")}
     Rory: “Look, you can stay up there if you want.” 
 
+    Filler Text
+    {ChangeMood("Elias", "Nat")}
     Elias: “Gladly.” 
 
+    Filler Text
+    {ChangeMood("Elias", "NatDark")}
     Rory: “But then you’re going to have to deal with the racoons all by yourself.” 
 
+    Filler Text
+    {ChangeMood("Elias", "Nat")}
     Elias: “Racoons? Are you sure?” 
 
+    Filler Text
+    {ChangeMood("Elias", "NatDark")}
     Rory: “Yeah, the dumpster isn't too far and they love to congrats around there.” 
 
+    Filler Text
+    {ChangeMood("Elias", "Nat")}
     Elias: “On second thought, let’s enjoy this ride.” 
 
+    Filler Text
+    {ChangeMood("Elias", "NatDark")}
     The que was just as I remembered, the walls painted as false wood and peppered with notices about the mine’s safety. 
+
+    Filler Text
 
     The dirt path sloped downward,pulling us farther from the orange glow of the light overhead. I looked to Elias who asked the question I was too uneasy to ask. 
 
+    Filler Text
+    {ChangeMood("Elias", "Nat")}
     Elias: “You didn’t see the lights on before, did you?” 
 
+    Filler Text
+    {ChangeMood("Elias", "NatDark")}
     Rory: “No. Maybe they’re on a motion timer?” 
 
+    Filler Text
+    {ChangeMood("Elias", "Nat")}
     Elias: “I hope the rest of the ride isn’t.” 
 
+    Filler Text
+    {ChangeMood("Elias", "NatDark")}
     Rory: “What? You’d rather walk through it?” 
 
+    Filler Text
+    {ChangeMood("Elias", "Nat")}
     Elias: “If you don’t mind.” 
 
+    Filler Text
+    {ChangeMood("Elias", "NatDark")}
     So at the end of the que we made our way past the carts and traveled along the tracks into the next scene. 
+
+    Filler Text
 
     Elias was quick, taking long strides and walking past the scene of the miner’s base camp and old man with a dead canary. He stopped at the scene of one of the miners overlooking a map as a wide cavern of crystals opened behind him. 
 
+    Filler Text
     -> DarkRideInvest
 
 ==DarkRideInvest==
@@ -548,42 +697,72 @@ EXTERNAL ChangeMood(characterName, mood)
    
 ==DRAnima== 
     Captain: “It has to be around here somewhere.” 
+    Filler Text
    -> DarkRideInvest
 ==DRMap== 
     The map was positioned away from the passing carts, and it was starting to eat at me what it said. 
+    Filler Text
     Rory: “Bravery fails and greed sussums.” 
+    Filler Text
+    {ShowCharacter("Elias", "Center", "NatDark")}
     Elias looked a bit dazed, as if trying to recall something he had heard before. 
+    Filler Text
      -> DarkRideInvest
 ==DRDoor==
     The doors shouldn’t have been opened, after all it should be a trigger with the carts crossing a part of the track. I took a few uneasy steps closer, the parting bits of stone decorated with a bright yellow chalk. Maybe this ride was also hit with some graffiti. 
+    Filler Text
      -> DarkRideInvest
 ==DRCry==
     The crystals had a soft internal glow, almost like they were LED lights. 
 
+    Filler Text
+
     That was proven wrong when Elias slammed the edges of his book into the wall and broke off a small piece of crystal. 
 
+    Filler Text
+    {ShowCharacter("Elias", "Center", "Nat")}
     Elias: “I don’t think it’s supposed to do this.” 
 
+    Filler Text
+    {ChangeMood("Elias", "NatDark")}
     He held the crystal to his eye, squinting at the light that seemed to glow brighter before slipping it into his pocket. 
 
+    Filler 
+    
     Elias: “I can trust you to keep a secret, yes?” 
 
-    This voice sent shivers down my spine. I nodded. 
+    Filler Text
+
+    This voice sent shivers down my spine. I nodded.
+
+    Filler Text 
     -> DarkRideInvest
 ==DRKey== 
     Near the foot of the animatronic colloquial known as the captain was a key. I picked it up almost without thinking. It wasn’t attached to anything and I slipped it into my camera bag hopefully before Elias had taken notice.
+    Filler Text
     -> DarkRideInvest
 ==DRFireA== 
     Looking out to the track from here I could see a fire alarm I couldn't see before. I looked to Elias who seemed more fascinated with the crystals before walking over and giving it a pull. 
 
-    There was no alarm. 
+    Filler Text
+
+    There was no sound. 
+
+    Filler Text
 
     The room was washed in a brilliant orange light and a deep melodic cackle filled the air. 
 
+    Filler Text
+
     Elias: “What in the name-” 
 
+    Filler Text
+
     Rory: “Faulty fire alarm?” 
+
+    Filler Text
     -> DarkRideInvest
+
 ==RCInvest==
     * {(not RCCam)&&(not RCCandles)&&(not RCTapRec)&&(not RCBag)||(not RCCam)||(not RCCandles)||(not RCTapRec)||(not RCBag)} [Attendant]
         -> RCAttenent
@@ -601,49 +780,375 @@ EXTERNAL ChangeMood(characterName, mood)
 ==RCAttenent== 
 
     The attent wa dressed in the classic uniform, a dull yellow shirt with a black turtleneck underneath it. 
-
+   
+    Filler Text
+    
     Their eyes were glossy, dazed, as if they’d just woken up from a nap. They also didn’t have a name tag. 
+
+    Filler Text
 
     However, it was as I looked down I realized something was wrong. Their legs were fused into the control panel. Skin melted and fuzed with wires that snaked up and plunged through their legs like valiant roots in search of food. 
 
+    Filler Text
     -> RCInvest
 ==RCCam==
     A camara sat in the rafters, the redlight soft but flickering at regular intervals that drew the eye. 
-
+    Filler Text
     -> RCInvest
 ==RCCandles==
     The LED candles seemed to flickr here more than I remembered. They looked like real candles, even having small plumes of smoke. 
-
+    Filler Text
     -> RCInvest
 ==RCTapRec==
     Positioned on the track was a tape recorder. I steadily made my way over, keeping to the shadow. 
-
+    Filler Text
     -> RCInvest
 ==RCBag== 
     Inside the coaster car was a backpack. It was likely once a vibrant green and was now caked with dirt and ripped in places. 
-
+    Filler Text
     I inched my way closer, but passed into view of the attendant. 
-
+    Filler Text
     Attendant: “Take your seats, the ride will soon depart.” 
-
+    Filler Text
     I snatched the bag and returned to the shadows, fully the eyes of the attendant not following. 
-
+    Filler Text
     -> RCInvest
 ==CoasterSplit== 
     The attendant turned to us, speaking almost robotically. 
-			
+
+    Filler Text
+
     Attendant: “Please take your seats. We don’t have much time. The goddess demands payment. Your blood will do nicely.”
+
+    Filler Text
 
     I turned to Elias. He shook his head. Who should I trust? 
 
+    Filler Text
     * Elias
-        I nodded to Elias and we made our way outside.  
+        I nodded to Elias and we made our way outside. 
+        Filler Text 
         -> ExCh1Loop
     * Attendant 
+        -> RideCoaster
 
 
+==RideCoaster==
+    I shook my head and made my way to the cart, taking a seat in the front, lowering the lap bar til it clicked. 
+
+    Filler Text
+
+    A laugh played the speaker, the laugh of a Jester. 
+
+    Filler Text
+
+    Jester: “I would tell you to hold on tight, but you’ve never been good at following directions normally.” 
+
+    Filler Text
+
+    The coaster launched and I gripped the lap bar as I was plunged onto the fastest ride of this coaster I’d ever had. 
+
+    Filler Text
+
+    The turns were sharp, slamming me into the side of the cart. 
+
+    Filler Text
+
+    Has this coaster always had so many left turns? 
+
+    Filler Text
+
+    It approached Irius, her sword drawn, prepared for the train to pass between it and her other arm. 
+    
+    Filler Text 
+
+    With the glow of her eyes the only light I thought I saw her fingers twitch. 
+
+    Filler Text 
+
+    I lowered my head and closed my eyes, being met with a loud crunch of metal before the cart plunged into the down of a hill faster then I remember. 
+
+    Filler Text 
+
+    I turned around and found the back half of the train stuck on the other side of the track, Irius’s head having turned to face with her amber eyes. 
+
+    Filler Text 
+
+    The cart pulled into the unloading area and I tried to pull up on the lap bar, finding it stuck. 
+
+    Filler Text 
+
+    I kept pulling, squirming as it seemed to only get tight around me. 
+
+    Filler Text 
+
+    The cart moved again, now in the loading area. Elias was reaching for the controls as the glassy eyed attendant was tugging on his free arm. 
+
+    Filler Text 
+
+    Elias hit a bun and the lap bar unlaunched. 
+
+    Filler Text 
+
+    I made a jump for the platform, just making it as the train plunged into the corset again. 
+
+    Filler Text 
+
+    The attendant turned placid, not even blinking as his arms dropped and allowed Elias to pull away. 
+
+    Filler Text 
+
+    -> ExCh1Loop
+
+==waterGun== 
+    I approached a water gun game, letting out a laugh when I saw the collection of bat plushies that hung upside down from chains that were used to draw in commoners. 
+
+    Filler Text 
+
+    Elias: “Would you like to play?” 
+
+    Filler Text 
+
+    Rory: “You know how to turn it on?” 
+
+    Filler Text 
+
+    Elias: “Regrettably.” 
+
+    Filler Text 
+
+    He climbed over the counter and to the spot where the operator would stand. He cleared his throat and spoke with his best carny impression.  
+
+    Filler Text 
+
+    Elias: “Step right up. Step up. Best prizes on the lot here. You- come sit.” 
+
+    Filler Text 
+
+    I couldn’t help but laugh as I took a seat, lining up the water gun. The lights and music flared to life. 
+
+    Filler Text
+
+    Elias: “Ready. Aim. Fire.” 
+
+    Filler Text 
+
+    The bell sounded and the water started, it was a perfect bullseye, the water pressing the plate into the trigger that lifted a small dragon statue to the top of the tent. 
+
+    Filler Text 
+
+    The bell sounded again and the lights flashed telling me that I had won. 
+
+    Filler Text 
+
+    Elias: “Pick any prize little lady.” 
+
+    Filler Text 
+
+    I laughed and pointed to one of the bats. 
+
+    Filler Text 
+
+    Elias got it down and unceremoniously threw it to me before turning the game off. 
+
+    Filler Text 
+
+    Rory: “Thanks.” 
+
+    Filler Text 
+
+    Elias: “Whatever.” 
+
+    Filler Text 
+    
+    He was back to his stuck up tone, rolling his eyes. A thought crossed my mind. Maybe I should give him the bat. 
+    
+    Fillre Text
+    * Give 
+        -> giveBat
+    * Keep 
+        -> keepBat
+==shottingGallery==
+    My attention was drawn to a reskinned shooting gallery, but rather than fake guns they looked like crossbows. 
+
+    Filler Text 
+
+    Rory: “You know, I’m really good at these games.” 
+
+    Filler Text 
+
+    Elias: “You used to shoot at balloons?” 
+
+    Filler Text 
+
+    Rory: “yeah.” 
+
+    Filler Text 
+
+    I approached a game, observing the oversized teddy bears that lined the edges of the play area. 
+
+    Filler Text 
+
+    Elias: “Would you like to play?” 
+
+    Filler Text 
+
+    Rory: "You know how to run it? 
+
+    Filler Text 
+
+    Elias: “Regrettably.” 
+
+    Filler Text 
+
+	He climbed over the counter and to the spot where the operator would stand. He cleared his throat and spoke with his best carny impression.  
+
+    Filler Text 
+
+	Elias: “Step right up. Step up. Best prizes on the lot here. You- step and choose your weapon.” 
+
+    Filler Text 
+
+    I couldn’t help but laugh as I picked up the crossbow, a few lights turned on so I could see the target. 
+
+    Filler Text 
+
+    Elias: “Three shots. All three hit the star, any prize on the wall. Whenever you’re ready.” 
+
+    Filler Text 
+
+    He stepped to the side as I held up the cross boy and ook in a long breath. 
+
+    Filler Text 
+
+    I closed one eye and adjusted my aim. I fired once. Twice. Three times. All three perfect hits. 
+
+    Filler Text 
+
+    Elias: “Impressive, take your prize.” 
+
+    Filler Text 
+
+    He hunted the bear onto the counter and I took it. It had large golden eyes and a smile that was infectious. 
+
+    Filler Text 
+
+    He was back to his stuck up tone, rolling his eyes. A thought crossed my mind. Maybe I should give him the bear. 
+    
+    Filler Text
+    * Give 
+        -> giveBear
+    * Keep
+        -> keepBear
+==horseRace==
+    I approached the horse race game, smiling to myself as I took in the theming. Rather than the horses painted like the horse racing sports, it alternated between knights and rogues. 
+
+    Filler Text
+
+    I took a seat at one of the rouge’s spots, studying the length of the lane and the size of the holes at the end as Elias turned on the game and set up my lane and another lane for the knights. 
+
+    Filler Text 
+
+    Elias: “It’s no fun without some competition.” 
+
+    Filler Text 
+
+    The balls appeared in the basket at the bottom and we both rushed to land the balls into the holes. 
+
+    Filler Text 
+
+    When the lights flashed and the bell sounded I looked to the horses, the knight had won. 
+
+    Filler Text 
+
+    Elias: “Seems you’re not very good at this.” 
+
+    Filler Text 
+
+    Rory: “You’re the one who called them kiddy games.” 
+    
+    Filler Text 
+
+    Elias: “Sometimes people had weird skills.” 
+
+    Filler text 
+
+    He picked up a brown wolf push and tossed it to me. 
+
+    Filler Text 
+
+    Rory: “You won, shouldn’t you keep it?” 
+
+    Filler Text 
+
+    Elias: “You’re right that I'm single.” 
+    
+    Filler Text
+
+    He started walking away, leaving me to chase after him. 
+
+    Filler Text
+    -> ExCh1Loop
+==giveBat==
+    Rory: “catch” 
+
+    Filler Text 
+
+    I tossed him the bat. 
+
+    Filler Text 
+
+    Elias: “What?” 
+
+    Filler Text 
+
+    Rory: “Though you might like it.” 
+
+    Filler Text 
+
+    Elias: “Keep it. And maybe try to be less obvious next time you try to flirt.” 
+    
+    Filler Text
+    -> ExCh1Loop
+==keepBat==
+    On second thought, it was cute, and surprisingly soft for some cheap toy. 
+   
+   Filler Text
+    -> ExCh1Loop
+==giveBear==
+    Rory: “Hey, this is a bit big for me to hold.” 
+
+    Filler Text 
+
+    Elias: “I:m not carrying around your damn teddy bear.” 
+
+    Filler Text 
+
+    Rory: “What if it was your damn teddy bear?” 
+
+    Filler Text 
+
+    He held the oversized plush out to him and he took it. 
+
+    Filler Text 
+
+    Elias: “Don’t think I’ll be telling people how we got this.” 
+
+    Filler Text 
+
+    Rory: “wouldn’t ask you to.” 
+    
+    Filler Text 
+    -> ExCh1Loop    
+==keepBear== 
+    Or not. Maybe he would think I was flirting. 
+    Filler Text
+    -> ExCh1Loop
 
 
+==murderCh1==
+    NOTHING HERe YET! 
+    -> END
 
 
 ==EndFullIgnets==
