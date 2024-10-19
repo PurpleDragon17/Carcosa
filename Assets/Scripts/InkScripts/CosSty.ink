@@ -90,7 +90,7 @@ EXTERNAL ChangeMood(characterName, mood)
     Sage: “What should we even be doing?” 
 
     Filler Text
-    {HideCharacter("Sage")}
+    {HideCharacter("Kate")}
     {ShowCharacter ("Hendrix", "Right", "Nat")}
 
     Hendrix: “I think we should go explore.” 
@@ -106,6 +106,7 @@ EXTERNAL ChangeMood(characterName, mood)
     There’s murmuring of agreements as the group split up. The only one who stayed behind was Elias. 
     {HideCharacter("Bonnie")}
     {HideCharacter("Hendrix")}
+    {HideCharacter("Sage")}
     {ShowCharacter("Elias", "Center", "Nat")}
 
     Filler Text
@@ -136,6 +137,7 @@ EXTERNAL ChangeMood(characterName, mood)
         -> rollerCoaster
             
     * Mindway 
+        {ShowCharacter("Elias", "Center", "NatDark")}
         {ChangeMood("Elias", "NatDark")}
         -> mindway
             
@@ -577,7 +579,7 @@ EXTERNAL ChangeMood(characterName, mood)
     Rory: “Don’t like plushies?” 
 
     Filler Text 
-    {ChangeMood("ELias", "Nat")}
+    {ChangeMood("Elias", "Nat")}
     Elias: “Don’t see the point.” 
 
     Filler Text 
@@ -785,6 +787,8 @@ EXTERNAL ChangeMood(characterName, mood)
 
 ==RCAttenent== 
 
+    Filler Text 
+
     The attent was dressed in the classic uniform, a dull yellow shirt with a black turtleneck underneath it. 
    
     Filler Text
@@ -933,7 +937,7 @@ EXTERNAL ChangeMood(characterName, mood)
     Elias: “Step right up. Step up. Best prizes on the lot here. You- come sit.” 
 
     Filler Text 
-    {ChangeMood("ELias", "NatDark")}
+    {ChangeMood("Elias", "NatDark")}
     I couldn’t help but laugh as I took a seat, lining up the water gun. The lights and music flared to life. 
 
     Filler Text
@@ -1070,7 +1074,7 @@ EXTERNAL ChangeMood(characterName, mood)
     When the lights flashed and the bell sounded I looked to the horses, the knight had won. 
 
     Filler Text 
-    {ChangeMood("ELias", "Nat")}
+    {ChangeMood("Elias", "Nat")}
     Elias: “Seems you’re not very good at this.” 
 
     Filler Text 
@@ -1107,15 +1111,15 @@ EXTERNAL ChangeMood(characterName, mood)
     I tossed him the bat. 
 
     Filler Text 
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “What?” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "NatDark")}
     Rory: “Though you might like it.” 
 
     Filler Text 
-
+    {ChangeMood("Elias", "Nat")}
     Elias: “Keep it. And maybe try to be less obvious next time you try to flirt.” 
     
     Filler Text
