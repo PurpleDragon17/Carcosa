@@ -14,6 +14,10 @@ EXTERNAL ChangeMood(characterName, mood)
 
     Filler Text 
 
+    But when I got a letter adressed to Roasiland Carter rathern then Rory, I know that this was important. 
+    
+    Filler Text 
+
     I could see the lights from the train station. Has the green always reflected off the clouds like that? It looks like miasma. 
 
     Filler Text 
@@ -1162,6 +1166,17 @@ EXTERNAL ChangeMood(characterName, mood)
 
 ==murderCh1==
     NOTHING HERe YET! 
+    {
+        - not DRDoor && not RCAttenent && not RideCoaster:
+            -> EndFullIgnets
+        - not DRDoor && not RCAttenent && RideCoaster:
+            -> EndInvsiv
+        - DRDoor || RCAttenent:
+            -> EndInvsiv
+        - DRDoor && RCAttenent
+            -> EndMad
+    }
+    
     -> END
 
 
@@ -1171,5 +1186,9 @@ EXTERNAL ChangeMood(characterName, mood)
     -> END
 ==EndInvsiv==
     Filler Text
-    Detective Fin 
+    Detective 
+    -> END
+
+==EndMad==
+    Madness Creeps 
     -> END
