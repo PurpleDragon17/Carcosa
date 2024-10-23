@@ -1,27 +1,29 @@
 ﻿EXTERNAL ShowCharacter (characterName, position, mood)
 EXTERNAL HideCharacter (characterName)
 EXTERNAL ChangeMood(characterName, mood)
+EXTERNAL DropChange (spot)
 -> Opening
 
 ==Opening== 
-
+    {DropChange(0)}
     {ShowCharacter("Rory", "Center", "Nat")}
     It’s been a long time since I’ve been to Caracosa Amusement Park. 
 
     Filler Text 
 
-    Too far from home to go when I come back for summer break, but too close to go when I’m off at college. 
+    It was too far from home to go when I came back for summer break, but too close to go when I was off at college. 
 
     Filler Text 
 
-    But when I got a letter adressed to Roasiland Carter rathern then Rory, I know that this was important. 
+    But when I received a letter addressed to Roasiland Carter rather than Rory, I knew this was important. 
     
     Filler Text 
 
-    I could see the lights from the train station. Has the green always reflected off the clouds like that? It looks like miasma. 
+    I could see the lights from the train station. Has the green always reflected off the clouds like that? It looks like vapor. 
 
     Filler Text 
 
+    {DropChange(9)}
     {HideCharacter("Rory")}
     {ShowCharacter("Blank", "Center", "Nat")}
     The lady behind the counter looked at the letter I gave her. Her eyebrows narrowed. 
@@ -37,15 +39,16 @@ EXTERNAL ChangeMood(characterName, mood)
     Filler Text 
 
     {HideCharacter("Blank")}
-    The Hollow Castle had quite the history, once being an old dark ride, then a set piece for a roller coaster, then the cue building for another ride, and now just a walk through attraction that should have told the story of the Amber Crowned king. 
+    {DropChange(7)}
+    The Hollow Castle had quite the history, once being an old dark ride, then a set piece for a roller coaster, then the cue building for another ride, and now just a walk-through attraction that should have told the story of the Amber Crowned King. 
 
     Filler Text 
-
+    {DropChange(6)}
     Instead, it was just a hub for graffiti that no one bothered to clean. 
 
     Filler Text 
 
-    I wasn’t the first one there, finding a few others scattered around the room. Who should I approach? 
+    I wasn’t the first one there, finding the others scattered around the room in small groups. Who should I approach? 
 
     Filler Text 
     -> WhoTalk
@@ -107,7 +110,7 @@ EXTERNAL ChangeMood(characterName, mood)
     Filler Text
     {ChangeMood("Bonnie", "NatDark")}
 
-    There’s murmuring of agreements as the group split up. The only one who stayed behind was Elias. 
+    There’s murmuring of agreement as the group split up. The only one who stayed behind was Elias. 
     {HideCharacter("Bonnie")}
     {HideCharacter("Hendrix")}
     {HideCharacter("Sage")}
@@ -150,7 +153,7 @@ EXTERNAL ChangeMood(characterName, mood)
 
 
 ==artist== 
-    I made my way over to the artist
+    I made my way over to the artist.
 
 
 	{ShowCharacter("Sage", "Center", "Nat")}
@@ -214,7 +217,7 @@ EXTERNAL ChangeMood(characterName, mood)
 	Filler Text 
     {ChangeMood("Sage", "Nat")}
     {ChangeMood("Jon", "NatDark")}
-	Sage: “Can you even say your own name?” 
+	Sage: “Can you even say your name?” 
 
 
 	Filler Text 
@@ -238,7 +241,7 @@ EXTERNAL ChangeMood(characterName, mood)
 
 	Filler Text 
     {ChangeMood("Warren", "NatDark")}
-	Rory: “I mean-I guess-” 
+	Rory: “I mean guess-” 
 
 	Filler Text 
     {ChangeMood("Warren", "Nat")}
@@ -318,8 +321,6 @@ EXTERNAL ChangeMood(characterName, mood)
 ==readingMan==
     {ShowCharacter("Elias", "Center", "Nat")}
     
-   
-
 	I approached the man sitting alone on one of the prop rocks. 
     {ChangeMood("Elias", "NatDark")}
 	Filler Text 
@@ -353,7 +354,7 @@ EXTERNAL ChangeMood(characterName, mood)
 	Some people are just not meant for social interactions. 
     -> WhoTalk
 ==girlWcamera==
-    A girl with a camera was directing a few other people. I found myself squinting as I tried to recall where, if anywhere, I knew her from. 
+   A girl with a camera was directing a few other people. I found myself squinting as I tried to recall where, if anywhere, I knew her. 
 
 	{ShowCharacter("Kate", "Center", "Nat")}
 
@@ -392,7 +393,7 @@ EXTERNAL ChangeMood(characterName, mood)
 
 	Filler Text 
     {ChangeMood("Kate", "Nat")}
-	Kate: “hey there interweb, You’ll know me I’m Kate, and you should recognize my collaborators, the Jollywood superstar Aubri Hunt,” 
+	Kate: “Hey there interweb, You’ll know me I’m Kate, and you should recognize my collaborator, the Hollywood superstar Aubri Hunt,” 
 
 	Filler Text 
     {ChangeMood("Kate", "NatDark")}
@@ -425,12 +426,10 @@ EXTERNAL ChangeMood(characterName, mood)
 	{HideCharacter("Zelda")}
     -> WhoTalk
 ==darRide==
-    * Explore
         -> DarkRideExplore
-    * Nevermind
-        -> ExCh1Loop
 
 ==rollerCoaster== 
+     {DropChange(4)}
     {ChangeMood("Elias", "NatDark")}
     The Mindbender held the record for the most inversion on a coaster until the Smiler appeared at Alton Towers. 
     
@@ -444,7 +443,7 @@ EXTERNAL ChangeMood(characterName, mood)
 
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-    Rory: “Only the most extreme coaster at the park. The que’s pretty cool too.” 
+    Rory: “Only the most extreme coaster at the park. The queuing area's pretty cool too.” 
 
     Filler Text
     {ChangeMood("Elias", "Nat")}
@@ -468,7 +467,7 @@ EXTERNAL ChangeMood(characterName, mood)
 
     Filler Text
 
-    I would have sworn they were fake ones, but Elias picked up a leather bound book and flipped it open. 
+    I would have sworn they were fake ones, but Elias picked up a leather-bound book and flipped it open. 
    
     Filler Text
     {ChangeMood("Elias", "Nat")}
@@ -480,7 +479,7 @@ EXTERNAL ChangeMood(characterName, mood)
    
     Filler Text
     {ChangeMood("Elias", "Nat")}
-    Elias: “Ente"ring the tavern on a rain soaked night I found that only one patron sat at the bar. He was dressed in a tattered rain coat and hid his face from me.” 
+    Elias: “Entering the tavern on a rain-soaked night I found that only one patron sat at the bar. He was dressed in a tattered raincoat and hid his face from me.” 
     
     Filler Text
     {ChangeMood("Elias", "NatDark")}
@@ -524,7 +523,7 @@ EXTERNAL ChangeMood(characterName, mood)
 
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-    Rory: “Fine, the speaker here decided that despite the warning from the sailor he would go to the island and when he gets there he mind is nearly torn apart by the malevolent spirit he calls the jester until a goddess that’s not named spares him but claims his eyes as a price.” 
+    Rory: “Fine, the speaker here decided that despite the warning from the sailor he would go to the island and when he gets there his mind is nearly torn apart by the malevolent spirit he calls the jester until a goddess that’s not named spares him but claims his eyes as a price.” 
 
     Filler Text
     {ChangeMood("Elias", "Nat")}
@@ -568,7 +567,8 @@ EXTERNAL ChangeMood(characterName, mood)
     * Yes 
         -> ExCh1Loop
 ==mindway== 
-    It took a long moment for my eyes to adjust to the darkness of the mindway. 
+    {DropChange(3)}
+    It took a long moment for my eyes to adjust to the darkness of the midway. 
 
     Filler Text 
 
@@ -623,6 +623,7 @@ EXTERNAL ChangeMood(characterName, mood)
         {ChangeMood("Elias", "NatDark")}
         -> horseRace
 ==DarkRideExplore==
+    {DropChange(5)}
     {ChangeMood("Elias", "NatDark")}
     Rory: “Look, you can stay up there if you want.” 
 
@@ -632,7 +633,7 @@ EXTERNAL ChangeMood(characterName, mood)
 
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-    Rory: “But then you’re going to have to deal with the racoons all by yourself.” 
+    Rory: “But then you’re going to have to deal with the raccoons all by yourself.” 
 
     Filler Text
     {ChangeMood("Elias", "Nat")}
@@ -648,11 +649,11 @@ EXTERNAL ChangeMood(characterName, mood)
 
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-    The que was just as I remembered, the walls painted as false wood and peppered with notices about the mine’s safety. 
+    The queuing area was just as I remembered, the walls painted as false wood and peppered with notices about the mine’s safety. 
 
     Filler Text
 
-    The dirt path sloped downward,pulling us farther from the orange glow of the light overhead. I looked to Elias who asked the question I was too uneasy to ask. 
+    The dirt path sloped downward, pulling us farther from the orange glow of the light overhead. I looked to Elias who asked the question I was too uneasy to ask. 
 
     Filler Text
     {ChangeMood("Elias", "Nat")}
@@ -676,17 +677,16 @@ EXTERNAL ChangeMood(characterName, mood)
 
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-    So at the end of the que we made our way past the carts and traveled along the tracks into the next scene. 
+    So at the end of the queuing area, we made our way past the carts and traveled along the tracks into the next scene. 
 
     Filler Text
 
-    Elias was quick, taking long strides and walking past the scene of the miner’s base camp and old man with a dead canary. He stopped at the scene of one of the miners overlooking a map as a wide cavern of crystals opened behind him. 
+    Elias was quick, taking long strides and walking past the scene of the miner’s base camp and the old man with a dead canary. He stopped at the scene of one of the miners overlooking a map as a wide cavern of crystals opened behind him. 
 
     Filler Text
     -> DarkRideInvest
-
 ==DarkRideInvest==
- 
+    {DropChange(2)}
     {HideCharacter("Elias")}
    
     *Animatronic 
@@ -706,6 +706,7 @@ EXTERNAL ChangeMood(characterName, mood)
         -> ExCh1Loop
 
    
+
 ==DRAnima== 
     Captain: “It has to be around here somewhere.” 
     Filler Text
@@ -713,14 +714,14 @@ EXTERNAL ChangeMood(characterName, mood)
 ==DRMap== 
     The map was positioned away from the passing carts, and it was starting to eat at me what it said. 
     Filler Text
-    Rory: “Bravery fails and greed sussums.” 
+    Rory: “Bravery fails and greed succumbs.” 
     Filler Text
     {ShowCharacter("Elias", "Center", "NatDark")}
-    Elias looked a bit dazed, as if trying to recall something he had heard before. 
+    Elias looked a bit dazed as if trying to recall something he had heard before. 
     Filler Text
      -> DarkRideInvest
 ==DRDoor==
-    The doors shouldn’t have been opened, after all it should be a trigger with the carts crossing a part of the track. I took a few uneasy steps closer, the parting bits of stone decorated with a bright yellow chalk. Maybe this ride was also hit with some graffiti. 
+    The doors shouldn’t have been opened, after all, it should be a trigger with the carts crossing a part of the track. I took a few uneasy steps closer, the parting bits of stone decorated with bright yellow chalk. Maybe this ride was also hit with some graffiti. 
     Filler Text
      -> DarkRideInvest
 ==DRCry==
@@ -773,8 +774,8 @@ EXTERNAL ChangeMood(characterName, mood)
 
     Filler Text
     -> DarkRideInvest
-
 ==RCInvest==
+    {DropChange(1)}
     {HideCharacter("Elias")}
     * {(not RCCam)&&(not RCCandles)&&(not RCTapRec)&&(not RCBag)||(not RCCam)||(not RCCandles)||(not RCTapRec)||(not RCBag)} [Attendant]
         -> RCAttenent
@@ -793,7 +794,7 @@ EXTERNAL ChangeMood(characterName, mood)
 
     Filler Text 
 
-    The attent was dressed in the classic uniform, a dull yellow shirt with a black turtleneck underneath it. 
+    The attendant was dressed in the classic uniform, a dull yellow shirt with a black turtleneck underneath it. 
    
     Filler Text
     
@@ -806,7 +807,7 @@ EXTERNAL ChangeMood(characterName, mood)
     Filler Text
     -> RCInvest
 ==RCCam==
-    A camara sat in the rafters, the redlight soft but flickering at regular intervals that drew the eye. 
+    A camera sat in the rafters, the redlight soft but flickering at regular intervals that drew the eye. 
     Filler Text
     -> RCInvest
 ==RCCandles==
@@ -820,7 +821,7 @@ EXTERNAL ChangeMood(characterName, mood)
 ==RCBag== 
     Inside the coaster car was a backpack. It was likely once a vibrant green and was now caked with dirt and ripped in places. 
     Filler Text
-    I inched my way closer, but passed into view of the attendant. 
+    I inched my way closer but passed into view of the attendant. 
     Filler Text
     Attendant: “Take your seats, the ride will soon depart.” 
     Filler Text
@@ -831,7 +832,7 @@ EXTERNAL ChangeMood(characterName, mood)
     The attendant turned to us, speaking almost robotically. 
 
     Filler Text
-    {ShowCharacter("Blank","Right", "Nat")}
+    {ShowCharacter("Blank", "Right", "Nat")}
     Attendant: “Please take your seats. We don’t have much time. The goddess demands payment. Your blood will do nicely.”
 
     Filler Text
@@ -850,7 +851,8 @@ EXTERNAL ChangeMood(characterName, mood)
 
 
 ==RideCoaster==
-    I shook my head and made my way to the cart, taking a seat in the front, lowering the lap bar til it clicked. 
+   
+ I shook my head and made my way to the cart, taking a seat in the front, and lowering the lap bar til it clicked. 
     {HideCharacter("Blank")}
     {HideCharacter("Elias")}
     Filler Text
@@ -883,11 +885,11 @@ EXTERNAL ChangeMood(characterName, mood)
 
     Filler Text 
 
-    I lowered my head and closed my eyes, being met with a loud crunch of metal before the cart plunged into the down of a hill faster then I remember. 
+    I lowered my head and closed my eyes, being met with a loud crunch of metal before the cart plunged into the down of a hill faster than I remember. 
 
     Filler Text 
 
-    I turned around and found the back half of the train stuck on the other side of the track, Irius’s head having turned to face with her amber eyes. 
+    I turned around and found the back half of the train stuck on the other side of the track, Irius’s head had turned to face with her amber eyes. 
 
     Filler Text 
 
@@ -899,11 +901,11 @@ EXTERNAL ChangeMood(characterName, mood)
 
     Filler Text 
 
-    The cart moved again, now in the loading area. Elias was reaching for the controls as the glassy eyed attendant was tugging on his free arm. 
+    The cart moved again, now in the loading area. Elias was reaching for the controls as the glassy-eyed attendant was tugging on his free arm. 
 
     Filler Text 
 
-    Elias hit a bun and the lap bar unlaunched. 
+    Elias hit a button and the lap bar was unlatched. 
 
     Filler Text 
 
@@ -916,8 +918,9 @@ EXTERNAL ChangeMood(characterName, mood)
     Filler Text 
 
     -> ExCh1Loop
-
 ==waterGun== 
+   
+  {DropChange(11)}
     I approached a water gun game, letting out a laugh when I saw the collection of bat plushies that hung upside down from chains that were used to draw in commoners. 
 
     Filler Text 
@@ -978,7 +981,7 @@ EXTERNAL ChangeMood(characterName, mood)
 
     Filler Text 
     {ChangeMood("Elias", "NatDark")}
-    He was back to his stuck up tone, rolling his eyes. A thought crossed my mind. Maybe I should give him the bat. 
+    He was back to his stuck-up tone, rolling his eyes. A thought crossed my mind. Maybe I should give him the bat. 
     
     Fillre Text
     * Give 
@@ -986,12 +989,13 @@ EXTERNAL ChangeMood(characterName, mood)
     * Keep 
         -> keepBat
 ==shottingGallery==
+    {DropChange(10)}
     {ChangeMood("Elias", "NatDark")}
-    My attention was drawn to a reskinned shooting gallery, but rather than fake guns they looked like crossbows. 
+    My attention was drawn to a reskinned shooting gallery, but rather than fake guns, they looked like crossbows. 
 
     Filler Text 
 
-    Rory: “You know, I’m really good at these games.” 
+    Rory: “You know, I’m good at these games.” 
 
     Filler Text 
     {ChangeMood("Elias", "Nat")}
@@ -999,7 +1003,7 @@ EXTERNAL ChangeMood(characterName, mood)
 
     Filler Text 
     {ChangeMood("Elias", "NatDark")}
-    Rory: “yeah.” 
+    Rory: “Yeah.” 
 
     Filler Text 
 
@@ -1035,7 +1039,7 @@ EXTERNAL ChangeMood(characterName, mood)
 
     Filler Text 
     {HideCharacter("Elias")}
-    He stepped to the side as I held up the cross boy and ook in a long breath. 
+    He stepped to the side as I held up the cross boy and took in a long breath. 
 
     Filler Text 
 
@@ -1051,7 +1055,7 @@ EXTERNAL ChangeMood(characterName, mood)
 
     Filler Text 
 
-    He was back to his stuck up tone, rolling his eyes. A thought crossed my mind. Maybe I should give him the bear. 
+    He was back to his stuck-up tone, rolling his eyes. A thought crossed my mind. Maybe I should give him the bear. 
     
     Filler Text
     * Give 
@@ -1059,6 +1063,7 @@ EXTERNAL ChangeMood(characterName, mood)
     * Keep
         -> keepBear
 ==horseRace==
+      {DropChange(8)}
     I approached the horse race game, smiling to myself as I took in the theming. Rather than the horses painted like the horse racing sports, it alternated between knights and rogues. 
 
     Filler Text
@@ -1087,7 +1092,7 @@ EXTERNAL ChangeMood(characterName, mood)
     
     Filler Text 
     {ChangeMood("Elias", "Nat")}
-    Elias: “Sometimes people had weird skills.” 
+    Elias: “Sometimes people have weird skills.” 
 
     Filler text 
     {ChangeMood("Elias", "NatDark")}
@@ -1108,7 +1113,7 @@ EXTERNAL ChangeMood(characterName, mood)
     Filler Text
     -> ExCh1Loop
 ==giveBat==
-    Rory: “catch” 
+    Rory: “Catch” 
 
     Filler Text 
 
@@ -1129,7 +1134,7 @@ EXTERNAL ChangeMood(characterName, mood)
     Filler Text
     -> ExCh1Loop
 ==keepBat==
-    On second thought, it was cute, and surprisingly soft for some cheap toy. 
+    On second thought, it was cute and surprisingly soft for some cheap toy. 
    
    Filler Text
     -> ExCh1Loop
@@ -1154,7 +1159,7 @@ EXTERNAL ChangeMood(characterName, mood)
 
     Filler Text 
     {ChangeMood("Elias", "NatDark")}
-    Rory: “wouldn’t ask you to.” 
+    Rory: “Wouldn’t ask you to.” 
     
     Filler Text 
     -> ExCh1Loop    
@@ -1165,7 +1170,7 @@ EXTERNAL ChangeMood(characterName, mood)
 
 
 ==murderCh1==
-    NOTHING HERe YET! 
+    
     {
         - not DRDoor && not RCAttenent && not RideCoaster:
             -> EndFullIgnets
@@ -1177,12 +1182,12 @@ EXTERNAL ChangeMood(characterName, mood)
             -> EndMad
     }
     
-    -> END
+    
 
 
 ==EndFullIgnets==
     Filler Text
-    Full Ingnorance 
+    Full Ignorance 
     -> END
 ==EndInvsiv==
     Filler Text

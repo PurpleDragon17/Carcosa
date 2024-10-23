@@ -23,8 +23,8 @@ public class StryImplmnt : MonoBehaviour
     public GameObject Chose4Button;
     public GameObject Chose5Button;
     public TMP_Text C4Text;
-    public TMP_Text C5Text; 
-
+    public TMP_Text C5Text;
+    public DropChance dropChance; 
 
     void Start()
     {
@@ -32,9 +32,11 @@ public class StryImplmnt : MonoBehaviour
         story = new Story(inkJSONAsset.text);
  
             _characterManager = FindObjectOfType<CharacterManager>();
+        dropChance = FindObjectOfType<DropChance>();
         StartStory();
         stDs.text = LoadNextNM().ToString();
         Debug.Log(stDs.text);
+
     }
 
     string LoadNextNM()
@@ -223,9 +225,10 @@ public class StryImplmnt : MonoBehaviour
             => _characterManager.HideCharacter(name));
         story.BindExternalFunction("ChangeMood",
             (string name, string mood) => _characterManager.ChangeMood(name, mood));
+        story.BindExternalFunction("DropChange", (int spot) => dropChance.DropChange(spot));
     }
 
-    
+   
     
 
     public void Update()
