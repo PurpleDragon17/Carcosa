@@ -15,7 +15,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
 
-    But when I received a letter addressed to Roasiland Carter rather than Rory, I knew this was important. 
+    But when I received a letter addressed to Roaslind Carter rather than Rory, I knew this was important. 
     
     Filler Text 
 
@@ -40,7 +40,7 @@ EXTERNAL DropChange (spot)
 
     {HideCharacter("Blank")}
     {DropChange(7)}
-    The Hollow Castle had quite the history, once being an old dark ride, then a set piece for a roller coaster, then the cue building for another ride, and now just a walk-through attraction that should have told the story of the Amber Crowned King. 
+    The Hollow Castle had quite the history, once being an old dark ride, then a set piece for a roller coaster, then the que building for another ride, and now just a walk-through attraction that should have told the story of the Amber Crowned King. 
 
     Filler Text 
     {DropChange(6)}
@@ -143,7 +143,7 @@ EXTERNAL DropChange (spot)
     * Roller Coaster
         -> rollerCoaster
             
-    * Mindway 
+    * Midway 
         {ShowCharacter("Elias", "Center", "NatDark")}
         {ChangeMood("Elias", "NatDark")}
         -> mindway
@@ -177,7 +177,7 @@ EXTERNAL DropChange (spot)
 
 	Filler Text 
     {ChangeMood("Jon", "NatDark")}
-	Rory: “Wasn’t always like this. It was still a ride cue when I was here last.” 
+	Rory: “Wasn’t always like this. It was still a ride que when I was here last.” 
 
 
 	Filler Text 
@@ -312,7 +312,7 @@ EXTERNAL DropChange (spot)
 
 	Filler Text 
     {ChangeMood("Hendrix", "NatDark")}
-	Hendrix turned her attention to  Bonnie who had started talking about other dark ride accidents. 
+	Hendrix turned her attention to Bonnie who had started talking about other dark ride accidents. 
 
 	{HideCharacter("Warren")}
 	{HideCharacter("Hendrix")}
@@ -393,7 +393,7 @@ EXTERNAL DropChange (spot)
 
 	Filler Text 
     {ChangeMood("Kate", "Nat")}
-	Kate: “Hey there interweb, You’ll know me I’m Kate, and you should recognize my collaborator, the Hollywood superstar Aubri Hunt,” 
+	Kate: “Hey there interweb, Ya'll know me as Kate, and you should recognize my collaborator, the Hollywood superstar Aubri Hunt,” 
 
 	Filler Text 
     {ChangeMood("Kate", "NatDark")}
@@ -459,11 +459,11 @@ EXTERNAL DropChange (spot)
 
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-    Rory: “At least walk through the cue with me? I promise it'll be worth it.” 
+    Rory: “At least walk through the que with me? I promise it'll be worth it.” 
 
     Filler Text
 
-    The cue was designed like an old study, with the line snaking past tall bookshelves.  
+    The que was designed like an old study, with the line snaking past tall bookshelves.  
 
     Filler Text
 
@@ -475,7 +475,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-    Rory: “That’s not the important part. Here, read the sigh.” 
+    Rory: “That’s not the important part. Here, read the sign.” 
    
     Filler Text
     {ChangeMood("Elias", "Nat")}
@@ -544,7 +544,7 @@ EXTERNAL DropChange (spot)
 
         Filler Text
 
-        I raced to the end of the cue, Elias’s footsteps chasing after me. 
+        I raced to the end of the que, Elias’s footsteps chasing after me. 
 
         Filler Text
 
@@ -552,7 +552,7 @@ EXTERNAL DropChange (spot)
 
         Filler Text
 
-        As I started to approach I felt a hand on my arm, Elias spoke in my ear. 
+        As I started to approach, I felt a hand on my arm. Elias spoke in my ear. 
 
         Filler Text
         {ChangeMood("Elias", "Nat")}
@@ -612,7 +612,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
     {ChangeMood("Elias", "NatDark")}
-    I didn’t have an answer for that, so I just forced all the empty game stalls. It wouldn’t be hard to turn on one of them, would it? 
+    I didn’t have an answer for that, so I just focused on all the empty game stalls. It wouldn’t be hard to turn on one of them, would it? 
 
     Filler Text 
     * Water Gun 
@@ -641,7 +641,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-    Rory: “Yeah, the dumpster isn't too far and they love to congrats around there.” 
+    Rory: “Yeah, the dumpster isn't too far and they love to congregate around there.” 
 
     Filler Text
     {ChangeMood("Elias", "Nat")}
@@ -721,7 +721,7 @@ EXTERNAL DropChange (spot)
     Filler Text
      -> DarkRideInvest
 ==DRDoor==
-    The doors shouldn’t have been opened, after all, it should be a trigger with the carts crossing a part of the track. I took a few uneasy steps closer, the parting bits of stone decorated with bright yellow chalk. Maybe this ride was also hit with some graffiti. 
+    The doors shouldn’t have been opened. After all, it should be a trigger with the carts crossing a part of the track. I took a few uneasy steps closer, the parting bits of stone decorated with bright yellow chalk. Maybe this ride was also hit with some graffiti. 
     Filler Text
      -> DarkRideInvest
 ==DRCry==
@@ -802,7 +802,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text
 
-    However, it was as I looked down I realized something was wrong. Their legs were fused into the control panel. Skin melted and fuzed with wires that snaked up and plunged through their legs like valiant roots in search of food. 
+    However, it was as I looked down that I realized something was wrong. Their legs were fused into the control panel. Skin melted and fused with wires that snaked up and plunged through their legs like valiant roots in search of food. 
 
     Filler Text
     -> RCInvest
@@ -811,7 +811,7 @@ EXTERNAL DropChange (spot)
     Filler Text
     -> RCInvest
 ==RCCandles==
-    The LED candles seemed to flickr here more than I remembered. They looked like real candles, even having small plumes of smoke. 
+    The LED candles seemed to flicker here more than I remembered. They looked like real candles, even having small plumes of smoke. 
     Filler Text
     -> RCInvest
 ==RCTapRec==
@@ -825,7 +825,7 @@ EXTERNAL DropChange (spot)
     Filler Text
     Attendant: “Take your seats, the ride will soon depart.” 
     Filler Text
-    I snatched the bag and returned to the shadows, fully the eyes of the attendant not following. 
+    I snatched the bag and returned to the shadows, thankfully the eyes of the attendant not following. 
     Filler Text
     -> RCInvest
 ==CoasterSplit== 
@@ -857,7 +857,7 @@ EXTERNAL DropChange (spot)
     {HideCharacter("Elias")}
     Filler Text
 
-    A laugh played the speaker, the laugh of a Jester. 
+    A laugh played over the speaker, the laugh of a Jester. 
 
     Filler Text
     
@@ -881,7 +881,7 @@ EXTERNAL DropChange (spot)
     
     Filler Text 
 
-    With the glow of her eyes the only light I thought I saw her fingers twitch. 
+    With the glow of her eyes the only light, I thought I saw her fingers twitch. 
 
     Filler Text 
 
@@ -889,7 +889,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
 
-    I turned around and found the back half of the train stuck on the other side of the track, Irius’s head had turned to face with her amber eyes. 
+    I turned around and found the back half of the train stuck on the other side of the track, Irius’s head had turned to face me with her amber eyes. 
 
     Filler Text 
 
@@ -897,7 +897,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
 
-    I kept pulling, squirming as it seemed to only get tight around me. 
+    I kept pulling, squirming as it seemed to only get tighter around me. 
 
     Filler Text 
 
@@ -1039,7 +1039,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
     {HideCharacter("Elias")}
-    He stepped to the side as I held up the cross boy and took in a long breath. 
+    He stepped to the side as I held up the crossbow and took in a long breath. 
 
     Filler Text 
 
@@ -1096,7 +1096,7 @@ EXTERNAL DropChange (spot)
 
     Filler text 
     {ChangeMood("Elias", "NatDark")}
-    He picked up a brown wolf push and tossed it to me. 
+    He picked up a brown wolf plush and tossed it to me. 
 
     Filler Text 
 
@@ -1125,7 +1125,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
     {ChangeMood("Elias", "NatDark")}
-    Rory: “Though you might like it.” 
+    Rory: “Thought you might like it.” 
 
     Filler Text 
     {ChangeMood("Elias", "Nat")}
@@ -1143,7 +1143,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
     {ChangeMood("Elias", "Nat")}
-    Elias: “I:m not carrying around your damn teddy bear.” 
+    Elias: “I'm not carrying around your damn teddy bear.” 
 
     Filler Text 
     {ChangeMood("Elias", "NatDark")}
