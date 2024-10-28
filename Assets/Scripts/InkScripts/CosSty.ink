@@ -2,8 +2,19 @@
 EXTERNAL HideCharacter (characterName)
 EXTERNAL ChangeMood(characterName, mood)
 EXTERNAL DropChange (spot)
--> Opening
+-> Sym
 
+
+==Sym== 
+    * New Game 
+        -> Opening
+    * Chapter Select 
+        ** Meet People
+            -> WhoTalk
+        ** Explore 
+            -> ExCh1Loop
+        ** Murder
+            -> murderCh1
 ==Opening== 
     {DropChange(0)}
     {ShowCharacter("Rory", "Center", "Nat")}
