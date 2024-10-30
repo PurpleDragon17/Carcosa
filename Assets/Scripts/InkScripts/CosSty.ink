@@ -78,7 +78,6 @@ EXTERNAL DropChange (spot)
 
 == ExplorationChapter1== 
 
-    Filler Text
 
     The lights overhead flickered, and the dull hum of the music that I had hardly noticed before was gone. 
     Filler Text 
@@ -236,7 +235,7 @@ EXTERNAL DropChange (spot)
     {ChangeMood("Jon", "Nat")}
 	Jon: “Sorry”
 
-
+    Filler Text
 	{HideCharacter("Sage")}
 	{HideCharacter("Jess")}
 	{HideCharacter("Jon")}
@@ -328,6 +327,7 @@ EXTERNAL DropChange (spot)
 	{HideCharacter("Warren")}
 	{HideCharacter("Hendrix")}
 	{HideCharacter("Bonnie")}
+    Filler Text
     -> WhoTalk
 ==readingMan==
     {ShowCharacter("Elias", "Center", "Nat")}
@@ -363,6 +363,7 @@ EXTERNAL DropChange (spot)
 	{HideCharacter("Elias")}
 
 	Some people are just not meant for social interactions. 
+    Filler text
     -> WhoTalk
 ==girlWcamera==
    A girl with a camera was directing a few other people. I found myself squinting as I tried to recall where, if anywhere, I knew her. 
@@ -435,6 +436,7 @@ EXTERNAL DropChange (spot)
 	{HideCharacter("Kate")}
 	{HideCharacter("Aubri")}
 	{HideCharacter("Zelda")}
+    Filler Text
     -> WhoTalk
 ==darRide==
         -> DarkRideExplore
@@ -802,8 +804,6 @@ EXTERNAL DropChange (spot)
         -> CoasterSplit
 
 ==RCAttenent== 
-
-    Filler Text 
 
     The attendant was dressed in the classic uniform, a dull yellow shirt with a black turtleneck underneath it. 
    
