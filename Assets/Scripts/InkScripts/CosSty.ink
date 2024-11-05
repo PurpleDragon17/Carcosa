@@ -26,7 +26,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
 
-    But when I received a letter addressed to Roaslind Carter rather than Rory, I knew this was important. 
+    But when I received a letter addressed to Roaslind Conner rather than Rory, I knew this was important. 
     
     Filler Text 
 
@@ -41,7 +41,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
 
-    Rory: “I know, weird right?” 
+     “I know, weird right?” 
 
     Filler Text 
 
@@ -51,7 +51,7 @@ EXTERNAL DropChange (spot)
 
     {HideCharacter("Blank")}
     {DropChange(7)}
-    The Hollow Castle had quite the history, once being an old dark ride, then a set piece for a roller coaster, then the que building for another ride, and now just a walk-through attraction that should have told the story of the Amber Crowned King. 
+    The Hollow Castle had quite the history, once being an old dark ride, then a set piece for a roller coaster, then the queue building for another ride, and now just a walk-through attraction that should have told the story of the Amber Crowned King. 
 
     Filler Text 
     {DropChange(6)}
@@ -128,7 +128,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text
 
-    Rory: “Going to keep reading?” 
+     “Going to keep reading?” 
 
     Filler Text
 
@@ -136,7 +136,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text
 
-    Rory: “If you’re so insistent.” 
+     “If you’re so insistent.” 
 
     Filler Text
     ->  ExCh1Loop
@@ -187,7 +187,7 @@ EXTERNAL DropChange (spot)
 
 	Filler Text 
     {ChangeMood("Jon", "NatDark")}
-	Rory: “Wasn’t always like this. It was still a ride que when I was here last.” 
+	 “Wasn’t always like this. It was still a ride queue when I was here last.” 
 
 
 	Filler Text 
@@ -203,7 +203,7 @@ EXTERNAL DropChange (spot)
 
 	Filler Text 
     {ChangeMood("Sage", "NatDark")}
-	Rory: “I did. I’m Rory by the way.” 
+	 “I did. I’m Rory by the way.” 
 
 
 	Filler Text 
@@ -251,7 +251,7 @@ EXTERNAL DropChange (spot)
 
 	Filler Text 
     {ChangeMood("Warren", "NatDark")}
-	Rory: “I mean guess-” 
+	 “I mean guess-” 
 
 	Filler Text 
     {ChangeMood("Warren", "Nat")}
@@ -265,7 +265,7 @@ EXTERNAL DropChange (spot)
 
 	Filler Text 
     {ChangeMood("Hendrix", "NatDark")}
-	Rory: “I realized that.” 
+	 “I realized that.” 
 
 	Filler Text 
 
@@ -275,7 +275,7 @@ EXTERNAL DropChange (spot)
 
 	Filler Text 
     {ChangeMood("Bonnie", "NatDark")}
-	Rory: “It was an old wooden thing, half broken. They wanted to redo the whole track in steel but the park didn’t have the money.” 
+	 “It was an old wooden thing, half broken. They wanted to redo the whole track in steel but the park didn’t have the money.” 
 
 	Filler Text 
     {ChangeMood("Bonnie", "Nat")}
@@ -288,7 +288,7 @@ EXTERNAL DropChange (spot)
 
 	Filler Text 
     {ChangeMood("Hendrix", "NatDark")}
-	Rory: “If you want to talk about deaths at this park, you should see The Moat Boat.” 
+	 “If you want to talk about deaths at this park, you should see The Moat Boat.” 
 
 	Filler Text 
     {ChangeMood("Hendrix", "Nat")}
@@ -296,7 +296,7 @@ EXTERNAL DropChange (spot)
 
 	Filler Text 
     {ChangeMood("Hendrix", "NatDark")}
-	Rory: “Hey, journalists gotta make money somehow.” 
+	 “Hey, journalists gotta make money somehow.” 
 
 	Filler Text 
     {ChangeMood("Bonnie", "Nat")}
@@ -304,7 +304,7 @@ EXTERNAL DropChange (spot)
 
 	Filler Text 
     {ChangeMood("Bonnie", "NatDark")}
-	Rory: “Rory Conner, I did a lot for game journals.” 
+	 “Rory Conner, I did a lot for game journals.” 
 
 	Filler Text 
     {ChangeMood("Bonnie", "Nat")}
@@ -336,7 +336,7 @@ EXTERNAL DropChange (spot)
     {ChangeMood("Elias", "NatDark")}
 	Filler Text 
 
-	Rory: “I think your coat’s got something on it.” 
+	 “I think your coat’s got something on it.” 
 
 	Filler Text 
     {ChangeMood("Elias", "Nat")}
@@ -344,7 +344,7 @@ EXTERNAL DropChange (spot)
 
 	Filler Text 
      {ChangeMood("Elias", "NatDark")}
-	Rory: “You here for the Halloween event?” 
+	 “You here for the Halloween event?” 
 
 	Filler Text 
      {ChangeMood("Elias", "Nat")}
@@ -352,7 +352,7 @@ EXTERNAL DropChange (spot)
 
 	Filler Text 
      {ChangeMood("Elias", "NatDark")}
-	Rory: “Name’s Rory.” 
+	 “Name’s Rory.” 
 
 	Filler Text 
      {ChangeMood("Elias", "Nat")}
@@ -393,7 +393,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
     {ChangeMood("Kate", "NatDark")}
-	Rory: “I can do it.” 
+	 “I can do it.” 
 
 	Filler Text 
     {ChangeMood("Kate", "Nat")}
@@ -456,7 +456,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-    Rory: “Only the most extreme coaster at the park. The queuing area's pretty cool too.” 
+     “Only the most extreme coaster at the park. The queuing area's pretty cool too.” 
 
     Filler Text
     {ChangeMood("Elias", "Nat")}
@@ -464,7 +464,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-    Rory: “Not a coaster person?”
+     “Not a coaster person?”
 
     Filler Text
     {ChangeMood("Elias", "Nat")}
@@ -472,11 +472,11 @@ EXTERNAL DropChange (spot)
 
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-    Rory: “At least walk through the que with me? I promise it'll be worth it.” 
+     “At least walk through the queue with me? I promise it'll be worth it.” 
 
     Filler Text
 
-    The que was designed like an old study, with the line snaking past tall bookshelves.  
+    The queue was designed like an old study, with the line snaking past tall bookshelves.  
 
     Filler Text
 
@@ -488,7 +488,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-    Rory: “That’s not the important part. Here, read the sign.” 
+     “That’s not the important part. Here, read the sign.” 
    
     Filler Text
     {ChangeMood("Elias", "Nat")}
@@ -496,7 +496,7 @@ EXTERNAL DropChange (spot)
     
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-    Rory: “Come on, the next one’s up here.” 
+     “Come on, the next one’s up here.” 
 
     Filler Text
     {ChangeMood("Elias", "Nat")}
@@ -512,7 +512,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-    Rory: “The story of the ride? This is a theme park after all.” 
+     “The story of the ride? This is a theme park after all.” 
 
     Filler Text
     {ChangeMood("Elias", "Nat")}
@@ -520,7 +520,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-    Rory: “Why are you even here?” 
+     “Why are you even here?” 
 
     Filler Text
     {ChangeMood("Elias", "Nat")}
@@ -528,7 +528,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-    Rory: “I would tell you if you did.” 
+     “I would tell you if you did.” 
 
     Filler Text
     {ChangeMood("Elias", "Nat")}
@@ -536,7 +536,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-    Rory: “Fine, the speaker here decided that despite the warning from the sailor he would go to the island and when he gets there his mind is nearly torn apart by the malevolent spirit he calls the jester until a goddess that’s not named spares him but claims his eyes as a price.” 
+     “Fine, the speaker here decided that despite the warning from the sailor he would go to the island and when he gets there his mind is nearly torn apart by the malevolent spirit he calls the jester until a goddess that’s not named spares him but claims his eyes as a price.” 
 
     Filler Text
     {ChangeMood("Elias", "Nat")}
@@ -544,7 +544,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-    Rory: “The goddess. Locals call her Irina.” 
+     “The goddess. Locals call her Irina.” 
 
     Filler Text
     {ChangeMood("Elias", "Nat")}
@@ -553,7 +553,7 @@ EXTERNAL DropChange (spot)
     Filler Text
     * No 
         {ChangeMood("Elias", "NatDark")}
-        Rory: “Come on, scaredy cat. You don’t have to go on the ride if you don’t want to.” 
+         “Come on, scaredy cat. You don’t have to go on the ride if you don’t want to.” 
 
         Filler Text
 
@@ -593,7 +593,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
     {ChangeMood("Elias", "NatDark")}
-    Rory: “Don’t like plushies?” 
+     “Don’t like plushies?” 
 
     Filler Text 
     {ChangeMood("Elias", "Nat")}
@@ -601,7 +601,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
     {ChangeMood("Elias", "NatDark")}
-    Rory: “So you’re clearly single.” 
+     “So you’re clearly single.” 
 
     Filler Text 
     {ChangeMood("Elias", "Nat")}
@@ -609,7 +609,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
     {ChangeMood("Elias", "NatDark")}
-    Rory: “There’s got to be at least one that’s open.” 
+     “There’s got to be at least one that’s open.” 
 
     Filler Text 
     {ChangeMood("Elias", "Nat")}
@@ -617,7 +617,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
     {ChangeMood("Elias", "NatDark")}
-    Rory: “I could have said no to traveling with you.” 
+     “I could have said no to traveling with you.” 
 
     Filler Text 
     {ChangeMood("Elias", "Nat")}
@@ -638,7 +638,7 @@ EXTERNAL DropChange (spot)
 ==DarkRideExplore==
     {DropChange(5)}
     {ChangeMood("Elias", "NatDark")}
-    Rory: “Look, you can stay up there if you want.” 
+     “Look, you can stay up there if you want.” 
 
     Filler Text
     {ChangeMood("Elias", "Nat")}
@@ -646,7 +646,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-    Rory: “But then you’re going to have to deal with the raccoons all by yourself.” 
+     “But then you’re going to have to deal with the raccoons all by yourself.” 
 
     Filler Text
     {ChangeMood("Elias", "Nat")}
@@ -654,7 +654,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-    Rory: “Yeah, the dumpster isn't too far and they love to congregate around there.” 
+     “Yeah, the dumpster isn't too far and they love to congregate around there.” 
 
     Filler Text
     {ChangeMood("Elias", "Nat")}
@@ -674,7 +674,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-    Rory: “No. Maybe they’re on a motion timer?” 
+     “No. Maybe they’re on a motion timer?” 
 
     Filler Text
     {ChangeMood("Elias", "Nat")}
@@ -682,7 +682,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-    Rory: “What? You’d rather walk through it?” 
+     “What? You’d rather walk through it?” 
 
     Filler Text
     {ChangeMood("Elias", "Nat")}
@@ -727,7 +727,7 @@ EXTERNAL DropChange (spot)
 ==DRMap== 
     The map was positioned away from the passing carts, and it was starting to eat at me what it said. 
     Filler Text
-    Rory: “Bravery fails and greed succumbs.” 
+     “Bravery fails and greed succumbs.” 
     Filler Text
     {ShowCharacter("Elias", "Center", "NatDark")}
     Elias looked a bit dazed as if trying to recall something he had heard before. 
@@ -783,7 +783,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-    Rory: “Faulty fire alarm?” 
+     “Faulty fire alarm?” 
 
     Filler Text
     -> DarkRideInvest
@@ -940,7 +940,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
     {ChangeMood("Elias", "NatDark")}
-    Rory: “You know how to turn it on?” 
+     “You know how to turn it on?” 
 
     Filler Text 
     {ChangeMood("Elias", "Nat")}
@@ -984,7 +984,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
 
-    Rory: “Thanks.” 
+     “Thanks.” 
 
     Filler Text 
     {ChangeMood("Elias", "Nat")}
@@ -1006,7 +1006,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
 
-    Rory: “You know, I’m good at these games.” 
+     “You know, I’m good at these games.” 
 
     Filler Text 
     {ChangeMood("Elias", "Nat")}
@@ -1014,7 +1014,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
     {ChangeMood("Elias", "NatDark")}
-    Rory: “Yeah.” 
+     “Yeah.” 
 
     Filler Text 
 
@@ -1026,7 +1026,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
     {ChangeMood("Elias", "NatDark")}
-    Rory: "You know how to run it? 
+     "You know how to run it? 
 
     Filler Text 
     {ChangeMood("Elias", "Nat")}
@@ -1099,7 +1099,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
     {ChangeMood("Elias", "NatDark")}
-    Rory: “You’re the one who called them kiddy games.” 
+     “You’re the one who called them kiddy games.” 
     
     Filler Text 
     {ChangeMood("Elias", "Nat")}
@@ -1111,7 +1111,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
 
-    Rory: “You won, shouldn’t you keep it?” 
+     “You won, shouldn’t you keep it?” 
 
     Filler Text 
     {ChangeMood("Elias", "Nat")}
@@ -1124,7 +1124,7 @@ EXTERNAL DropChange (spot)
     Filler Text
     -> ExCh1Loop
 ==giveBat==
-    Rory: “Catch” 
+     “Catch” 
 
     Filler Text 
 
@@ -1136,7 +1136,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
     {ChangeMood("Elias", "NatDark")}
-    Rory: “Thought you might like it.” 
+     “Thought you might like it.” 
 
     Filler Text 
     {ChangeMood("Elias", "Nat")}
@@ -1150,7 +1150,7 @@ EXTERNAL DropChange (spot)
    Filler Text
     -> ExCh1Loop
 ==giveBear==
-    Rory: “Hey, this is a bit big for me to hold.” 
+     “Hey, this is a bit big for me to hold.” 
 
     Filler Text 
     {ChangeMood("Elias", "Nat")}
@@ -1158,7 +1158,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
     {ChangeMood("Elias", "NatDark")}
-    Rory: “What if it was your damn teddy bear?” 
+     “What if it was your damn teddy bear?” 
 
     Filler Text 
 
@@ -1170,7 +1170,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
     {ChangeMood("Elias", "NatDark")}
-    Rory: “Wouldn’t ask you to.” 
+     “Wouldn’t ask you to.” 
     
     Filler Text 
     -> ExCh1Loop    
