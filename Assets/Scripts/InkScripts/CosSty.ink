@@ -6,9 +6,11 @@ EXTERNAL DropChange (spot)
 
 
 ==Sym== 
+    Chose Where to Begain
     * New Game 
         -> Opening
     * Chapter Select 
+        Select Chapter 
         ** Meet People
             -> WhoTalk
         ** Explore 
@@ -16,7 +18,7 @@ EXTERNAL DropChange (spot)
         ** Murder
             -> murderCh1
 ==Opening== 
-    {DropChange(0)}
+    {DropChange(12)}
     {ShowCharacter("Rory", "Center", "Nat")}
     It’s been a long time since I’ve been to Caracosa Amusement Park. 
 
@@ -158,8 +160,7 @@ EXTERNAL DropChange (spot)
         {ChangeMood("Elias", "NatDark")}
         -> mindway
             
-    * 
-        -> murderCh1
+    *   -> murderCh1
 
 
 ==artist== 
@@ -504,6 +505,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text
     {ChangeMood("Elias", "NatDark")}
+     {ShowCharacter("King", "Right", "Nat")}
     King: “Any sane man would wish to forget what I had seen.” 
 
     Filler Text
@@ -715,8 +717,7 @@ EXTERNAL DropChange (spot)
     * {(not DRAnima)&&(not DRMap)&&(not DRCry)&&(not DRKey)&&(not DRFireA)|| (not DRAnima)||(not DRMap)||(not DRCry)||(not DRKey)||(not DRFireA)} [Doors]
         -> DRDoor
     
-    *   
-        -> ExCh1Loop
+    *   -> ExCh1Loop
 
    
 
@@ -734,6 +735,7 @@ EXTERNAL DropChange (spot)
     Filler Text
      -> DarkRideInvest
 ==DRDoor==
+    Filler text
     The doors shouldn’t have been opened. After all, it should be a trigger with the carts crossing a part of the track. I took a few uneasy steps closer, the parting bits of stone decorated with bright yellow chalk. Maybe this ride was also hit with some graffiti. 
     Filler Text
      -> DarkRideInvest
@@ -752,7 +754,7 @@ EXTERNAL DropChange (spot)
     {ChangeMood("Elias", "NatDark")}
     He held the crystal to his eye, squinting at the light that seemed to glow brighter before slipping it into his pocket. 
 
-    Filler 
+    Filler Text
     {ChangeMood("Elias", "Nat")}
     Elias: “I can trust you to keep a secret, yes?” 
 
@@ -764,6 +766,7 @@ EXTERNAL DropChange (spot)
     -> DarkRideInvest
 ==DRKey== 
     Near the foot of the animatronic colloquial known as the captain was a key. I picked it up almost without thinking. It wasn’t attached to anything and I slipped it into my camera bag hopefully before Elias had taken notice.
+   
     Filler Text
     -> DarkRideInvest
 ==DRFireA== 
@@ -804,7 +807,7 @@ EXTERNAL DropChange (spot)
         -> CoasterSplit
 
 ==RCAttenent== 
-
+Filler text
     The attendant was dressed in the classic uniform, a dull yellow shirt with a black turtleneck underneath it. 
    
     Filler Text
@@ -847,7 +850,7 @@ EXTERNAL DropChange (spot)
     Attendant: “Please take your seats. We don’t have much time. The goddess demands payment. Your blood will do nicely.”
 
     Filler Text
-    {ChangeMood("Blabk", "NatDark")}
+    {ChangeMood("Blank", "NatDark")}
     {ShowCharacter("Elias", "Left", "NatDark")}
     I turned to Elias. He shook his head. Who should I trust? 
 
@@ -871,7 +874,7 @@ EXTERNAL DropChange (spot)
     A laugh played over the speaker, the laugh of a Jester. 
 
     Filler Text
-    
+     {ShowCharacter("Jester")", "Right", "Nat")}
     Jester: “I would tell you to hold on tight, but you’ve never been good at following directions.” 
 
     Filler Text
@@ -1197,11 +1200,11 @@ EXTERNAL DropChange (spot)
 
 
 ==EndFullIgnets==
-    Filler Text
+
     Full Ignorance 
     -> END
 ==EndInvsiv==
-    Filler Text
+
     Detective 
     -> END
 

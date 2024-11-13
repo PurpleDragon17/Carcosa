@@ -25,6 +25,8 @@ public class CharacterManager : MonoBehaviour
     [SerializeField] private CharacterMoods warrenMoods;
     [SerializeField] private CharacterMoods aubriMoods;
     [SerializeField] private CharacterMoods zeldaMoods;
+    [SerializeField] private CharacterMoods kingMoods;
+    [SerializeField] private CharacterMoods jesterMoods; 
 
     private static List<CharacterData> loadedCharacters; 
     
