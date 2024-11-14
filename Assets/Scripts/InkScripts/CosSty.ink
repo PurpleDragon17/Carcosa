@@ -445,6 +445,10 @@ EXTERNAL DropChange (spot)
 ==rollerCoaster== 
      {DropChange(4)}
     {ChangeMood("Elias", "NatDark")}
+    We walked along the paved raod twords the Invesgitation secotion of the park. 
+
+    Filler Text 
+
     The Mindbender held the record for the most inversion on a coaster until the Smiler appeared at Alton Towers. 
     
     Filler Text
@@ -640,6 +644,19 @@ EXTERNAL DropChange (spot)
 ==DarkRideExplore==
     {DropChange(5)}
     {ChangeMood("Elias", "NatDark")}
+
+    Elias and I walked along the dirt paths the lead to the Exploration section of the park. 
+
+    Filler Text 
+
+    I satrted maing my way into the queueing area, following the slopping path. 
+
+    Filler Text 
+
+    I turned around, finding that Elias wasn't following. 
+
+    Filler Text 
+
      “Look, you can stay up there if you want.” 
 
     Filler Text
@@ -722,11 +739,16 @@ EXTERNAL DropChange (spot)
    
 
 ==DRAnima== 
+    Walking passed the animatric it sprang to life 
+    Filler Text
     Captain: “It has to be around here somewhere.” 
     Filler Text
    -> DarkRideInvest
 ==DRMap== 
+
     The map was positioned away from the passing carts, and it was starting to eat at me what it said. 
+    Filler Text 
+    So I made my way around teh scene so I could read it.
     Filler Text
      “Bravery fails and greed succumbs.” 
     Filler Text
@@ -735,7 +757,6 @@ EXTERNAL DropChange (spot)
     Filler Text
      -> DarkRideInvest
 ==DRDoor==
-    Filler text
     The doors shouldn’t have been opened. After all, it should be a trigger with the carts crossing a part of the track. I took a few uneasy steps closer, the parting bits of stone decorated with bright yellow chalk. Maybe this ride was also hit with some graffiti. 
     Filler Text
      -> DarkRideInvest
@@ -807,7 +828,7 @@ EXTERNAL DropChange (spot)
         -> CoasterSplit
 
 ==RCAttenent== 
-Filler text
+    Filler text
     The attendant was dressed in the classic uniform, a dull yellow shirt with a black turtleneck underneath it. 
    
     Filler Text
@@ -1184,30 +1205,648 @@ Filler text
 
 
 ==murderCh1==
+    The speakers crackled to life again, this time a voice coming through. It sounded like some of the voice acting used for the rides, but something was still off about it. 
+
+    Filler Text 
+
+    Jester: “Why don’t you all gather at the ferrous wheel? It seems the night can truly begin.” 
+
+    Filler Text 
     
-    {
-        - not DRDoor && not RCAttenent && not RideCoaster:
-            -> EndFullIgnets
-        - not DRDoor && not RCAttenent && RideCoaster:
-            -> EndInvsiv
-        - DRDoor || RCAttenent:
-            -> EndInvsiv
-        - DRDoor && RCAttenent
-            -> EndMad
-    }
+    The voice let out a laugh like a hyena High pitched and taunting, a sound that made my blood run cold. The look on Elias’s face told me he was feeling the same. 
     
+    Filler Text 
+    
+    I led him towards the ferris wheel at the center of the park, finding the others had already gathered. 
+    
+    Filler Text 
+    
+    Hendrix: “Stay back everyone! I can’t have you interfering with the crime scene.” 
+    
+    Filler Text 
+    
+    Jess: “Crime scene? She fell.” 
+    
+    Filler Text 
+    
+    Kate: “You weren’t there! She didn’t fall! Something pushed her!” 
+    
+    Filler Text 
+    
+    *Something? 
+        Kate: “I mean, it looked like something. Unless  wires can come to life. But I guess either way it would be something. 
+        
+        Filler Text 
+        
+        **I see
+            “I see. Can you describe what it looked like?” 
+
+            Filler Text 
+        
+            Kate shook her head. 
+            
+            Filler Text 
+        
+            Kate: “I’m sorry. It was just…big. And it reached into the cart and threw her out.” 
+            
+            Filler Text 
+        
+        ** Not possible
+	
+        “That’s not possible Kate. Maybe you should sit down.” 
+        
+        Filler Text 
+    
+        Kate: “I know what I saw! It was too big to be a person! People don’t have tentacles!” 
+        
+        Filler Text 
+    
+    *Someone? 
+        Kate: “If it was someone I would have said someone. I’m not stupid.” 
+    
+        Filler Text 
+    
+    -Hendrix: “Seems someone wants to make statements. Fancy yourself an amateur detective?” 
+    
+    Filler Text 
+    
+    *Happing 
+
+        “I just want to know what’s going on. After all, we were all called here together.” 
+            
+        Filler Text 
+    
+    *Matter
+
+        “What’s it matter to you? Incapable of acting like a normal person?” 
+
+        Filler Text 
+    
+    -Hendrix: “Well I’m the detective. I will look over the scene first, don’t touch anything. Jess, Stand guard.” 
+        
+    Filler Text 
+    
+    Jess: “yes ma’am.” 
+        
+    Filler Text 
+    
+    I looked between the other nine people who were gathered here, then to the scene as Hendrix poked around. I needed to do something 
+        
+    Filler Text 
+    
+    ->PeopleOrCrime
+==JonPush==
+ “What do you mean pulsed?” 
+    
+    Filler Text 
+    
+    Jon: “It was swelling, then shrinking, like a vein of reality. It’s not real, right?” 
+    
+    Filler Text 
+    
+    *Of course not
+        “Of course it’s not real. You should get some water. Okay?” 
+        
+        Filler Text 
+    
+        -> TalkToPeople
+    *We’re in trouble 
+
+		 “I…I can’t say that it’s not real” 
+            
+        Filler Text 
+    
+		Jon: “You-you believe me?” 
+            
+         Filler Text 
+    
+	     “Why would you lie?” 
+         
+         Filler Text 
+        -> TalkToPeople
+
+==BonnieCh1Intar==
+    Bonnie was staring at the dead body with a blank and unreadable expression. She was standing unnaturally still and her blinking made me step back. I almost forgot she was a real person. 
+            
+    Filler Text 
+    
+     “Did you see anything?” 
+            
+    Filler Text 
+    
+	Bonnie: “I didn’t” 
+            
+    Filler Text 
+    
+	*Kate 
+    “Really? Because Kate said you got the ride going.” 
+        
+    Filler Text 
+    
+    Bonnie: “I did, but I didn’t stick around. I went looking for someone who works here. Isn’t it weird that there’s  no one here?” 
+            
+    Filler Text 
+    
+    **Agree 
+        “Yeah, that’s pretty weird” 
+            
+        Filler Text 
+    
+        -> TalkToPeople
+    **{RCAttenent}Remember 
+             “I did see someone, at the coaster.” 
+
+            Bonnie: “That would have been good to know before. I’m not going to be in trouble right?” 
+                    
+            Filler Text 
+    
+            ->TalkToPeople
+	*Jess
+	 “Jess would agree with that. Did you steal anything from the shop?” 
+            
+    Filler Text 
+    
+	Bonnie: “You think people would lock the door if they didn’t want someone poking around. I mean, even the cameras are off.” 
+            
+    Filler Text 
+    -> TalkToPeople
+ 
+==Ch1RedRumIvnest==
+	*Body(Head) 
+		->Ch1BH
+	*Body(Wrist) 
+		->Ch1BW
+	*Tape
+		->Tape1
+	*Wire
+		->Ch1W
+	*Ground 
+		->Ch1G
+	*-> HendrixDoneCh1
+
+==Ch1BH== 
+
+    Aubri had a large wound in her head that bled out. I couldn’t see the back of her head from here, but I think the likely cause of the death was the fall Kate talked about. 
+                
+    Filler Text 
+    
+	->Ch1RedRumIvnest
+
+==Ch1BW==
+
+    The bracelets along her right arm had been moved, shifted up to her forearm rather than resting on her wrist. There I saw she had a small tatto on her wrist. It looked almost like a circle with multiple lines enraged together. 
+            
+    Filler Text 
+    
+	*{DRDoor}Remember
+		I saw this before. It was on the door to the dark ride. Were the two connected? 
+                
+        Filler Text 
+    
+        -> TalkToPeople
+	*Ignore 
+		It must have been painful to get something so detailed on her wrist. 
+                
+        Filler Text 
+
+	->Ch1RedRumIvnest
+==Tape1==
+	In her left hand Aubri was holding a cassette tape. It was too far away for me to reach, I’d have to ask Hendrix about it if I wanted to listen to it. 
+                
+    Filler Text 
+    
+    ->Ch1RedRumIvnest
+==Ch1W== 
+
+	I tore my eyes away from the scene for a moment, letting them follow a strang back wire that was hanging near her body. I had believed it was attached to the ferrous wheel, but it wasn’t. It didn’t seem attached to anything. Vanishing in the green smoky sky. The more I looked, the more I thought it looked like a tentacle. It also made my head hurt. 
+                
+    Filler Text 
+    
+    ->Ch1RedRumIvnest
+==Ch1G==
+	Her body was sprawled out on the ground, but there was more than just blood, there were flecks of yellow chalk. Did she fall on some street art? I wonder what it was before her fall. 
+                    
+    Filler Text 
+    
+    ->Ch1RedRumIvnest
+
+==SageCh1Intar==
+    Sage was looking up at the ferrous wheel, hands in the pocket of her paint-splattered apron. 
+            
+    Filler Text 
+    
+    Sage: “Those carts don’t look safe at all. Do you think she could have fallen?” 
+            
+    Filler Text 
+    
+    * Possible 
+	 “It’s possible. But this thing’s been in operation for years.” 
+                
+    Filler Text 
+    
+	Sage: “Could be old. I just…was she stupid?” 
+                
+    Filler Text 
+    
+	** Don't know
+        “I didn’t know her well enough to make that call. I hope not.” 
+                
+        Filler Text 
+    
+        Sage: “Maybe we should keep that in mind”
+                
+        Filler Text 
+    
+        -> TalkToPeople
+
+	** I don’t think so
+        “I don’t think so. Can actors be stupid?” 
+                    
+        Filler Text 
+    
+	Sage: “They have agents don’t they?”
+                
+    Filler Text 
+    
+	-> TalkToPeople
+    *See anything? 
+    “Did you see anything?” 
+        
+    Filler Text 
     
 
+	Sage: “Not really. I was looking for something to eat when I heard the announcement.” 
+    
+    Filler Text 
+    
 
-==EndFullIgnets==
+    -> TalkToPeople
 
-    Full Ignorance 
-    -> END
-==EndInvsiv==
 
-    Detective 
-    -> END
 
-==EndMad==
-    Madness Creeps 
-    -> END
+==HendrixDoneCh1==
+
+    Hendrix let out a sigh as she stood up, looking at each of us with a cold suspension that made me want to turn and run. 
+                    
+    Filler Text 
+    
+    Hendrix: “She was killed alright. We just need to determine who.” 
+                        
+    Filler Text 
+    
+    *Murder? 
+
+    “Is murder really the most logical option here?” 
+                    
+    Filler Text 
+    
+    Hendrix: “You got a better idea?”  
+                    
+    Filler Text 
+    
+	**Jon
+         “I think you should hear Jon’s story. It might prove that-” 
+
+                            
+    Filler Text 
+    
+
+	Hendrix: “prove what? That it’s something supernatural? Oh please. Have you seen anything supernatural?” 
+                            
+    Filler Text 
+    
+
+	***{CoasterSplit}Remember 
+		 “I was trapped on the roller coaster. I-I thought I was going to die there. The statue moved, tried to slam her sword onto me.” 
+                            
+        Filler Text 
+    
+		Hendrix: “And you expect me to-” 
+                                
+        Filler Text 
+    
+		Elias: “I can vouch for her. I saw it too. There’s more going on here than it seems.” 
+
+        Filler Text
+
+		Hendrix shook her head, ginger braid swaying with the movement. 
+
+        Filler Text
+
+		Hendrix: “Look, if you all want to spend your time chasing ghosts, be my guest. I’m going to call this in.” 
+
+        Filler Text
+
+		->CH1ed
+		
+	***{(not DRDoor)&&(not RCAttenent)}Agree 
+		 “I guess you have a point, I mean, I haven’t seen anything weird” 
+         Filler Text
+		Elias looked to me a bit confused. Did he see something I didn’t? 
+        Filler Text
+
+		Hendrix: “I’m going to call this in” 
+        Filler Text
+		->CH1ed
+	**{DRDoor||RCAttenent}Bonnie 
+		 “I can see your point, but what if there’s really something?”
+         Filler Text
+		Hendrix: “Then be a ghost hunter, just leave me out of this. I have to call this in” 
+        Filler Text
+		->CH1ed
+
+    *One of us? 
+        Sage: “You think one of us did this?” 
+        Filler Text
+        Kate: “NO! I didn’t! I swear!” 
+        Filler Text
+        Hendrix: “Well someone did” 
+        Filler Text
+    “Is murder really the most logical option here?” 
+        Filler Text
+    Hendrix: “You got a better idea?”  
+    Filler Text
+
+	**Jon
+	 “I think you should hear Jon’s story. It might prove that-” 
+     Filler Text
+
+	Hendrix: “prove what? That it’s something supernatural? Oh please. Have you seen anything supernatural?” 
+    Filler Text
+
+	***{CoasterSplit}Remember 
+		 “I was trapped on the roller coaster. I-I thought I was going to die there. The statue moved, tried to slam her sword onto me.” 
+         Filler Text
+		Hendrix: “And you expect me to-” 
+        Filler Text
+		Elias: “I can vouch for her. I saw it too. There’s more going on here than it seems.” 
+        Filler Text
+		Hendrix shook her head, ginger braid swaying with the movement. 
+        Filler Text
+		Hendrix: “Look, if you all want to spend your time chasing ghosts, be my guest. I’m going to call this in.” 
+        Filler Text
+		->CH1ed
+		
+	***{(not DRDoor)&&(not RCAttenent)}Agree 
+		 “I guess you have a point, I mean, I haven’t seen anything weird” 
+         Filler Text
+		Elias looked to me a bit confused. Did he see something I didn’t? 
+        Filler Text
+
+		Hendrix: “I’m going to call this in” 
+        Filler Text
+		->CH1ed
+	**{DRDoor||RCAttenent}Bonnie 
+		 “I can see your point, but what if there’s really something?”
+         Filler Text
+		Hendrix: “Then be a ghost hunter, just leave me out of this. I have to call this in”
+        Filler Text
+		->CH1ed
+	
+
+
+==KateCh1Intar==
+
+    Kate whipped tears from her eyes and tried to steady her breathing. 
+        Filler Text
+        “I know we talked before but-” 
+        Filler Text
+        Kate: “Something grabbed Aburi. Picked her from the basket-like picking a berry.” 
+        Filler Text
+        * Were you in the same basket? 
+            “Were you in the same basket?” 
+            Filler Text
+            Kate: “No, I was in the one above her. Bonnie got the ride going.” 
+            Filler Text
+        -> TalkToPeople
+        *What did it look like? 
+             Filler Text
+            “What did it look like? A hand?” 
+            Filler Text
+    Kate:  “Well, not a hand, but sharp. Almost like a hook.” 
+        Filler Text
+            “Can anyone else confirm this?” 
+        Filler Text
+        Kate: “Bonnie got the ride running.” 
+        Filler Text
+    -> TalkToPeople
+
+
+
+==EliasCh1Intar==
+
+    Elias had turned his attention to his book. 
+        Filler Text
+        “Elias-” 
+        Filler Text
+        Elias: “Don’t look at me. I was with you the whole time.” 
+        Filler Text
+    -> TalkToPeople
+
+==JonCh1Intar==
+    Jon was playing with his scarf, balling it and unballing it, looking for pockets on his skirt before putting the scarf on and starting the cycle again. 
+    Filler Text
+    “Jon? Did you see anything?” 
+    Filler Text
+    Jon: “I…I don’t think I did…I mean…I wasn’t really here I…” 
+    Filler Text
+    *Wait 
+
+    I took a moment and waited for Jon to calm down. 
+    Filler Text
+    Jon: “I saw this shadow, like a rift cut through the sky, blacker than night. It was twisted like lightning. It wrapped itself around the ferris wheel and then…pulsed.” 
+        Filler Text 
+    **{keepBat}Push 
+    -> JonPush
+    **Drop 
+        “It’s all right. You don’t need to say anymore” 
+        Filler Text
+        Jon: “Thank you” 
+        Filler Text
+        -> TalkToPeople
+
+    *Breath 
+        “Take a breath, you’re all right.” 
+        Filler Text
+        Jon took a deep breath. “I…I think I was hallucinating. There’s no way what I saw was…there’s no way what I thought I saw was real.” 
+        Filler Text
+    -> TalkToPeople
+
+
+
+==WarrenCh1Intar==
+    Warren was leaning against one of the light posts, eyes darting around the gray metal that lined the stone pathway. 
+    Filler Text
+    “Did you see anything?” 
+    Filler Text
+    Warren shook his head. “I was in the gardens, I didn’t see anything. Just heard the message.” 
+    Filler Text
+    -> TalkToPeople
+
+==ZeldaCh1Intar==
+    Zelda was trying to hide her face in her shirt, turned away from the scene. Her hands were half hidden in her sleeves. 
+    Filler Text
+    *Talk 
+
+        “Is everything alright?” 
+        Filler Text
+        Zelda: “I…I tried to…I tried to.. And she…I couldn’t…
+        Filler Text
+        **Push 
+
+    “You saw what happened?” 
+    Filler Text
+    Zelda nodded. 
+    Filler Text
+    Zelda: “I had her…I had her arm… and she…she was..It was too strong…and..” 
+    Filler Text
+    Her voice was shaking, tears brimming in her eyes. 
+    Filler Text
+    ***Keep Pushing 
+    “What grabbed her” 
+        Filler Text
+        Zelda: “god. God grabbed her and said..it said that she was a coward. That she could never pass the test. That she…she was our sacrifice.” 
+        Filler Text
+        Zelda whipped tears from her eyes, and the small bit of blood that fell from her nose.  
+        Filler Text
+        -> TalkToPeople
+
+    ***Drop 
+
+            “Easy. It’s okay. Just take your time” 
+            Filler Text
+            -> TalkToPeople
+
+        **Drop 
+        
+            “Easy. It’s okay. Just take your time” 
+            Filler Text
+            -> TalkToPeople
+
+    *Leave 
+        
+            I don’t think it’s a good idea. Maybe Hendrix should talk to her. 
+            Filler Text
+        -> TalkToPeople
+==PeopleOrCrime==
+    *People 
+        -> TalkToPeople
+    *Crime Scene
+        -> InvestMurderCh1
+    * ->InvestMurderCh1
+	
+==TalkToPeople== 
+    Everyone except Hendrix was standing around, some looking to the scene with hollowness while others looked away. Kate seemed to be crying against Warren. 
+    Filler Text
+    *Sage 
+        ->SageCh1Intar
+    *Jess
+        ->JessCh1Intar
+    *Kate 
+        ->KateCh1Intar
+
+    *Bonnie
+        ->BonnieCh1Intar
+    *Elias
+        ->EliasCh1Intar
+    *Jon 
+        ->JonCh1Intar
+    *Warren 
+
+        ->WarrenCh1Intar
+
+    *Zelda
+
+    ->ZeldaCh1Intar	
+
+    *    ->PeopleOrCrime
+
+==InvestMurderCh1==
+
+    As Hendrix moved around the scene I tried to get closer, only to feel Jess’s powerful hand holding me back. 
+    Filler Text
+    Jess: “Easy now, can’t have you messing up the detective’s work, now can we?” 
+    Filler Text
+    *Apologize 
+        “Guess I can just wait til she’s done” 
+        Filler Text
+        I waited there a long time. 
+        Filler Text
+        "Jess, I don't think she's going to finsih anytime soon? What if I just don't touch anything?"
+        Filler Text
+        Jess: "Nope."
+        Filler Text
+        ->PeopleOrCrime
+    *{JessCh1Intar} Push 
+        “Are you really thinking this will atone you for being a  thief?” 
+        Filler Text
+        Jess: “Look, just, stand here. I don’t think getting closer is a smart idea” 
+        Filler Text
+        I turned my attention to the scene before me. Aubri, a tall individual dressed in simple fashion for a Hollywood star. Her cherry red heels matched her dress and her black hair was decorated with gold bands. Her blue gray eyes were open and face twisted in fear as she lay in the blood that came from a wound on her head. 
+        Filler Text
+    ->Ch1RedRumIvnest
+
+
+==CH1ed==
+    Zelda: “Yeah, I don’t think that’s gonna happen.” 
+    Filler Text
+    Hendrix: “And why not?” 
+    Filler Text
+    Warren: “There's no towers around here. I couldn’t get my plant identification app to work.” 
+    Filler Text
+    Hendrix: “So what? We’re all alone here?” 
+    Filler Text
+    Elias: “It seems so.” 
+    Filler Text
+    Jess: “Then maybe we should be listening to the detective?” 
+    Filler Text
+    Bonnie: “But what if-there is something more going on?” 
+    Filler Text
+    Hendrix: “So what do you say Rory? You’re my sidekick on this, do you want to chase ghosts or be a real detective?” 
+    Filler Text
+
+    *{JonPush||CoasterSplit||DRDoor||RCAttenent}Ghosts 
+        “I know what I've seen. Be it ghosts or something else I’ll be looking into that. It may have been murder, but I know that it wasn’t one of us” 
+        Filler Text
+        End of Chapter 1: Ghost Hunter 
+            ->END
+    *{(not JonPush)&&(not CoasterSplit)&&(not DRDoor)&&(not RCAttenent)}Detective 
+        “You have a point, Hendrix. This place is creepy but we can’t be jumping to conclusions. If one of us is a killer, we need to be on alert. As far as we know, we can’t trust anyone.” 
+        Filler Text
+        End of Chapter 1: Detective in Training 
+
+            ->END
+    *{JonPush && CoasterSplit && DRDoor && RCAttenent}Truth 
+        “There’s something here. I don’t know what, but I know I won’t rest until I know. Until I can prove what’s going on” 
+        Filler Text
+        End of Chapter 1: Journalist 
+            ->END
+    * ->Default
+
+==Default==
+  “I know what I've seen. Be it ghosts or something else I’ll be looking into that. It may have been murder, but I know that it wasn’t one of us” 
+    Filler Text
+	End of Chapter 1: Ghost Hunter 
+		->END
+		
+==JessCh1Intar==
+    Jess’s face was set with determination as she looked over the group of us. Her eyes narrowed slightly as if waiting to jump at someone who broke the rules. 
+    Filler Text
+    “Jess. Did you see anything?” 
+    Filler Text
+    Jess: “Can’t say I did. I was with Bonnie looking in the gift shop.” 
+    Filler Text
+    **Shopping? 
+        “Did you buy anything?” 
+        Filler Text
+        Jess: “Can’t say I did.” 
+        Filler Text
+        She had a smile that told me not to keep asking. 
+        Filler Text
+        -> TalkToPeople
+    **Stealing? 
+        “You mean stealing from the gift shop?” 
+        Filler Text
+        Jess: “Not my fault the place was unlocked.” 
+        Filler Text
+    -> TalkToPeople
