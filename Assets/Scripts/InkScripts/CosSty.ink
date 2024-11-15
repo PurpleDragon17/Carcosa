@@ -895,7 +895,7 @@ EXTERNAL DropChange (spot)
     A laugh played over the speaker, the laugh of a Jester. 
 
     Filler Text
-     {ShowCharacter("Jester")", "Right", "Nat")}
+     {ShowCharacter("Jester", "Right", "Nat")}
     Jester: “I would tell you to hold on tight, but you’ve never been good at following directions.” 
 
     Filler Text
