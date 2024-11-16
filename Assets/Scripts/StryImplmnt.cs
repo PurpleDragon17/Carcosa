@@ -24,7 +24,13 @@ public class StryImplmnt : MonoBehaviour
     public GameObject Chose5Button;
     public TMP_Text C4Text;
     public TMP_Text C5Text;
-    public DropChance dropChance; 
+    public DropChance dropChance;
+    public GameObject Choses6Button;
+    public GameObject Chose7Button;
+    public GameObject Choses8Button;
+    public TMP_Text C6Text;
+    public TMP_Text C7Text;
+    public TMP_Text C8Text; 
 
     void Start()
     {
@@ -68,6 +74,63 @@ public class StryImplmnt : MonoBehaviour
         }
         NLButton.SetActive(false);
 
+       if(story.currentChoices.Count == 9)
+        {
+            Chose0Button.SetActive(true);
+            Chose1Button.SetActive(true);
+            Chose2Button.SetActive(true);
+            Chose3Button.SetActive(true);
+            Chose4Button.SetActive(true);
+            Chose5Button.SetActive(true);
+            Choses6Button.SetActive(true);
+            Chose7Button.SetActive(true);
+            Choses8Button.SetActive(true);
+            C0Text.text = ChoiceList[0];
+            C1Text.text = ChoiceList[1];
+            C2Text.text = ChoiceList[2];
+            C3Text.text = ChoiceList[3];
+            C4Text.text = ChoiceList[4];
+            C5Text.text = ChoiceList[5];
+            C6Text.text = ChoiceList[6];
+            C7Text.text = ChoiceList[7];
+            C8Text.text = ChoiceList[8];
+        }
+        if (story.currentChoices.Count == 8)
+        {
+            Chose0Button.SetActive(true);
+            Chose1Button.SetActive(true);
+            Chose2Button.SetActive(true);
+            Chose3Button.SetActive(true);
+            Chose4Button.SetActive(true);
+            Chose5Button.SetActive(true);
+            Choses6Button.SetActive(true);
+            Chose7Button.SetActive(true);
+            C0Text.text = ChoiceList[0];
+            C1Text.text = ChoiceList[1];
+            C2Text.text = ChoiceList[2];
+            C3Text.text = ChoiceList[3];
+            C4Text.text = ChoiceList[4];
+            C5Text.text = ChoiceList[5];
+            C6Text.text = ChoiceList[6];
+            C7Text.text = ChoiceList[7];
+        }
+        if (story.currentChoices.Count == 7)
+        {
+            Chose0Button.SetActive(true);
+            Chose1Button.SetActive(true);
+            Chose2Button.SetActive(true);
+            Chose3Button.SetActive(true);
+            Chose4Button.SetActive(true);
+            Chose5Button.SetActive(true);
+            Choses6Button.SetActive(true);
+            C0Text.text = ChoiceList[0];
+            C1Text.text = ChoiceList[1];
+            C2Text.text = ChoiceList[2];
+            C3Text.text = ChoiceList[3];
+            C4Text.text = ChoiceList[4];
+            C5Text.text = ChoiceList[5];
+            C6Text.text = ChoiceList[6];
+        }
         if (story.currentChoices.Count == 6)
         {
             Chose0Button.SetActive(true);
@@ -154,6 +217,9 @@ public class StryImplmnt : MonoBehaviour
         Chose3Button.SetActive(false);
         Chose4Button.SetActive(false);
         Chose5Button.SetActive(false);
+        Choses6Button.SetActive(false);
+        Chose7Button.SetActive(false);
+        Choses8Button.SetActive(false);
     }
     public void Choose1()
     {
@@ -166,6 +232,9 @@ public class StryImplmnt : MonoBehaviour
         Chose3Button.SetActive(false);
         Chose4Button.SetActive(false);
         Chose5Button.SetActive(false);
+        Choses6Button.SetActive(false);
+        Chose7Button.SetActive(false);
+        Choses8Button.SetActive(false);
     }
     public void Choose2()
     {
@@ -178,6 +247,9 @@ public class StryImplmnt : MonoBehaviour
         Chose3Button.SetActive(false);
         Chose4Button.SetActive(false);
         Chose5Button.SetActive(false);
+        Choses6Button.SetActive(false);
+        Chose7Button.SetActive(false);
+        Choses8Button.SetActive(false);
     }
     public void Choose3()
     {
@@ -190,6 +262,9 @@ public class StryImplmnt : MonoBehaviour
         Chose3Button.SetActive(false);
         Chose4Button.SetActive(false);
         Chose5Button.SetActive(false);
+        Choses6Button.SetActive(false);
+        Chose7Button.SetActive(false);
+        Choses8Button.SetActive(false);
     }
 
     public void Choose4()
@@ -203,6 +278,9 @@ public class StryImplmnt : MonoBehaviour
         Chose3Button.SetActive(false);
         Chose4Button.SetActive(false);
         Chose5Button.SetActive(false);
+        Choses6Button.SetActive(false);
+        Chose7Button.SetActive(false);
+        Choses8Button.SetActive(false);
     }
     public void Choose5()
     {
@@ -215,6 +293,57 @@ public class StryImplmnt : MonoBehaviour
         Chose3Button.SetActive(false);
         Chose4Button.SetActive(false);
         Chose5Button.SetActive(false);
+        Choses6Button.SetActive(false);
+        Chose7Button.SetActive(false);
+        Choses8Button.SetActive(false);
+    }
+
+    public void Choose6()
+    {
+        story.ChooseChoiceIndex(6);
+        NL();
+        NLButton.SetActive(true);
+        Chose0Button.SetActive(false);
+        Chose1Button.SetActive(false);
+        Chose2Button.SetActive(false);
+        Chose3Button.SetActive(false);
+        Chose4Button.SetActive(false);
+        Chose5Button.SetActive(false);
+        Choses6Button.SetActive(false);
+        Chose7Button.SetActive(false);
+        Choses8Button.SetActive(false);
+    }
+
+    public void Choose7()
+    {
+        story.ChooseChoiceIndex(7);
+        NL();
+        NLButton.SetActive(true);
+        Chose0Button.SetActive(false);
+        Chose1Button.SetActive(false);
+        Chose2Button.SetActive(false);
+        Chose3Button.SetActive(false);
+        Chose4Button.SetActive(false);
+        Chose5Button.SetActive(false);
+        Choses6Button.SetActive(false);
+        Chose7Button.SetActive(false);
+        Choses8Button.SetActive(false);
+    }
+
+    public void Choose8()
+    {
+        story.ChooseChoiceIndex(8);
+        NL();
+        NLButton.SetActive(true);
+        Chose0Button.SetActive(false);
+        Chose1Button.SetActive(false);
+        Chose2Button.SetActive(false);
+        Chose3Button.SetActive(false);
+        Chose4Button.SetActive(false);
+        Chose5Button.SetActive(false);
+        Choses6Button.SetActive(false);
+        Chose7Button.SetActive(false);
+        Choses8Button.SetActive(false);
     }
 
     public void StartStory()
@@ -231,24 +360,7 @@ public class StryImplmnt : MonoBehaviour
    
     
 
-    public void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            story.ContinueMaximally();
-            story.ChooseChoiceIndex(0);
-            story.ContinueMaximally();
-            story.ChooseChoiceIndex(0);
-            story.ContinueMaximally();
-            story.ChooseChoiceIndex(0);
-            story.ContinueMaximally();
-            story.ChooseChoiceIndex(0);
-            story.ContinueMaximally();
-            story.ChooseChoiceIndex(0);
-
-        }
-
-    }
+   
 
 
 }

@@ -2,6 +2,7 @@
 EXTERNAL HideCharacter (characterName)
 EXTERNAL ChangeMood(characterName, mood)
 EXTERNAL DropChange (spot)
+{DropChange(12)}
 -> Sym
 
 
@@ -18,7 +19,7 @@ EXTERNAL DropChange (spot)
         ** Murder
             -> murderCh1
 ==Opening== 
-    {DropChange(12)}
+    {DropChange(0)}
     {ShowCharacter("Rory", "Center", "Nat")}
     It’s been a long time since I’ve been to Caracosa Amusement Park. 
 
@@ -444,6 +445,7 @@ EXTERNAL DropChange (spot)
 
 ==rollerCoaster== 
      {DropChange(4)}
+     
     {ChangeMood("Elias", "NatDark")}
     We walked along the paved raod twords the Invesgitation secotion of the park. 
 
@@ -456,6 +458,7 @@ EXTERNAL DropChange (spot)
     The black track was hard to see in the dark, but the glowing red eyes of the statue used for a head chopper effect still blazed. 
 
     Filler Text
+    {ShowCharacter("Elias", "Center", "Nat")}
     {ChangeMood("Elias", "Nat")}
     Elias: “What even is this?” 
 
@@ -506,13 +509,13 @@ EXTERNAL DropChange (spot)
     Filler Text
     {ChangeMood("Elias", "Nat")}
     Elias: “When I asked him what prompted his drink he laughed and said to me-” 
-
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-     {ShowCharacter("King", "Right", "Nat")}
+    {ShowCharacter("King", "Right", "Nat")}
     King: “Any sane man would wish to forget what I had seen.” 
 
     Filler Text
+    {HideCharacter("King")}
     {ChangeMood("Elias", "Nat")}
     Elias: “What is this?” 
 
@@ -1167,6 +1170,7 @@ EXTERNAL DropChange (spot)
     Elias: “Keep it. And maybe try to be less obvious next time you try to flirt.” 
     
     Filler Text
+    {HideCharacter("Elias")}
     -> ExCh1Loop
 ==keepBat==
     On second thought, it was cute and surprisingly soft for some cheap toy. 
@@ -1221,6 +1225,7 @@ EXTERNAL DropChange (spot)
     I led him towards the ferris wheel at the center of the park, finding the others had already gathered. 
     
     Filler Text 
+    {HideCharacter("Elias")}
     {DropChange(14)}
     {ShowCharacter("Hendrix", "Center", "Nat")}
     Hendrix: “Stay back everyone! I can’t have you interfering with the crime scene.” 
@@ -1489,7 +1494,7 @@ EXTERNAL DropChange (spot)
     “Did you see anything?” 
         
     Filler Text 
-    {ChangeMood("Sage". "Nat")}
+    {ChangeMood("Sage", "Nat")}
 	Sage: “Not really. I was looking for something to eat when I heard the announcement.” 
     
     Filler Text 
@@ -1500,7 +1505,7 @@ EXTERNAL DropChange (spot)
 
 
 ==HendrixDoneCh1==
-    {ShowCharacter("Hendrix", "NatDark")}
+    {ShowCharacter("Hendrix", "Center", "NatDark")}
     Hendrix let out a sigh as she stood up, looking at each of us with a cold suspension that made me want to turn and run. 
                     
     Filler Text 
@@ -1892,7 +1897,7 @@ EXTERNAL DropChange (spot)
     {ShowCharacter("Elias", "Right", "Nat")}
     Elias: “It seems so.” 
     Filler Text
-    {ChangeMood("Elias", "Left", "Nat")}
+    {ChangeMood("Elias",  "Nat")}
     {ShowCharacter("Jess", "Left", "Nat")}
     Jess: “Then maybe we should be listening to the detective?” 
     Filler Text

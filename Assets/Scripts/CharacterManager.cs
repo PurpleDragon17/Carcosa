@@ -171,6 +171,10 @@ public class CharacterManager : MonoBehaviour
                 return aubriMoods;
             case CharacterName.Zelda:
                 return zeldaMoods;
+            case CharacterName.King:
+                return kingMoods;
+            case CharacterName.Jester:
+                return jesterMoods; 
             default:
                     Debug.LogError($"Could not find moodset for {name}");
                     return null;
