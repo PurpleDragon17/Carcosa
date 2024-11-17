@@ -520,6 +520,7 @@ EXTERNAL DropChange (spot)
     Elias: “What is this?” 
 
     Filler Text
+        {HideCharacter("King")}
     {ChangeMood("Elias", "NatDark")}
      “The story of the ride? This is a theme park after all.” 
 
@@ -760,6 +761,7 @@ EXTERNAL DropChange (spot)
     Filler Text
      -> DarkRideInvest
 ==DRDoor==
+    Filler Text
     The doors shouldn’t have been opened. After all, it should be a trigger with the carts crossing a part of the track. I took a few uneasy steps closer, the parting bits of stone decorated with bright yellow chalk. Maybe this ride was also hit with some graffiti. 
     Filler Text
      -> DarkRideInvest
@@ -902,7 +904,7 @@ EXTERNAL DropChange (spot)
     Jester: “I would tell you to hold on tight, but you’ve never been good at following directions.” 
 
     Filler Text
-
+    {HideCharacter("Jester")}
     The coaster launched and I gripped the lap bar as I was plunged onto the fastest ride of this coaster I’d ever had. 
 
     Filler Text
@@ -954,6 +956,7 @@ EXTERNAL DropChange (spot)
     The attendant turned placid, not even blinking as his arms dropped and allowed Elias to pull away. 
 
     Filler Text 
+    
 
     -> ExCh1Loop
 ==waterGun== 
@@ -1270,7 +1273,7 @@ EXTERNAL DropChange (spot)
         Kate: “I know what I saw! It was too big to be a person! People don’t have tentacles!” 
         
         Filler Text 
-    
+     {ChangeMood("Kate", "NatDark")}
     *Someone? 
         {ChangeMood("Kate", "Nat")}
         Kate: “If it was someone I would have said someone. I’m not stupid.” 
@@ -1323,7 +1326,7 @@ EXTERNAL DropChange (spot)
         “Of course it’s not real. You should get some water. Okay?” 
         
         Filler Text 
-    
+    {HideCharacter("Jon")}
         -> TalkToPeople
     *We’re in trouble 
 
@@ -1423,7 +1426,7 @@ EXTERNAL DropChange (spot)
                 
         Filler Text 
     
-        -> TalkToPeople
+        -> Ch1RedRumIvnest
 	*Ignore 
 		It must have been painful to get something so detailed on her wrist. 
                 
@@ -1536,7 +1539,7 @@ EXTERNAL DropChange (spot)
     Filler Text 
     {ChangeMood("Hendrix", "NatDark")}
 
-	***{CoasterSplit}Remember 
+	***{RideCoaster}Remember 
 		 “I was trapped on the roller coaster. I-I thought I was going to die there. The statue moved, tried to slam her sword onto me.” 
                             
         Filler Text 
@@ -1571,6 +1574,17 @@ EXTERNAL DropChange (spot)
         Filler Text
         {HideCharacter("Hendrix")}
 		->CH1ed
+    ***
+        I was studdned into silence for a moment. 
+        Filler Text
+		Elias looked to me a bit confused. Did he see something I didn’t? 
+        Filler Text
+        {ChangeMood("Hendrix", "Nat")}
+		Hendrix: “I’m going to call this in” 
+        Filler Text
+        {HideCharacter("Hendrix")}
+		->CH1ed
+
 	**{DRDoor||RCAttenent}Bonnie 
 		 “I can see your point, but what if there’s really something?”
          Filler Text
@@ -1659,7 +1673,7 @@ EXTERNAL DropChange (spot)
         Kate: “Something grabbed Aburi. Picked her from the basket-like picking a berry.” 
         Filler Text
         {ChangeMood("Kate", "NatDark")}
-        * Were you in the same basket? 
+        * Same basket? 
             “Were you in the same basket?” 
             Filler Text
             {ChangeMood("Kate", "Nat")}
@@ -1667,8 +1681,7 @@ EXTERNAL DropChange (spot)
             Filler Text
             {HideCharacter("Kate")}
         -> TalkToPeople
-        *What did it look like? 
-             Filler Text
+        *Look like? 
             “What did it look like? A hand?” 
             Filler Text
             {ChangeMood("Kate", "Nat")}
@@ -1901,6 +1914,7 @@ EXTERNAL DropChange (spot)
     {ShowCharacter("Jess", "Left", "Nat")}
     Jess: “Then maybe we should be listening to the detective?” 
     Filler Text
+    {HideCharacter("Elias")}
     {ChangeMood("Jess", "NatDark")}
     {ShowCharacter("Bonnie", "Right", "Nat")}
     Bonnie: “But what if-there is something more going on?” 
@@ -1910,16 +1924,22 @@ EXTERNAL DropChange (spot)
     Hendrix: “So what do you say Rory? You’re my sidekick on this, do you want to chase ghosts or be a real detective?” 
     Filler Text
     {ChangeMood("Hendrix", "NatDark")}
-    *{JonPush||CoasterSplit||DRDoor||RCAttenent}Ghosts 
+    *{JonPush||CoasterRide||DRDoor||RCAttenent}Ghosts 
         “I know what I've seen. Be it ghosts or something else I’ll be looking into that. It may have been murder, but I know that it wasn’t one of us” 
         Filler Text
         {DropChange(13)}
+        {HideCharacter("Hendrix")}
+        {HideCharacter("Bonnie")}
+        {HideCharacter("Jess")}
         End of Chapter 1: Ghost Hunter 
             ->END
-    *{(not JonPush)&&(not CoasterSplit)&&(not DRDoor)&&(not RCAttenent)}Detective 
+    *{(not JonPush)&&(not CoasterCoasterRide|)&&(not DRDoor)&&(not RCAttenent)}Detective 
         “You have a point, Hendrix. This place is creepy but we can’t be jumping to conclusions. If one of us is a killer, we need to be on alert. As far as we know, we can’t trust anyone.” 
         Filler Text
         {DropChange(13)}
+        {HideCharacter("Hendrix")}
+        {HideCharacter("Bonnie")}
+        {HideCharacter("Jess")}
         End of Chapter 1: Detective in Training 
 
             ->END
@@ -1927,6 +1947,9 @@ EXTERNAL DropChange (spot)
         “There’s something here. I don’t know what, but I know I won’t rest until I know. Until I can prove what’s going on” 
         Filler Text
         {DropChange(13)}
+        {HideCharacter("Hendrix")}
+        {HideCharacter("Bonnie")}
+        {HideCharacter("Jess")}
         End of Chapter 1: Journalist 
             ->END
     * ->Default
