@@ -15,6 +15,7 @@ EXTERNAL DropChange (spot)
         ** Meet People
             -> WhoTalk
         ** Explore 
+        {DropChange(6)}
             -> ExCh1Loop
         ** Murder
             -> murderCh1
@@ -145,6 +146,7 @@ EXTERNAL DropChange (spot)
     ->  ExCh1Loop
 
 ==ExCh1Loop==
+    {ShowCharacter("Elias", "Center", "Nat")}
     {ChangeMood("Elias", "Nat")}
     Elias: “Where would you like to go?” 
 
@@ -1924,7 +1926,7 @@ EXTERNAL DropChange (spot)
     Hendrix: “So what do you say Rory? You’re my sidekick on this, do you want to chase ghosts or be a real detective?” 
     Filler Text
     {ChangeMood("Hendrix", "NatDark")}
-    *{JonPush||CoasterRide||DRDoor||RCAttenent}Ghosts 
+    *{JonPush||RideCoaster||DRDoor||RCAttenent}Ghosts 
         “I know what I've seen. Be it ghosts or something else I’ll be looking into that. It may have been murder, but I know that it wasn’t one of us” 
         Filler Text
         {DropChange(13)}
@@ -1933,7 +1935,7 @@ EXTERNAL DropChange (spot)
         {HideCharacter("Jess")}
         End of Chapter 1: Ghost Hunter 
             ->END
-    *{(not JonPush)&&(not CoasterCoasterRide|)&&(not DRDoor)&&(not RCAttenent)}Detective 
+    *{(not JonPush)&&(not RideCoaster)&&(not DRDoor)&&(not RCAttenent)}Detective 
         “You have a point, Hendrix. This place is creepy but we can’t be jumping to conclusions. If one of us is a killer, we need to be on alert. As far as we know, we can’t trust anyone.” 
         Filler Text
         {DropChange(13)}
