@@ -7,7 +7,7 @@ EXTERNAL DropChange (spot)
 
 
 ==Sym== 
-    Chose Where to Begain
+     Chose Where to Begin 
     * New Game 
         -> Opening
     * Chapter Select 
@@ -1732,7 +1732,7 @@ EXTERNAL DropChange (spot)
         {ChangeMood("Jon", "NatDark")}
     **{keepBat}Push 
     -> JonPush
-    **Drop 
+    **Drop it  
         “It’s all right. You don’t need to say anymore” 
         Filler Text
         {ChangeMood("Jon", "Nat")}
@@ -1800,14 +1800,14 @@ EXTERNAL DropChange (spot)
         {HideCharacter("Zelda")}
         -> TalkToPeople
 
-    ***Drop 
+    ***Drop it 
 
             “Easy. It’s okay. Just take your time” 
             Filler Text
              {HideCharacter("Zelda")}
             -> TalkToPeople
 
-        **Drop 
+        **Drop it 
         
             “Easy. It’s okay. Just take your time” 
             Filler Text
