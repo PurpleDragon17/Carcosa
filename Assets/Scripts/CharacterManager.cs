@@ -10,6 +10,8 @@ public class CharacterManager : MonoBehaviour
 {
     public StryImplmnt Si;
     private List<Characters> characters;
+    private static List<CharacterData> _loadedCharacters;
+    private List<Characters> _characters;
 
     [SerializeField] private GameObject characterPrefab;
 
@@ -29,6 +31,8 @@ public class CharacterManager : MonoBehaviour
     [SerializeField] private CharacterMoods jesterMoods; 
 
     private static List<CharacterData> loadedCharacters; 
+
+
     
     void Awake()
     {
@@ -199,6 +203,27 @@ public class CharacterManager : MonoBehaviour
         {
             loadedCharacters = characters;
         }
+
+    private void Start()
+    {
+
+        _characters = new List<Characters>(); 
+
+        if(_loadedCharacters != null)
+        {
+            RestoreState(); 
+        }
     }
+
+    private void RstoreState()
+    {
+        foreach (var character in _loadedCharacters)
+        {
+            ShowCharacter(character.Name, character.Position, character.Mood);
+        }
+
+        _loadedCharacters = null; 
+    }
+}
 
 

@@ -13,6 +13,7 @@ EXTERNAL DropChange (spot)
     * Chapter Select 
         Select Chapter 
         ** Meet People
+            {DropChange(6)}
             -> WhoTalk
         ** Explore 
         {DropChange(6)}
@@ -26,7 +27,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
 
-    It was too far from home to go when I came back for summer break, but too close to go when I was off at college. 
+    It was too far from home to go on a whim, but too close that it never felt right going when I was away at collage. 
 
     Filler Text 
 
@@ -239,10 +240,10 @@ EXTERNAL DropChange (spot)
     {ChangeMood("Jon", "Nat")}
 	Jon: “Sorry”
 
-    Filler Text
 	{HideCharacter("Sage")}
 	{HideCharacter("Jess")}
 	{HideCharacter("Jon")}
+       Filler Text
     -> WhoTalk
 ==manWplants==
     I made my way over to the man kneeling next to a plant on the floor. 

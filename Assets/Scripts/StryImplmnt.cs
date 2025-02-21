@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Ink.Runtime;
 using TMPro;
+using System.IO; 
 
 public class StryImplmnt : MonoBehaviour
 {
@@ -30,18 +31,36 @@ public class StryImplmnt : MonoBehaviour
     public GameObject Choses8Button;
     public TMP_Text C6Text;
     public TMP_Text C7Text;
-    public TMP_Text C8Text; 
+    public TMP_Text C8Text;
+    public GameObject PauseMenubackground;
+    public GameObject SaveButton;
+    // public string saveFilePath; 
+    private static string savePath;
+    private GameStateManager _gameStateManager;
+    private Story _story;
+    private static string _loadedState;
+ 
+
+
 
     void Start()
     {
-       
-        story = new Story(inkJSONAsset.text);
- 
-            _characterManager = FindObjectOfType<CharacterManager>();
-        dropChance = FindObjectOfType<DropChance>();
+        _characterManager = FindObjectOfType<CharacterManager>();
+        dropChance = FindAnyObjectByType<DropChance>();
         StartStory();
-        stDs.text = LoadNextNM().ToString();
-        Debug.Log(stDs.text);
+     
+       
+        savePath = Application.persistentDataPath + "/currentStory.json";
+       
+        _gameStateManager = FindObjectOfType<GameStateManager>();
+      
+       
+        
+            stDs.text = LoadNextNM().ToString();
+            Debug.Log(stDs.text);
+            PauseMenubackground.SetActive(false);
+        
+ 
 
     }
 
@@ -348,6 +367,12 @@ public class StryImplmnt : MonoBehaviour
 
     public void StartStory()
     {
+        story = new Story(inkJSONAsset.text);
+        if (!string.IsNullOrEmpty(_loadedState))
+        {
+            story?.state?.LoadJson(_loadedState);
+            _loadedState = null; 
+        }
         story.BindExternalFunction("ShowCharacter", (string name, string position, string mood)
             => _characterManager.ShowCharacter(name, position, mood));
         story.BindExternalFunction("HideCharacter", (string name)
@@ -355,12 +380,48 @@ public class StryImplmnt : MonoBehaviour
         story.BindExternalFunction("ChangeMood",
             (string name, string mood) => _characterManager.ChangeMood(name, mood));
         story.BindExternalFunction("DropChange", (int spot) => dropChance.DropChange(spot));
+        LoadNextNM();
+      // NL();
+        
+
     }
 
-   
-    
 
-   
+    public void Update()
+    {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            PauseMenubackground.SetActive(true);
+
+        }
+
+        if (Input.GetKey(KeyCode.S))
+        {
+            _gameStateManager?.SaveGame();
+
+        }
+        if (Input.GetKey(KeyCode.C))
+        {
+            _gameStateManager?.LoadGame();
+
+        }
+
+       
+    }
+
+
+    public string GetStoryState()
+    {
+        return story.state.ToJson();
+    }
+
+    public static void LoadState(string state)
+    {
+        _loadedState = state;
+    }
+
+
+
 
 
 }
