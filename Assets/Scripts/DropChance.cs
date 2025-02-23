@@ -6,8 +6,10 @@ using Ink.Runtime;
 public class DropChance : MonoBehaviour
 {
 
-    public static SpriteRenderer backgrounds;
+  public  SpriteRenderer backgrounds;
   public static List<Sprite> BackDrops;
+    public static  int Spotted;
+    public static int PP = 0; 
 
     public Sprite Im1;
     public Sprite Im2;
@@ -25,9 +27,10 @@ public class DropChance : MonoBehaviour
     public Sprite Im14;
     public Sprite Im15;
 
-    public void OnAwake()
-    {
 
+    public void Awake()
+    {
+        Debug.Log(BackDrops);
         BackDrops = new List<Sprite>();
         BackDrops.Add(Im1);
         BackDrops.Add(Im2);
@@ -44,12 +47,22 @@ public class DropChance : MonoBehaviour
         BackDrops.Add(Im13);
         BackDrops.Add(Im14);
         BackDrops.Add(Im15);
-        
+        Debug.Log(BackDrops);
+        backgrounds = GetComponent<SpriteRenderer>();
+       // spot = Spotted;
     }
+  
+    
     public  void DropChange(int spot)
     {
+        if (PP == 0)
+        {
+            spot = Spotted;
+        }
         backgrounds.sprite = BackDrops[spot];
+        Spotted = spot; 
         Debug.Log("Fuck");
+        PP = PP + 1; 
     }
 
  

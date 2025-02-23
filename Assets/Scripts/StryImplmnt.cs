@@ -389,11 +389,8 @@ public class StryImplmnt : MonoBehaviour
 
     public void Update()
     {
-        if (Input.GetKey(KeyCode.Escape))
-        {
-            PauseMenubackground.SetActive(true);
-
-        }
+       
+        
 
         if (Input.GetKey(KeyCode.S))
         {
@@ -404,6 +401,12 @@ public class StryImplmnt : MonoBehaviour
         {
             _gameStateManager?.LoadGame();
 
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            _gameStateManager?.ExitGame();
+            Debug.Log("Game Closed");
         }
 
        
@@ -418,8 +421,19 @@ public class StryImplmnt : MonoBehaviour
     public static void LoadState(string state)
     {
         _loadedState = state;
+     
+        
+            PlayerPrefs.GetInt("Sp"); 
+       
+        DropChance.PP = 0; 
+
     }
 
+    public void SaveState()
+    {
+        int savedJson = DropChance.Spotted; 
+        PlayerPrefs.SetInt("Sp", savedJson); 
+    }
 
 
 
