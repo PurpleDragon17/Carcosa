@@ -39,12 +39,14 @@ public class StryImplmnt : MonoBehaviour
     private GameStateManager _gameStateManager;
     private Story _story;
     private static string _loadedState;
- 
+    private AudioSource m_AdioSource; 
 
 
 
     void Start()
     {
+        m_AdioSource = GetComponent<AudioSource>();
+        m_AdioSource.Play(); 
         _characterManager = FindObjectOfType<CharacterManager>();
         dropChance = FindAnyObjectByType<DropChance>();
         StartStory();
