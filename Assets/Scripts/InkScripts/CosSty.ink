@@ -444,13 +444,14 @@ EXTERNAL DropChange (spot)
     Filler Text
     -> WhoTalk
 ==darRide==
+        
         -> DarkRideExplore
 
 ==rollerCoaster== 
      {DropChange(4)}
      
     {ChangeMood("Elias", "NatDark")}
-    We walked along the paved raod twords the Invesgitation secotion of the park. 
+    We walked along the paved road towards the Invesgitation section of the park. 
 
     Filler Text 
 
@@ -656,7 +657,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
 
-    I satrted maing my way into the queueing area, following the slopping path. 
+    I started making my way into the queueing area, following the sloping path. 
 
     Filler Text 
 
@@ -755,7 +756,7 @@ EXTERNAL DropChange (spot)
 
     The map was positioned away from the passing carts, and it was starting to eat at me what it said. 
     Filler Text 
-    So I made my way around teh scene so I could read it.
+    So I made my way around the scene so I could read it.
     Filler Text
      “Bravery fails and greed succumbs.” 
     Filler Text
@@ -837,7 +838,7 @@ EXTERNAL DropChange (spot)
 
 ==RCAttenent== 
     Filler text
-    The attendant was dressed in the classic uniform, a dull yellow shirt with a black turtleneck underneath it. 
+    The attendant was dressed in the classic uniform, a dull yellow shirt with a turtleneck underneath it. 
    
     Filler Text
     
@@ -1095,7 +1096,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
     {ChangeMood("Elias", "NatDark")}
-    He hunted the bear onto the counter and I took it. It had large golden eyes and a smile that was infectious. 
+    He tossed the bear onto the counter and I took it. It had large golden eyes and a smile that was infectious. 
 
     Filler Text 
 
@@ -1196,7 +1197,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
 
-    He held the oversized plush out to him and he took it. 
+    I held the oversized plush out to him and he took it. 
 
     Filler Text 
     {ChangeMood("Elias", "Nat")}
@@ -1220,7 +1221,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
     {ShowCharacter("Jester", "Right", "Nat")}
-    Jester: “Why don’t you all gather at the ferrous wheel? It seems the night can truly begin.” 
+    Jester: “Why don’t you all gather at the ferris wheel? It seems the night can truly begin.” 
 
     Filler Text 
     {HideCharacter("Jester")}
@@ -1531,9 +1532,8 @@ EXTERNAL DropChange (spot)
     Filler Text 
     {ChangeMood("Hendrix", "NatDark")}
 	**Jon
-         “I think you should hear Jon’s story. It might prove that-” 
+         “I think you should hear Jon’s story. It might prove that-”     
 
-                            
     Filler Text 
     {ChangeMood("Hendrix", "Nat")}
 
@@ -1578,7 +1578,7 @@ EXTERNAL DropChange (spot)
         {HideCharacter("Hendrix")}
 		->CH1ed
     ***
-        I was studdned into silence for a moment. 
+        I was stunned into silence for a moment. 
         Filler Text
 		Elias looked to me a bit confused. Did he see something I didn’t? 
         Filler Text
@@ -1824,12 +1824,9 @@ EXTERNAL DropChange (spot)
 ==PeopleOrCrime==
     *People 
         -> TalkToPeople
-    *Crime Scene
-        {DropChange(15)}
+    *{TalkToPeople} Crime Scene
         -> InvestMurderCh1
-    *  
-    {DropChange(15)}
-    ->InvestMurderCh1
+
 	
 ==TalkToPeople== 
     {DropChange(14)}
@@ -1859,7 +1856,7 @@ EXTERNAL DropChange (spot)
     *    ->PeopleOrCrime
 
 ==InvestMurderCh1==
-
+    {DropChange(15)}
     As Hendrix moved around the scene I tried to get closer, only to feel Jess’s powerful hand holding me back. 
     Filler Text
     {ShowCharacter("Jess", "Center", "Nat")}

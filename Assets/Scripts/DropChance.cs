@@ -26,6 +26,7 @@ public class DropChance : MonoBehaviour
     public Sprite Im13;
     public Sprite Im14;
     public Sprite Im15;
+    public Sprite Im16; 
 
 
     public void Awake()
@@ -47,6 +48,7 @@ public class DropChance : MonoBehaviour
         BackDrops.Add(Im13);
         BackDrops.Add(Im14);
         BackDrops.Add(Im15);
+        BackDrops.Add(Im16);
         Debug.Log(BackDrops);
         backgrounds = GetComponent<SpriteRenderer>();
        // spot = Spotted;
