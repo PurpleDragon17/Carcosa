@@ -27,7 +27,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
 
-    It was too far from home to go on a whim, but too close that it never felt right going when I was away at collage. 
+    It was too far from home to go on a whim, but too close that it never felt right going when I was away at college. 
 
     Filler Text 
 
@@ -168,91 +168,98 @@ EXTERNAL DropChange (spot)
 
 
 ==artist== 
+   
     I made my way over to the artist.
 
+    {ShowCharacter("Aubri", "Center", "NatDark")}
+    Filler Text 
 
-	{ShowCharacter("Sage", "Center", "Nat")}
+    {ChangeMood("Aubri", "Nat")}
+    ???: "There's got to be a way to get this off,"
 
-	Filler Text 
+    Filler Text
+    {ChangeMood("Aubri", "NatDark")}
+    She seemed to be absentmidly picking at the paint that covered an old mirror. 
 
-	Sage: “Hm, I never thought to use spray paint on glass. It could be interesting.”
+    Filler Text 
 
+    "Is everything alright?" 
 
-	Filler Text 
-    {ChangeMood("Sage", "NatDark")}
-	{ShowCharacter("Jess", "Right", "Nat")}
-	Jess: “I’d rather try and read what’s under all the spray paint”
+    Filler Text 
 
+    My voice must have starteled her as she dropped the papers she was holding. She dropped to her knees faster then I would have expected for someone in heels as she picked up the papers. 
 
-	Filler Text 
-    {ChangeMood("Jess", "NatDark")}
-	{ShowCharacter("Jon", "Left", "Nat")}
-	Jon: “I don’t think it's worth it. This whole place is kinda crap” 
+    Filler Text 
 
+    I joined her on the floor, she sighed. 
 
-	Filler Text 
-    {ChangeMood("Jon", "NatDark")}
-	 “Wasn’t always like this. It was still a ride queue when I was here last.” 
+    Filler Text
 
+    {ChangeMood("Aubri", "Nat")}
+    ???: "It's not your fault, I shouldn't have even brought this here, I just, well I need to practice right?" 
 
-	Filler Text 
-    {ChangeMood("Jess", "Nat")}
-	Jess: “You got a paper too?” 
+    Filler Text 
 
+    {ChangeMood("Aubri", "NatDark")}
+    She almost had a laugh to her voice, but the kind of laugh you could tell was forced. 
 
-	Filler Text 
-    {ChangeMood("Jess", "NatDark")}
-    {ChangeMood("Sage", "Nat")}
-	Sage: “I thought we were going to keep that secret.” 
+    Filler Text 
 
+    I looked down to the papers I was holding, it appered to be a script. 
 
-	Filler Text 
-    {ChangeMood("Sage", "NatDark")}
-	 “I did. I’m Rory by the way.” 
+    Filler Text 
 
+    I looked her over again, perfect make up and a dress perfetly tailored to her body. Not to mention the golden braclets pearl neckless. She looked like old Hollywood money. 
 
-	Filler Text 
-  
-    {ChangeMood("Jess", "Nat")}
-	Jess: “Jess.” 
+    Filler Text 
+    {ChangeMood("Aubri", "Nat")}
 
+    ???: "Can I have my papers back?" 
 
-	Filler Text 
-    {ChangeMood("Jess", "NatDark")}
-    {ChangeMood("Sage", "Nat")}
-	Sage: “Sage.” 
+    Filler Text 
+    {ChangeMood("Aubri", "NatDark")}
 
+    I handed it over with a nod, I guess I must have been stiaring. 
 
-	Filler Text 
-    {ChangeMood("Sage", "NatDark")}
-    {ChangeMood("Jon", "Nat")}
-	Jon: "Um, Jon?” 
+    Filler Text 
 
+    "I'm Rory by the way." 
 
-	Filler Text 
-    {ChangeMood("Sage", "Nat")}
-    {ChangeMood("Jon", "NatDark")}
-	Sage: “Can you even say your name?” 
+    Filler Text 
+    {ChangeMood("Aubri", "Nat")}
 
+    ???: "From that reaction I'd say that you don't reconize me." 
 
-	Filler Text 
-    {ChangeMood("Sage", "NatDark")}
-    {ChangeMood("Jon", "Nat")}
-	Jon: “Sorry”
+    Filler Text 
+    {ChangeMood("Aubri", "NatDark")}
 
-	{HideCharacter("Sage")}
-	{HideCharacter("Jess")}
-	{HideCharacter("Jon")}
-       Filler Text
+    "I don't watch a lot of movies." 
+
+    Filler Text 
+
+    My answer was honest, but it didn't make her any happer. 
+
+    Filler Text 
+    {ChangeMood("Aubri", "Nat")}
+
+    ???: "You can call my Aubri, thanks for the help Rory but I need to practice." 
+
+    Filler Text 
+    {ChangeMood("Aubri", "NatDark")} 
+
+    With that she stood up and reteurend to the mirror. 
+
+    Filler Text 
+    {HideCharacter("Aubri")}
     -> WhoTalk
 ==manWplants==
     I made my way over to the man kneeling next to a plant on the floor. 
 
-	{ShowCharacter("Warren", "Right", "Nat")}
+	{ShowCharacter("Warren", "Center", "Nat")}
 
 	Filler Text  
 
-	Warren: “It’s quite surprising to see you here.” 
+	???: “It’s quite surprising to see you here.” 
 
 	Filler Text 
     {ChangeMood("Warren", "NatDark")}
@@ -260,79 +267,75 @@ EXTERNAL DropChange (spot)
 
 	Filler Text 
     {ChangeMood("Warren", "Nat")}
-	Warren: “Nature always finds a way to blossom.” 
+	???: “Nature always finds a way to blossom.” 
 
 	Filler Text 
-
-	{ShowCharacter("Hendrix", "Center", "Nat")}
     {ChangeMood("Warren", "NatDark")}
-	Hendrix: “He’s not talking to you.” 
 
-	Filler Text 
-    {ChangeMood("Hendrix", "NatDark")}
-	 “I realized that.” 
+    I let out a small laugh, I guess he wasn't talking to me. 
 
-	Filler Text 
-
-	{ShowCharacter("Bonnie", "Left", "Nat")}
-
-	Bonnie: “Hey, do you know why the roller coaster was shut down?” 
-
-	Filler Text 
-    {ChangeMood("Bonnie", "NatDark")}
-	 “It was an old wooden thing, half broken. They wanted to redo the whole track in steel but the park didn’t have the money.” 
-
-	Filler Text 
-    {ChangeMood("Bonnie", "Nat")}
-	Bonnie: “So no one died?” 
-
-	Filler Text 
-    {ChangeMood("Bonnie", "NatDark")}
-    {ChangeMood("Hendrix", "Nat")}
-	Hendrix: “Told you no one died.” 
-
-	Filler Text 
-    {ChangeMood("Hendrix", "NatDark")}
-	 “If you want to talk about deaths at this park, you should see The Moat Boat.” 
-
-	Filler Text 
-    {ChangeMood("Hendrix", "Nat")}
-	Hendrix: “You sound like a tabloid headline.” 
-
-	Filler Text 
-    {ChangeMood("Hendrix", "NatDark")}
-	 “Hey, journalists gotta make money somehow.” 
-
-	Filler Text 
-    {ChangeMood("Bonnie", "Nat")}
-	Bonnie: “Have I read anything you worked on?” 
-
-	Filler Text 
-    {ChangeMood("Bonnie", "NatDark")}
-	 “Rory Conner, I did a lot for game journals.” 
-
-	Filler Text 
-    {ChangeMood("Bonnie", "Nat")}
-	Bonnie: “I’m Bonnie, and can’t say I have read much of that. The man on the floor is Warren. He drove me here.” 
-
-	Filler Text 
-    {ChangeMood("Bonnie", "NatDark")}
+    Filler Text 
     {ChangeMood("Warren", "Nat")}
-	Warren: “How are you getting food? I didn’t think the lights were that bright here.” 
 
-	Filler Text 
+    ???: "The real question is, what do I do with you now?" 
+
+    Filler Text 
     {ChangeMood("Warren", "NatDark")}
-    {ChangeMood("Hendrix", "Nat")}
-	Hendrix: “Detective Shara Hendrix. And Just Hendrix is fine.” 
 
-	Filler Text 
-    {ChangeMood("Hendrix", "NatDark")}
-	Hendrix turned her attention to Bonnie who had started talking about other dark ride accidents. 
+    I took a step forward, kneeling down on the other side of the plant. 
 
-	{HideCharacter("Warren")}
-	{HideCharacter("Hendrix")}
-	{HideCharacter("Bonnie")}
+    Filler Text 
+
+    "Would it be safe to move it outside?" 
+
+    Filler Text 
+
+    The man stubled back, probably startled, before regaining his composer. 
+
+    Filler Text 
+    {ChangeMood("Warren", "Nat")}
+
+    ???: "Yes, but I worry someone will see this guy's not up to snuff with the rest of the garden and kill it anyway." 
+
+    Filler Text 
+    {ChangeMood("Warren", "NatDark")}
+
+    "Then I guess we should just try and keep him alive here. I'm Rory by the way." 
+
+    Filler Text 
+
+    I held out my hand, he didn't take it. 
+
+    Filler Text 
+    {ChangeMood("Warren", "Nat")}
+
+    ???: "I'm Warren. Sorry if you heard me talking to this thing, I get a bit...too into my work?" 
+
     Filler Text
+    {ChangeMood("Warren", "NatDark")}
+
+    "Oh, what do you do for work?" 
+
+    Filler Text
+    {ChangeMood("Warren", "Nat")}
+
+    Warren: "Oh, I'm a plant pathologist." 
+
+    Filler Text
+    {ChangeMood("Warren", "NatDark")}
+
+    I waited in silence for a moment, hoping he would explain what that ment. He didn't. 
+
+    Filler Text 
+
+    "Well I'm going to go..." 
+
+    Filler Text 
+
+    I stood back up and backed away. 
+	
+    Filler Text
+    {HideCharacter("Warren")}
     -> WhoTalk
 ==readingMan==
     {ShowCharacter("Elias", "Center", "Nat")}
