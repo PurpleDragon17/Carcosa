@@ -90,45 +90,39 @@ EXTERNAL DropChange (spot)
     There was a soft clicking of a speaker, but there was no voice. 
 
     Filler Text
-    {ShowCharacter("Sage", "Center", "Nat")}
+    {ShowCharacter("Aburi", "Center", "Nat")}
 
-    Sage: “What was that?” 
+    Aubri: “What was that?” 
 
-
-    Filler Text
-    {ChangeMood ("Sage", "NatDark")}
-    {ShowCharacter("Bonnie", "Left", "Nat")}
-
-    Bonnie: “Probably just a technical malfunction.” 
 
     Filler Text
-    {ChangeMood("Bonnie", "NatDark")}
+    {ChangeMood ("Aburi", "NatDark")}
+    {ShowCharacter("Warren", "Left", "Nat")}
+
+    Warren: “A technical malfunction?.” 
+
+    Filler Text
+    {ChangeMood("Elias", "NatDark")}
     {ShowCharacter("Kate", "Right", "Nat")}
     Kate: “I hate when the soundtrack stops.” 
 
     Filler Text
     {ChangeMood("Kate", "NatDark")}
-    {ChangeMood("Sage", "Nat")}
-    Sage: “What should we even be doing?” 
+    {ChangeMood("Aburi", "Nat")}
+    Aburi: “This might be our sign to leave, everyone else did." 
 
     Filler Text
-    {HideCharacter("Kate")}
-    {ShowCharacter ("Hendrix", "Right", "Nat")}
-
-    Hendrix: “I think we should go explore.” 
-
-    Filler Text
-    {ChangeMood("Hendrix", "NatDark")}
-    {ChangeMood("Bonnie", "Nat")}
-    Bonnie: “She has a point. When else are we going to get a chance like this?” 
+    {ChangeMood("Aburi", "NatDark")}
+    {ChangeMood("Kate", "Nat")}
+    Kate: “She has a point. Well, time to get some excusive fottage?” 
 
     Filler Text
-    {ChangeMood("Bonnie", "NatDark")}
+    {ChangeMood("Kate", "NatDark")}
 
     There’s murmuring of agreement as the group split up. The only one who stayed behind was Elias. 
-    {HideCharacter("Bonnie")}
-    {HideCharacter("Hendrix")}
-    {HideCharacter("Sage")}
+    {HideCharacter("Aubri")}
+    {HideCharacter("Kate")}
+    {HideCharacter("Warren")}
     {ShowCharacter("Elias", "Center", "Nat")}
 
     Filler Text
@@ -348,7 +342,7 @@ EXTERNAL DropChange (spot)
 
 	Filler Text 
     {ChangeMood("Elias", "Nat")}
-	Elias: “Oh? I guess you’re right.” 
+	???: “Oh? I guess you’re right.” 
 
 	Filler Text 
      {ChangeMood("Elias", "NatDark")}
@@ -356,7 +350,7 @@ EXTERNAL DropChange (spot)
 
 	Filler Text 
      {ChangeMood("Elias", "Nat")}
-	Elias: “Are you incapable of taking a hint?” 
+	???: “Are you incapable of taking a hint?” 
 
 	Filler Text 
      {ChangeMood("Elias", "NatDark")}
@@ -364,7 +358,7 @@ EXTERNAL DropChange (spot)
 
 	Filler Text 
      {ChangeMood("Elias", "Nat")}
-	Elias: “Elias. Will you leave me to my book now?” 
+	???: “Elias. Will you leave me to my book now?” 
 
 	Filler Text 
 
@@ -374,77 +368,64 @@ EXTERNAL DropChange (spot)
     Filler text
     -> WhoTalk
 ==girlWcamera==
-   A girl with a camera was directing a few other people. I found myself squinting as I tried to recall where, if anywhere, I knew her. 
+   I approched the girl with a camara as she tried to find the perfect spot to film.  
 
 	{ShowCharacter("Kate", "Center", "Nat")}
 
 	Filler Text 
 
-    Kate: “You don’t have lines, just talk” 
+    ???: “But if I stand here the light's all wrong.” 
 
-	{ShowCharacter("Aubri", "Left", "Nat")}
-
-	Filler Text 
+    Filler text
     {ChangeMood("Kate", "NatDark")}
-	Aubri: “But how do you expect me to perform without lines?” 
 
-	{ShowCharacter("Zelda", "Right", "Nat")}
-
-	Filler Text 
-    {ChangeMood("Aubri", "NatDark")}
-    Zelda: “It’s called improv Hollywood. Don’t they teach you that in acting school?” 
+	She seemed to notice me immdentyly as I walked over. 
 
     Filler Text 
-    {ChangeMood("Zelda", "NatDark")}
-    {ChangeMood("Kate", "Nat")}
-    Kate: “If you don’t wanna talk, can’t you just hold the camera?” 
+    {ChangeMood ("Kate", "Nat")}
 
-    Filler Text 
-    {ChangeMood("Kate", "NatDark")}
-	 “I can do it.” 
+    ???: "Hey, can you hold this? I need to film a vlog." 
 
-	Filler Text 
-    {ChangeMood("Kate", "Nat")}
-	Kate: “You’re a lifesaver.” 
-
-	Filler Text 
-    {ChangeMood("Kate", "NatDark")}
-	She handed me her camera and eagerly jumped in front, her voice jumping the octave with her. 
-
-	Filler Text 
-    {ChangeMood("Kate", "Nat")}
-	Kate: “Hey there interweb, Ya'll know me as Kate, and you should recognize my collaborator, the Hollywood superstar Aubri Hunt,” 
-
-	Filler Text 
-    {ChangeMood("Kate", "NatDark")}
-    {ChangeMood("Aubri", "Nat")}
-	Aubri: “It’s always so wonderful to meet a fan” 
-
-	Filler Text 
-    {ChangeMood("Aubri", "NatDark")}
-    {ChangeMood("Kate", "Nat")}
-	Kate: “And the legendary Zelda.” 
-
-	Filler Text 
-    {ChangeMood("Kate", "NatDark")}
-    {ChangeMood("Zelda", "Nat")}
-	Zelda: “I hope you enjoy the show.” 
-
-	Filler Text 
-    {ChangeMood("Zelda", "NatDark")}
-    {ChangeMood("Kate", "Nat")}
-	Kate: “We were invited to Carcosa’s exclusive Halloween event and I plan to document everything!” 
-
-	Filler Text 
-    {ChangeMood("Kate", "NatDark")}
-	She stared blankly at me until I handed her back the camera. I quickly walked away. 
-
-
-
-	{HideCharacter("Kate")}
-	{HideCharacter("Aubri")}
-	{HideCharacter("Zelda")}
     Filler Text
+    {ChangeMood("Kate", "NatDark")}
+
+    She didn't exactly give me time to respond before she was shoving a video camera in my hand. 
+
+    Filler Text 
+
+    I was thankful that I knew how to use it, tuning the settings before hitting record and giving her a thumbs up. 
+
+    Filler Text 
+    
+    She took a breath and her whole deminer changed, painc becoming bubbly excitment. 
+
+    Filler Text 
+    {ChangeMood("Kate", "Nat")}
+
+    ???: "Hey there people, it's Kate, and I am here at Carcosa Amusement park for their invite only Halloween event." 
+
+    Filler Text 
+
+    Kate: "So, becuase I thought it wasn't fair for this to be sooooo exculsive, you all get to tag along with me." 
+
+    Filler Text 
+    {ChangeMood("Kate", "NatDark")} 
+
+    I wanted to ask her about the invitation, then thought better of it. I really wouldn't want my voice recorded. 
+
+    Filler Text
+    {ChangeMood("Kate", "Nat")}
+
+    Kate: "I'm going to start with giving you all a tour of the Hallowed Castle. Oh, camara person. I'll take it back now." 
+
+    Filler Text 
+    {ChangeMood("Kate", "NatDark")}
+
+    I handed over teh camera and quickly ran to be out of frame. 
+
+    Filler Text
+    {HideCharacter("Kate")}
+
     -> WhoTalk
 ==darRide==
         
