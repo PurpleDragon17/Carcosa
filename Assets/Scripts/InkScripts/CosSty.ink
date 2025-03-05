@@ -1508,11 +1508,11 @@ EXTERNAL DropChange (spot)
 
 ==HendrixDoneCh1==
     {ShowCharacter("Hendrix", "Center", "NatDark")}
-    Hendrix let out a sigh as she stood up, looking at each of us with a cold suspension that made me want to turn and run. 
+    The detective let out a sigh as she stood up, looking at each of us with a cold suspension that made me want to turn and run. 
                     
     Filler Text 
     {ChangeMood("Hendrix", "Nat")}
-    Hendrix: “She was killed alright. We just need to determine who.” 
+    ???: “She was killed alright. We just need to determine who.” 
                         
     Filler Text 
     {ChangeMood("Hendrix", "NatDark")}
@@ -1522,27 +1522,27 @@ EXTERNAL DropChange (spot)
                     
     Filler Text 
     {ChangeMood("Hendrix", "Nat")}
-    Hendrix: “You got a better idea?”  
+    ???: “You got a better idea?”  
                     
     Filler Text 
     {ChangeMood("Hendrix", "NatDark")}
-	**Jon
+	*{JonCh1Intar}Jon
          “I think you should hear Jon’s story. It might prove that-”     
 
     Filler Text 
     {ChangeMood("Hendrix", "Nat")}
 
-	Hendrix: “prove what? That it’s something supernatural? Oh please. Have you seen anything supernatural?” 
+	???: “prove what? That it’s something supernatural? Oh please. Have you seen anything supernatural?” 
                             
     Filler Text 
     {ChangeMood("Hendrix", "NatDark")}
 
-	***{RideCoaster}Remember 
+	**{RideCoaster}Remember 
 		 “I was trapped on the roller coaster. I-I thought I was going to die there. The statue moved, tried to slam her sword onto me.” 
                             
         Filler Text 
         {ChangeMood("Hendrix", "Nat")}
-		Hendrix: “And you expect me to-” 
+		???: “And you expect me to-” 
                                 
         Filler Text 
         {ChangeMood("Hendrix", "NatDark")}
@@ -1551,48 +1551,48 @@ EXTERNAL DropChange (spot)
 
         Filler Text
         {ChangeMood("Elias", "NatDark")}
-		Hendrix shook her head, ginger braid swaying with the movement. 
+		The detective shook her head, ginger braid swaying with the movement. 
 
         Filler Text
         {ChangeMood("Hendrix", "Nat")}
-		Hendrix: “Look, if you all want to spend your time chasing ghosts, be my guest. I’m going to call this in.” 
+		???: “Look, if you all want to spend your time chasing ghosts, be my guest. I’m going to call this in.” 
 
         Filler Text
         {HideCharacter("Hendrix")}
         {HideCharacter("Elias")}
 		->CH1ed
 		
-	***{(not DRDoor)&&(not RCAttenent)}Agree 
+	**{(not DRDoor)&&(not RCAttenent)}Agree 
 		 “I guess you have a point, I mean, I haven’t seen anything weird” 
          Filler Text
 		Elias looked to me a bit confused. Did he see something I didn’t? 
         Filler Text
         {ChangeMood("Hendrix", "Nat")}
-		Hendrix: “I’m going to call this in” 
+		???: “I’m going to call this in” 
         Filler Text
         {HideCharacter("Hendrix")}
 		->CH1ed
-    ***
+    **
         I was stunned into silence for a moment. 
         Filler Text
 		Elias looked to me a bit confused. Did he see something I didn’t? 
         Filler Text
         {ChangeMood("Hendrix", "Nat")}
-		Hendrix: “I’m going to call this in” 
+		???: “I’m going to call this in” 
         Filler Text
         {HideCharacter("Hendrix")}
 		->CH1ed
 
-	**{DRDoor||RCAttenent}Bonnie 
+	*{(DRDoor||RCAttenent)&&(BonnieCh1Intar)}Bonnie 
 		 “I can see your point, but what if there’s really something?”
          Filler Text
          {ChangeMood("Hendrix", "Nat")}
-		Hendrix: “Then be a ghost hunter, just leave me out of this. I have to call this in” 
+		???: “Then be a ghost hunter, just leave me out of this. I have to call this in” 
         Filler Text
         {HideCharacter("Hendrix")}
 		->CH1ed
 
-    *One of us? 
+    *{SageCh1Intar}One of us? 
         {ShowCharacter("Sage", "Left", "Nat")}
         Sage: “You think one of us did this?” 
         Filler Text
@@ -1602,39 +1602,63 @@ EXTERNAL DropChange (spot)
         Filler Text
         {ChangeMood("Kate", "NatDark")}
         {ChangeMood("Hendrix", "Nat")}
-        Hendrix: “Well someone did” 
+        ???: “Well someone did” 
         Filler Text
         {ChangeMood("Hendrix", "NatDark")}
-    “Is murder really the most logical option here?” 
+        “Is murder really the most logical option here?” 
         Filler Text
         {ChangeMood("Hendrix", "Nat")}
-    Hendrix: “You got a better idea?”  
-    Filler Text
+        ???: “You got a better idea?”  
+         Filler Text
         {ChangeMood("Hendrix", "NatDark")}
         {HideCharacter("Sage")}
         {HideCharacter("Kate")}
-	**Jon
+        
+    *{not SageCh1Intar}One of us? 
+        {ShowCharacter("Sage", "Left", "Nat")}
+        ???: “You think one of us did this?” 
+        Filler Text
+        {ChangeMood("Sage", "NatDark")}
+        {ShowCharacter("Kate", "Right", "Nat")}
+        Kate: “NO! I didn’t! I swear!” 
+        Filler Text
+        {ChangeMood("Kate", "NatDark")}
+        {ChangeMood("Hendrix", "Nat")}
+        ???: “Well someone did” 
+        Filler Text
+        {ChangeMood("Hendrix", "NatDark")}
+         “Is murder really the most logical option here?” 
+        Filler Text
+        {ChangeMood("Hendrix", "Nat")}
+        ???: “You got a better idea?”  
+        Filler Text
+        {ChangeMood("Hendrix", "NatDark")}
+        {HideCharacter("Sage")}
+        {HideCharacter("Kate")}
+
+
+	**{JonCh1Intar}Jon
 	 “I think you should hear Jon’s story. It might prove that-” 
      Filler Text
     {ChangeMood("Hendrix", "Nat")}
-	Hendrix: “prove what? That it’s something supernatural? Oh please. Have you seen anything supernatural?” 
+	???: “prove what? That it’s something supernatural? Oh please. Have you seen anything supernatural?” 
     Filler Text
     {ChangeMood("Hendrix", "NatDark")}
 	***{CoasterSplit}Remember 
 		 “I was trapped on the roller coaster. I-I thought I was going to die there. The statue moved, tried to slam her sword onto me.” 
          Filler Text
          {ChangeMood("Hendrix", "Nat")}
-		Hendrix: “And you expect me to-” 
+		???: “And you expect me to-” 
         Filler Text
         {ChangeMood("Hendrix", "NatDark")}
         {ShowCharacter("Elias", "Right", "Nat")}
 		Elias: “I can vouch for her. I saw it too. There’s more going on here than it seems.” 
         Filler Text
         {ChangeMood("Elias", "NatDark")}
-		Hendrix shook her head, ginger braid swaying with the movement. 
+		The detective shook her head, ginger braid swaying with the movement. 
         Filler Text
         {ChangeMood("Hendrix", "Nat")}
-		Hendrix: “Look, if you all want to spend your time chasing ghosts, be my guest. I’m going to call this in.” 
+		???: “Look, if you all want to spend your time chasing ghosts, be my guest. I’m going to call this in.” 
         Filler Text
         {HideCharacter("Hendrix")}
         {HideCharacter("Elias")}
@@ -1646,15 +1670,15 @@ EXTERNAL DropChange (spot)
 		Elias looked to me a bit confused. Did he see something I didn’t? 
         Filler Text
         {ChangeMood("Hendrix", "Nat")}
-		Hendrix: “I’m going to call this in” 
+		???: “I’m going to call this in” 
         Filler Text
         {HideCharacter("Hendrix")}
 		->CH1ed
-	**{DRDoor||RCAttenent}Bonnie 
+	**{(DRDoor||RCAttenent)&&(BonnieCh1Intar)}Bonnie 
 		 “I can see your point, but what if there’s really something?”
          Filler Text
          {ChangeMood("Hendrix", "Nat")}
-		Hendrix: “Then be a ghost hunter, just leave me out of this. I have to call this in”
+		???: “Then be a ghost hunter, just leave me out of this. I have to call this in”
         Filler Text
         {HideCharacter("Hendrix")}
 		->CH1ed
@@ -1902,70 +1926,12 @@ EXTERNAL DropChange (spot)
 
 
 ==CH1ed==
-    {ShowCharacter("Zelda", "Right", "Nat")}
-    Zelda: “Yeah, I don’t think that’s gonna happen.” 
-    Filler Text
-    {ChangeMood("Zelda", "NatDark")}
-    {ShowCharacter("Hendrix", "Center", "Nat")}
-    Hendrix: “And why not?” 
-    Filler Text
-    {ChangeMood("Hendrix", "NatDark")}
-    {ShowCharacter("Warren", "Left", "Nat")}
-    Warren: “There's no towers around here. I couldn’t get my plant identification app to work.” 
-    Filler Text
-    {ChangeMood("Warren", "NatDark")}
-    {HideCharacter("Zelda")}
-    {ChangeMood("Hendrix", ("Nat"))}
-    Hendrix: “So what? We’re all alone here?” 
-    Filler Text
-    {ChangeMood("Hendrix", "NatDark")}
-    {HideCharacter("Warren")}
-    {ShowCharacter("Elias", "Right", "Nat")}
-    Elias: “It seems so.” 
-    Filler Text
-    {ChangeMood("Elias",  "Nat")}
-    {ShowCharacter("Jess", "Left", "Nat")}
-    Jess: “Then maybe we should be listening to the detective?” 
-    Filler Text
-    {HideCharacter("Elias")}
-    {ChangeMood("Jess", "NatDark")}
-    {ShowCharacter("Bonnie", "Right", "Nat")}
-    Bonnie: “But what if-there is something more going on?” 
-    Filler Text
-    {ChangeMood("Bonnie", "NatDark")}
-    {ChangeMood("Hendrix", "Nat")}
-    Hendrix: “So what do you say Rory? You’re my sidekick on this, do you want to chase ghosts or be a real detective?” 
-    Filler Text
-    {ChangeMood("Hendrix", "NatDark")}
-    *{JonPush||RideCoaster||DRDoor||RCAttenent}Ghosts 
-        “I know what I've seen. Be it ghosts or something else I’ll be looking into that. It may have been murder, but I know that it wasn’t one of us” 
-        Filler Text
-        {DropChange(13)}
-        {HideCharacter("Hendrix")}
-        {HideCharacter("Bonnie")}
-        {HideCharacter("Jess")}
-        End of Chapter 1: Ghost Hunter 
-            ->END
-    *{(not JonPush)&&(not RideCoaster)&&(not DRDoor)&&(not RCAttenent)}Detective 
-        “You have a point, Hendrix. This place is creepy but we can’t be jumping to conclusions. If one of us is a killer, we need to be on alert. As far as we know, we can’t trust anyone.” 
-        Filler Text
-        {DropChange(13)}
-        {HideCharacter("Hendrix")}
-        {HideCharacter("Bonnie")}
-        {HideCharacter("Jess")}
-        End of Chapter 1: Detective in Training 
-
-            ->END
-    *{JonPush && CoasterSplit && DRDoor && RCAttenent}Truth 
-        “There’s something here. I don’t know what, but I know I won’t rest until I know. Until I can prove what’s going on” 
-        Filler Text
-        {DropChange(13)}
-        {HideCharacter("Hendrix")}
-        {HideCharacter("Bonnie")}
-        {HideCharacter("Jess")}
-        End of Chapter 1: Journalist 
-            ->END
-    * ->Default
+    *{ZeldaCh1Intar} -> CH1edZelda
+    *{JonCh1Intar} -> CH1edJon
+    *{BonnieCh1Intar} -> CH1edBonnie
+    *{JessCh1Intar} -> CH1edJess
+    *{SageCh1Intar} -> CH1edSage
+   
 
 ==Default==
   “I know what I've seen. Be it ghosts or something else I’ll be looking into that. It may have been murder, but I know that it wasn’t one of us” 
@@ -2003,3 +1969,330 @@ EXTERNAL DropChange (spot)
         Filler Text
         {HideCharacter("Jess")}
     -> TalkToPeople
+
+==CH1edZelda==
+ {ShowCharacter("Zelda", "Right", "Nat")}
+    Zelda: “Yeah, I don’t think that’s gonna happen.” 
+    Filler Text
+    {ChangeMood("Zelda", "NatDark")}
+    {ShowCharacter("Hendrix", "Center", "Nat")}
+    ???: “And why not?” 
+    Filler Text
+    {ChangeMood("Hendrix", "NatDark")}
+    {ShowCharacter("Warren", "Left", "Nat")}
+    Warren: “There's no towers around here. I couldn’t get my plant identification app to work.” 
+    Filler Text
+    {ChangeMood("Warren", "NatDark")}
+    {HideCharacter("Zelda")}
+    {ChangeMood("Hendrix", ("Nat"))}
+    ???: “So what? We’re all alone here?” 
+    Filler Text
+    {ChangeMood("Hendrix", "NatDark")}
+    {HideCharacter("Warren")}
+    {ShowCharacter("Elias", "Right", "Nat")}
+    Elias: “It seems so.” 
+    Filler Text
+    {ChangeMood("Elias",  "Nat")}
+    {ShowCharacter("Jess", "Left", "Nat")}
+    Jess: “Then maybe we should be listening to the detective?” 
+    Filler Text
+    {HideCharacter("Elias")}
+    {ChangeMood("Jess", "NatDark")}
+    {ShowCharacter("Bonnie", "Right", "Nat")}
+    ???: “But what if-there is something more going on?” 
+    Filler Text
+    {ChangeMood("Bonnie", "NatDark")}
+    {ChangeMood("Hendrix", "Nat")}
+    ???: “So what do you say Rory? You’re my sidekick on this, do you want to chase ghosts or be a real detective?” 
+    Filler Text
+    {ChangeMood("Hendrix", "NatDark")}
+    *{JonPush||RideCoaster||DRDoor||RCAttenent}Ghosts 
+        “I know what I've seen. Be it ghosts or something else I’ll be looking into that. It may have been murder, but I know that it wasn’t one of us” 
+        Filler Text
+        {DropChange(13)}
+        {HideCharacter("Hendrix")}
+        {HideCharacter("Bonnie")}
+        {HideCharacter("Jess")}
+        End of Chapter 1: Ghost Hunter 
+            ->END
+    *{(not JonPush)&&(not RideCoaster)&&(not DRDoor)&&(not RCAttenent)}Detective 
+        “You have a point. This place is creepy but we can’t be jumping to conclusions. If one of us is a killer, we need to be on alert. As far as we know, we can’t trust anyone.” 
+        Filler Text
+        {DropChange(13)}
+        {HideCharacter("Hendrix")}
+        {HideCharacter("Bonnie")}
+        {HideCharacter("Jess")}
+        End of Chapter 1: Detective in Training 
+
+            ->END
+    *{JonPush && CoasterSplit && DRDoor && RCAttenent}Truth 
+        “There’s something here. I don’t know what, but I know I won’t rest until I know. Until I can prove what’s going on” 
+        Filler Text
+        {DropChange(13)}
+        {HideCharacter("Hendrix")}
+        {HideCharacter("Bonnie")}
+        {HideCharacter("Jess")}
+        End of Chapter 1: Journalist 
+            ->END
+    * ->Default
+==CH1edJon==
+ {ShowCharacter("Zelda", "Right", "Nat")}
+    ???: “Yeah, I don’t think that’s gonna happen.” 
+    Filler Text
+    {ChangeMood("Zelda", "NatDark")}
+    {ShowCharacter("Hendrix", "Center", "Nat")}
+    ???: “And why not?” 
+    Filler Text
+    {ChangeMood("Hendrix", "NatDark")}
+    {ShowCharacter("Warren", "Left", "Nat")}
+    Warren: “There's no towers around here. I couldn’t get my plant identification app to work.” 
+    Filler Text
+    {ChangeMood("Warren", "NatDark")}
+    {HideCharacter("Zelda")}
+    {ChangeMood("Hendrix", ("Nat"))}
+    ???: “So what? We’re all alone here?” 
+    Filler Text
+    {ChangeMood("Hendrix", "NatDark")}
+    {HideCharacter("Warren")}
+    {ShowCharacter("Elias", "Right", "Nat")}
+    Elias: “It seems so.” 
+    Filler Text
+    {ChangeMood("Elias",  "Nat")}
+    {ShowCharacter("Jess", "Left", "Nat")}
+    Jess: “Then maybe we should be listening to the detective?” 
+    Filler Text
+    {HideCharacter("Elias")}
+    {ChangeMood("Jess", "NatDark")}
+    {ShowCharacter("Bonnie", "Right", "Nat")}
+    ???: “But what if-there is something more going on?” 
+    Filler Text
+    {ChangeMood("Bonnie", "NatDark")}
+    {ChangeMood("Hendrix", "Nat")}
+    ???: “So what do you say Rory? You’re my sidekick on this, do you want to chase ghosts or be a real detective?” 
+    Filler Text
+    {ChangeMood("Hendrix", "NatDark")}
+    *{JonPush||RideCoaster||DRDoor||RCAttenent}Ghosts 
+        “I know what I've seen. Be it ghosts or something else I’ll be looking into that. It may have been murder, but I know that it wasn’t one of us” 
+        Filler Text
+        {DropChange(13)}
+        {HideCharacter("Hendrix")}
+        {HideCharacter("Bonnie")}
+        {HideCharacter("Jess")}
+        End of Chapter 1: Ghost Hunter 
+            ->END
+    *{(not JonPush)&&(not RideCoaster)&&(not DRDoor)&&(not RCAttenent)}Detective 
+        “You have a point. This place is creepy but we can’t be jumping to conclusions. If one of us is a killer, we need to be on alert. As far as we know, we can’t trust anyone.” 
+        Filler Text
+        {DropChange(13)}
+        {HideCharacter("Hendrix")}
+        {HideCharacter("Bonnie")}
+        {HideCharacter("Jess")}
+        End of Chapter 1: Detective in Training 
+
+            ->END
+    *{JonPush && CoasterSplit && DRDoor && RCAttenent}Truth 
+        “There’s something here. I don’t know what, but I know I won’t rest until I know. Until I can prove what’s going on” 
+        Filler Text
+        {DropChange(13)}
+        {HideCharacter("Hendrix")}
+        {HideCharacter("Bonnie")}
+        {HideCharacter("Jess")}
+        End of Chapter 1: Journalist 
+            ->END
+    * ->Default
+==CH1edBonnie== 
+ {ShowCharacter("Zelda", "Right", "Nat")}
+    ???: “Yeah, I don’t think that’s gonna happen.” 
+    Filler Text
+    {ChangeMood("Zelda", "NatDark")}
+    {ShowCharacter("Hendrix", "Center", "Nat")}
+    ???: “And why not?” 
+    Filler Text
+    {ChangeMood("Hendrix", "NatDark")}
+    {ShowCharacter("Warren", "Left", "Nat")}
+    Warren: “There's no towers around here. I couldn’t get my plant identification app to work.” 
+    Filler Text
+    {ChangeMood("Warren", "NatDark")}
+    {HideCharacter("Zelda")}
+    {ChangeMood("Hendrix", ("Nat"))}
+    ???: “So what? We’re all alone here?” 
+    Filler Text
+    {ChangeMood("Hendrix", "NatDark")}
+    {HideCharacter("Warren")}
+    {ShowCharacter("Elias", "Right", "Nat")}
+    Elias: “It seems so.” 
+    Filler Text
+    {ChangeMood("Elias",  "Nat")}
+    {ShowCharacter("Jess", "Left", "Nat")}
+    Jess: “Then maybe we should be listening to the detective?” 
+    Filler Text
+    {HideCharacter("Elias")}
+    {ChangeMood("Jess", "NatDark")}
+    {ShowCharacter("Bonnie", "Right", "Nat")}
+    Bonnie: “But what if-there is something more going on?” 
+    Filler Text
+    {ChangeMood("Bonnie", "NatDark")}
+    {ChangeMood("Hendrix", "Nat")}
+    ???: “So what do you say Rory? You’re my sidekick on this, do you want to chase ghosts or be a real detective?” 
+    Filler Text
+    {ChangeMood("Hendrix", "NatDark")}
+    *{JonPush||RideCoaster||DRDoor||RCAttenent}Ghosts 
+        “I know what I've seen. Be it ghosts or something else I’ll be looking into that. It may have been murder, but I know that it wasn’t one of us” 
+        Filler Text
+        {DropChange(13)}
+        {HideCharacter("Hendrix")}
+        {HideCharacter("Bonnie")}
+        {HideCharacter("Jess")}
+        End of Chapter 1: Ghost Hunter 
+            ->END
+    *{(not JonPush)&&(not RideCoaster)&&(not DRDoor)&&(not RCAttenent)}Detective 
+        “You have a point. This place is creepy but we can’t be jumping to conclusions. If one of us is a killer, we need to be on alert. As far as we know, we can’t trust anyone.” 
+        Filler Text
+        {DropChange(13)}
+        {HideCharacter("Hendrix")}
+        {HideCharacter("Bonnie")}
+        {HideCharacter("Jess")}
+        End of Chapter 1: Detective in Training 
+
+            ->END
+    *{JonPush && CoasterSplit && DRDoor && RCAttenent}Truth 
+        “There’s something here. I don’t know what, but I know I won’t rest until I know. Until I can prove what’s going on” 
+        Filler Text
+        {DropChange(13)}
+        {HideCharacter("Hendrix")}
+        {HideCharacter("Bonnie")}
+        {HideCharacter("Jess")}
+        End of Chapter 1: Journalist 
+            ->END
+    * ->Default
+==CH1edJess== 
+ {ShowCharacter("Zelda", "Right", "Nat")}
+    ???: “Yeah, I don’t think that’s gonna happen.” 
+    Filler Text
+    {ChangeMood("Zelda", "NatDark")}
+    {ShowCharacter("Hendrix", "Center", "Nat")}
+    ???: “And why not?” 
+    Filler Text
+    {ChangeMood("Hendrix", "NatDark")}
+    {ShowCharacter("Warren", "Left", "Nat")}
+    Warren: “There's no towers around here. I couldn’t get my plant identification app to work.” 
+    Filler Text
+    {ChangeMood("Warren", "NatDark")}
+    {HideCharacter("Zelda")}
+    {ChangeMood("Hendrix", ("Nat"))}
+    ???: “So what? We’re all alone here?” 
+    Filler Text
+    {ChangeMood("Hendrix", "NatDark")}
+    {HideCharacter("Warren")}
+    {ShowCharacter("Elias", "Right", "Nat")}
+    Elias: “It seems so.” 
+    Filler Text
+    {ChangeMood("Elias",  "Nat")}
+    {ShowCharacter("Jess", "Left", "Nat")}
+    Jess: “Then maybe we should be listening to the detective?” 
+    Filler Text
+    {HideCharacter("Elias")}
+    {ChangeMood("Jess", "NatDark")}
+    {ShowCharacter("Bonnie", "Right", "Nat")}
+    ???: “But what if-there is something more going on?” 
+    Filler Text
+    {ChangeMood("Bonnie", "NatDark")}
+    {ChangeMood("Hendrix", "Nat")}
+    ???: “So what do you say Rory? You’re my sidekick on this, do you want to chase ghosts or be a real detective?” 
+    Filler Text
+    {ChangeMood("Hendrix", "NatDark")}
+    *{JonPush||RideCoaster||DRDoor||RCAttenent}Ghosts 
+        “I know what I've seen. Be it ghosts or something else I’ll be looking into that. It may have been murder, but I know that it wasn’t one of us” 
+        Filler Text
+        {DropChange(13)}
+        {HideCharacter("Hendrix")}
+        {HideCharacter("Bonnie")}
+        {HideCharacter("Jess")}
+        End of Chapter 1: Ghost Hunter 
+            ->END
+    *{(not JonPush)&&(not RideCoaster)&&(not DRDoor)&&(not RCAttenent)}Detective 
+        “You have a point. This place is creepy but we can’t be jumping to conclusions. If one of us is a killer, we need to be on alert. As far as we know, we can’t trust anyone.” 
+        Filler Text
+        {DropChange(13)}
+        {HideCharacter("Hendrix")}
+        {HideCharacter("Bonnie")}
+        {HideCharacter("Jess")}
+        End of Chapter 1: Detective in Training 
+
+            ->END
+    *{JonPush && CoasterSplit && DRDoor && RCAttenent}Truth 
+        “There’s something here. I don’t know what, but I know I won’t rest until I know. Until I can prove what’s going on” 
+        Filler Text
+        {DropChange(13)}
+        {HideCharacter("Hendrix")}
+        {HideCharacter("Bonnie")}
+        {HideCharacter("Jess")}
+        End of Chapter 1: Journalist 
+            ->END
+    * ->Default
+==CH1edSage==
+ {ShowCharacter("Zelda", "Right", "Nat")}
+    ???: “Yeah, I don’t think that’s gonna happen.” 
+    Filler Text
+    {ChangeMood("Zelda", "NatDark")}
+    {ShowCharacter("Hendrix", "Center", "Nat")}
+    ???: “And why not?” 
+    Filler Text
+    {ChangeMood("Hendrix", "NatDark")}
+    {ShowCharacter("Warren", "Left", "Nat")}
+    Warren: “There's no towers around here. I couldn’t get my plant identification app to work.” 
+    Filler Text
+    {ChangeMood("Warren", "NatDark")}
+    {HideCharacter("Zelda")}
+    {ChangeMood("Hendrix", ("Nat"))}
+    ???: “So what? We’re all alone here?” 
+    Filler Text
+    {ChangeMood("Hendrix", "NatDark")}
+    {HideCharacter("Warren")}
+    {ShowCharacter("Elias", "Right", "Nat")}
+    Elias: “It seems so.” 
+    Filler Text
+    {ChangeMood("Elias",  "Nat")}
+    {ShowCharacter("Jess", "Left", "Nat")}
+    Jess: “Then maybe we should be listening to the detective?” 
+    Filler Text
+    {HideCharacter("Elias")}
+    {ChangeMood("Jess", "NatDark")}
+    {ShowCharacter("Bonnie", "Right", "Nat")}
+    ???: “But what if-there is something more going on?” 
+    Filler Text
+    {ChangeMood("Bonnie", "NatDark")}
+    {ChangeMood("Hendrix", "Nat")}
+    ???: “So what do you say Rory? You’re my sidekick on this, do you want to chase ghosts or be a real detective?” 
+    Filler Text
+    {ChangeMood("Hendrix", "NatDark")}
+    *{JonPush||RideCoaster||DRDoor||RCAttenent}Ghosts 
+        “I know what I've seen. Be it ghosts or something else I’ll be looking into that. It may have been murder, but I know that it wasn’t one of us” 
+        Filler Text
+        {DropChange(13)}
+        {HideCharacter("Hendrix")}
+        {HideCharacter("Bonnie")}
+        {HideCharacter("Jess")}
+        End of Chapter 1: Ghost Hunter 
+            ->END
+    *{(not JonPush)&&(not RideCoaster)&&(not DRDoor)&&(not RCAttenent)}Detective 
+        “You have a point, Hendrix. This place is creepy but we can’t be jumping to conclusions. If one of us is a killer, we need to be on alert. As far as we know, we can’t trust anyone.” 
+        Filler Text
+        {DropChange(13)}
+        {HideCharacter("Hendrix")}
+        {HideCharacter("Bonnie")}
+        {HideCharacter("Jess")}
+        End of Chapter 1: Detective in Training 
+
+            ->END
+    *{JonPush && CoasterSplit && DRDoor && RCAttenent}Truth 
+        “There’s something here. I don’t know what, but I know I won’t rest until I know. Until I can prove what’s going on” 
+        Filler Text
+        {DropChange(13)}
+        {HideCharacter("Hendrix")}
+        {HideCharacter("Bonnie")}
+        {HideCharacter("Jess")}
+        End of Chapter 1: Journalist 
+            ->END
+    * ->Default
+
