@@ -50,7 +50,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
 
-    I tried to laugh it off. She asked me to buy the ticket and enjoy the last hour before the festivities were to begin. I made my way to The Hollow Castle, where the invitation had instructed us to meet. 
+    I tried to laugh it off. She asked me to buy the ticket and enjoy the last hour before the festivities began. I made my way to The Hollow Castle, where the invitation had instructed us to meet. 
 
     Filler Text 
 
@@ -114,7 +114,7 @@ EXTERNAL DropChange (spot)
     Filler Text
     {ChangeMood("Aburi", "NatDark")}
     {ChangeMood("Kate", "Nat")}
-    Kate: “She has a point. Well, time to get some excusive fottage?” 
+    Kate: “She has a point. Well, time to get some exclusive footage?” 
 
     Filler Text
     {ChangeMood("Kate", "NatDark")}
@@ -173,7 +173,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text
     {ChangeMood("Aubri", "NatDark")}
-    She seemed to be absentmidly picking at the paint that covered an old mirror. 
+    She seemed to be absentmindedly picking at the paint that covered an old mirror. 
 
     Filler Text 
 
@@ -181,11 +181,11 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
 
-    My voice must have starteled her as she dropped the papers she was holding. She dropped to her knees faster then I would have expected for someone in heels as she picked up the papers. 
+    My voice must have startled her as she dropped the papers she was holding. She dropped to her knees faster than I would have expected for someone in heels as she picked up the papers. 
 
     Filler Text 
 
-    I joined her on the floor, she sighed. 
+    I joined her on the floor, and she sighed. 
 
     Filler Text
 
@@ -195,15 +195,15 @@ EXTERNAL DropChange (spot)
     Filler Text 
 
     {ChangeMood("Aubri", "NatDark")}
-    She almost had a laugh to her voice, but the kind of laugh you could tell was forced. 
+    She almost had a laugh in her voice, but the kind of laugh you could tell was forced. 
 
     Filler Text 
 
-    I looked down to the papers I was holding, it appered to be a script. 
+    I looked down at the papers I was holding, it appeared to be a script. 
 
     Filler Text 
 
-    I looked her over again, perfect make up and a dress perfetly tailored to her body. Not to mention the golden braclets pearl neckless. She looked like old Hollywood money. 
+    I looked her over again, perfect makeup and a dress perfectly tailored to her body. Not to mention the golden bracelets pearl neckless. She looked like old Hollywood money. 
 
     Filler Text 
     {ChangeMood("Aubri", "Nat")}
@@ -213,7 +213,7 @@ EXTERNAL DropChange (spot)
     Filler Text 
     {ChangeMood("Aubri", "NatDark")}
 
-    I handed it over with a nod, I guess I must have been stiaring. 
+    I handed it over with a nod, I guess I must have been staring. 
 
     Filler Text 
 
@@ -222,7 +222,7 @@ EXTERNAL DropChange (spot)
     Filler Text 
     {ChangeMood("Aubri", "Nat")}
 
-    ???: "From that reaction I'd say that you don't reconize me." 
+    ???: "From that reaction, I'd say that you don't recognize me." 
 
     Filler Text 
     {ChangeMood("Aubri", "NatDark")}
@@ -231,17 +231,17 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
 
-    My answer was honest, but it didn't make her any happer. 
+    My answer was honest, but it didn't make her any happier. 
 
     Filler Text 
     {ChangeMood("Aubri", "Nat")}
 
-    ???: "You can call my Aubri, thanks for the help Rory but I need to practice." 
+    ???: "You can call me Aubri, thanks for the help Rory but I need to practice." 
 
     Filler Text 
     {ChangeMood("Aubri", "NatDark")} 
 
-    With that she stood up and reteurend to the mirror. 
+    With that, she stood up and returned to the mirror. 
 
     Filler Text 
     {HideCharacter("Aubri")}
@@ -284,7 +284,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
 
-    The man stubled back, probably startled, before regaining his composer. 
+    The man stumbled back, probably startled, before regaining his composer. 
 
     Filler Text 
     {ChangeMood("Warren", "Nat")}
@@ -298,7 +298,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
 
-    I held out my hand, he didn't take it. 
+    I held out my hand, but he didn't take it. 
 
     Filler Text 
     {ChangeMood("Warren", "Nat")}
@@ -318,11 +318,11 @@ EXTERNAL DropChange (spot)
     Filler Text
     {ChangeMood("Warren", "NatDark")}
 
-    I waited in silence for a moment, hoping he would explain what that ment. He didn't. 
+    I waited in silence for a moment, hoping he would explain what that meant. He didn't. 
 
     Filler Text 
 
-    "Well I'm going to go..." 
+    "Well, I'm going to go..." 
 
     Filler Text 
 
@@ -368,7 +368,7 @@ EXTERNAL DropChange (spot)
     Filler text
     -> WhoTalk
 ==girlWcamera==
-   I approched the girl with a camara as she tried to find the perfect spot to film.  
+   I approached the girl with a camera as she tried to find the perfect spot to film.  
 
 	{ShowCharacter("Kate", "Center", "Nat")}
 
@@ -379,7 +379,7 @@ EXTERNAL DropChange (spot)
     Filler text
     {ChangeMood("Kate", "NatDark")}
 
-	She seemed to notice me immdentyly as I walked over. 
+	She seemed to notice me immensely as I walked over. 
 
     Filler Text 
     {ChangeMood ("Kate", "Nat")}
@@ -389,7 +389,7 @@ EXTERNAL DropChange (spot)
     Filler Text
     {ChangeMood("Kate", "NatDark")}
 
-    She didn't exactly give me time to respond before she was shoving a video camera in my hand. 
+    She didn't exactly give me time to respond before she shoved a video camera in my hand. 
 
     Filler Text 
 
@@ -397,16 +397,16 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
     
-    She took a breath and her whole deminer changed, painc becoming bubbly excitment. 
+    She took a breath and her whole demeanor changed, panic becoming bubbly excitement. 
 
     Filler Text 
     {ChangeMood("Kate", "Nat")}
 
-    ???: "Hey there people, it's Kate, and I am here at Carcosa Amusement park for their invite only Halloween event." 
+    ???: "Hey there people, it's Kate, and I am here at Carcosa Amusement Park for their invite-only Halloween event." 
 
     Filler Text 
 
-    Kate: "So, becuase I thought it wasn't fair for this to be sooooo exculsive, you all get to tag along with me." 
+    Kate: "So, because I thought it wasn't fair for this to be sooooo exclusive, you all get to tag along with me." 
 
     Filler Text 
     {ChangeMood("Kate", "NatDark")} 
@@ -416,12 +416,12 @@ EXTERNAL DropChange (spot)
     Filler Text
     {ChangeMood("Kate", "Nat")}
 
-    Kate: "I'm going to start with giving you all a tour of the Hallowed Castle. Oh, camara person. I'll take it back now." 
+    Kate: "I'm going to start by giving you all a tour of the Hallowed Castle. Oh, camara person. I'll take it back now." 
 
     Filler Text 
     {ChangeMood("Kate", "NatDark")}
 
-    I handed over teh camera and quickly ran to be out of frame. 
+    I handed over the camera and quickly ran to be out of frame. 
 
     Filler Text
     {HideCharacter("Kate")}
@@ -555,7 +555,7 @@ EXTERNAL DropChange (spot)
 
         Filler Text
 
-        I raced to the end of the que, Elias’s footsteps chasing after me. 
+        I raced to the end of the queue, Elias’s footsteps chasing after me. 
 
         Filler Text
 
@@ -637,7 +637,7 @@ EXTERNAL DropChange (spot)
     {DropChange(5)}
     {ChangeMood("Elias", "NatDark")}
 
-    Elias and I walked along the dirt paths the lead to the Exploration section of the park. 
+    Elias and I walked along the dirt paths that lead to the Exploration section of the park. 
 
     Filler Text 
 
@@ -731,7 +731,7 @@ EXTERNAL DropChange (spot)
    
 
 ==DRAnima== 
-    Walking passed the animatric it sprang to life 
+    Walking past the animatronic it sprang to life 
     Filler Text
     Captain: “It has to be around here somewhere.” 
     Filler Text
@@ -1012,7 +1012,7 @@ EXTERNAL DropChange (spot)
     {ChangeMood("Elias", "NatDark")}
     He was back to his stuck-up tone, rolling his eyes. A thought crossed my mind. Maybe I should give him the bat. 
     
-    Fillre Text
+    Filler Text
     * Give 
         -> giveBat
     * Keep 
@@ -1205,11 +1205,11 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
     {ShowCharacter("Jester", "Right", "Nat")}
-    ???: “Why don’t you all gather at the ferris wheel? It seems the night can truly begin.” 
+    ???: “Why don’t you all gather at the Ferris wheel? It seems the night can truly begin.” 
 
     Filler Text 
     {HideCharacter("Jester")}
-    The voice let out a laugh like a hyena, high pitched and taunting, a sound that made my blood run cold. The look on Elias’s face told me he was feeling the same. 
+    The voice let out a laugh like a hyena, high-pitched and taunting, a sound that made my blood run cold. The look on Elias’s face told me he was feeling the same. 
     
     Filler Text 
     
@@ -1241,7 +1241,7 @@ EXTERNAL DropChange (spot)
         "Something? Not someone?" 
         Filler Text
         {ChangeMood("Kate", "Nat")}
-        Kate: “I mean, it looked like something. Unless  wires can come to life. But I guess either way it would be something. 
+        Kate: “I mean, it looked like something. Unless wires can come to life. But I guess either way it would be something. 
         
         Filler Text 
         {ChangeMood("Kate", "NatDark")}
@@ -1298,11 +1298,11 @@ EXTERNAL DropChange (spot)
     Filler Text 
     {ChangeMood("Hendrix", "NatDark")}
     {ChangeMood("Jess", "Nat")}
-    Jess: “yes ma’am.” 
+    Jess: “Yes ma’am.” 
         
     Filler Text 
     {ChangeMood("Jess", "NatDark")}
-    I looked between the other nine people who were gathered here, then to the scene as the so called dectecive poked around. I needed to do something. It would be easer to start with the people I knew.  
+    I looked between the other nine people who were gathered here, then to the scene as the so-called dectecive poked around. I needed to do something. It would be easer to start with the people I knew.  
         
     Filler Text 
     {HideCharacter("Hendrix")}
@@ -1319,7 +1319,7 @@ EXTERNAL DropChange (spot)
     Filler Text 
     {ChangeMood("Jon", "NatDark")}
     *Of course not
-        “Of course it’s not real. You should get some water. Okay?” 
+        “Of course, it’s not real. You should get some water. Okay?” 
         
         Filler Text 
     {HideCharacter("Jon")}
@@ -1342,7 +1342,7 @@ EXTERNAL DropChange (spot)
 
 ==BonnieCh1Intar==
     {ShowCharacter("Bonnie", "Center", "NatDark")}
-    I approuched someone staring at the dead body with a blank and unreadable expression. She was standing unnaturally still and her blinking made me step back. I didn't quite relize she was a real person. 
+    I approached someone staring at the dead body with a blank and unreadable expression. She was standing unnaturally still and her blinking made me step back. I didn't quite realize she was a real person. 
             
     Filler Text 
     
@@ -1399,7 +1399,7 @@ EXTERNAL DropChange (spot)
 
 ==Ch1BH== 
 
-    Aubri had a large wound in her head that bled out. I couldn’t see the back of her head from here, but I think the likely cause of the death was the fall Kate talked about. 
+    Aubri had a large wound on her head that bled out. I couldn’t see the back of her head from here, but I think the likely cause of the death was the fall Kate talked about. 
                 
     Filler Text 
     
@@ -1407,7 +1407,7 @@ EXTERNAL DropChange (spot)
 
 ==Ch1BW==
 
-    The bracelets along her right arm had been moved, shifted up to her forearm rather than resting on her wrist. There I saw she had a small tatto on her wrist. It looked almost like a circle with multiple lines enraged together. 
+    The bracelets along her right arm had been moved, shifted up to her forearm rather than resting on her wrist. There I saw she had a small tattoo on her wrist. It looked almost like a circle with multiple lines enraged together. 
             
     Filler Text 
     
@@ -1424,14 +1424,14 @@ EXTERNAL DropChange (spot)
 
 	->Ch1RedRumIvnest
 ==Tape1==
-	In her left hand Aubri was holding a cassette tape. It was too far away for me to reach, I’d have to ask Hendrix about it if I wanted to listen to it. 
+	In her left hand, Aubri was holding a cassette tape. It was too far away for me to reach, I’d have to ask Hendrix about it if I wanted to listen to it. 
                 
     Filler Text 
     
     ->Ch1RedRumIvnest
 ==Ch1W== 
 
-	I tore my eyes away from the scene for a moment, letting them follow a strang back wire that was hanging near her body. I had believed it was attached to the ferrous wheel, but it wasn’t. It didn’t seem attached to anything. Vanishing in the green smoky sky. The more I looked, the more I thought it looked like a tentacle. It also made my head hurt. 
+	I tore my eyes away from the scene for a moment, letting them follow a strange backwire that was hanging near her body. I had believed it was attached to the ferrous wheel, but it wasn’t. It didn’t seem attached to anything. Vanishing in the green smoky sky. The more I looked, the more I thought it looked like a tentacle. It also made my head hurt. 
                 
     Filler Text 
     
@@ -1445,7 +1445,7 @@ EXTERNAL DropChange (spot)
 
 ==SageCh1Intar==
     {ShowCharacter("Sage", "Center", "NatDark")}
-    I appriched someone  looking up at the ferrous wheel, hands in the pocket of her paint-splattered apron. 
+    I approached someone looking up at the ferrous wheel, hands in the pocket of her paint-splattered apron. 
             
     Filler Text 
     {ChangeMood("Sage", "Nat")}
@@ -1471,9 +1471,9 @@ EXTERNAL DropChange (spot)
                 
         Filler Text 
         {ChangeMood("Sage", "NatDark")}
-        "I guess? I"m Rory." 
+        "I guess? I'm Rory." 
         Filler Text 
-        ???" "Weird time for intriductions, but I'm Sage"
+        ???" "Weird time for introductions, but I'm Sage"
         {HideCharacter("Sage")}
         -> TalkToPeople
 
@@ -1486,9 +1486,9 @@ EXTERNAL DropChange (spot)
           
         Filler Text 
        {ChangeMood("Sage", "NatDark")}
-        "I guess? I"m Rory." 
+        "I guess? I'm Rory." 
         Filler Text 
-        ???" "Weird time for intriductions, but I'm Sage"
+        ???" "Weird time for introductions, but I'm Sage"
         {HideCharacter("Sage")}
         -> TalkToPeople
         -> TalkToPeople
@@ -1532,7 +1532,7 @@ EXTERNAL DropChange (spot)
     Filler Text 
     {ChangeMood("Hendrix", "Nat")}
 
-	???: “prove what? That it’s something supernatural? Oh please. Have you seen anything supernatural?” 
+	???: “Prove what? That it’s something supernatural? Oh please. Have you seen anything supernatural?” 
                             
     Filler Text 
     {ChangeMood("Hendrix", "NatDark")}
@@ -1542,7 +1542,7 @@ EXTERNAL DropChange (spot)
                             
         Filler Text 
         {ChangeMood("Hendrix", "Nat")}
-		???: “And you expect me to-” 
+		???: “And you expect me to” 
                                 
         Filler Text 
         {ChangeMood("Hendrix", "NatDark")}
@@ -1565,7 +1565,7 @@ EXTERNAL DropChange (spot)
 	**{(not DRDoor)&&(not RCAttenent)}Agree 
 		 “I guess you have a point, I mean, I haven’t seen anything weird” 
          Filler Text
-		Elias looked to me a bit confused. Did he see something I didn’t? 
+		Elias looked at me a bit confused. Did he see something I didn’t? 
         Filler Text
         {ChangeMood("Hendrix", "Nat")}
 		???: “I’m going to call this in” 
@@ -1575,7 +1575,7 @@ EXTERNAL DropChange (spot)
     **
         I was stunned into silence for a moment. 
         Filler Text
-		Elias looked to me a bit confused. Did he see something I didn’t? 
+		Elias looked at me a bit confused. Did he see something I didn’t? 
         Filler Text
         {ChangeMood("Hendrix", "Nat")}
 		???: “I’m going to call this in” 
@@ -1641,14 +1641,14 @@ EXTERNAL DropChange (spot)
 	 “I think you should hear Jon’s story. It might prove that-” 
      Filler Text
     {ChangeMood("Hendrix", "Nat")}
-	???: “prove what? That it’s something supernatural? Oh please. Have you seen anything supernatural?” 
+	???: “Prove what? That it’s something supernatural? Oh please. Have you seen anything supernatural?” 
     Filler Text
     {ChangeMood("Hendrix", "NatDark")}
 	***{CoasterSplit}Remember 
 		 “I was trapped on the roller coaster. I-I thought I was going to die there. The statue moved, tried to slam her sword onto me.” 
          Filler Text
          {ChangeMood("Hendrix", "Nat")}
-		???: “And you expect me to-” 
+		???: “And you expect me to” 
         Filler Text
         {ChangeMood("Hendrix", "NatDark")}
         {ShowCharacter("Elias", "Right", "Nat")}
@@ -1667,7 +1667,7 @@ EXTERNAL DropChange (spot)
 	***{(not DRDoor)&&(not RCAttenent)}Agree 
 		 “I guess you have a point, I mean, I haven’t seen anything weird” 
          Filler Text
-		Elias looked to me a bit confused. Did he see something I didn’t? 
+		Elias looked at me a bit confused. Did he see something I didn’t? 
         Filler Text
         {ChangeMood("Hendrix", "Nat")}
 		???: “I’m going to call this in” 
@@ -1692,7 +1692,7 @@ EXTERNAL DropChange (spot)
         “I know we talked before but-” 
         Filler Text
         {ChangeMood("Kate", "Nat")}
-        Kate: “Something grabbed Aburi. Picked her from the basket-like picking a berry.” 
+        Kate: “Something grabbed Aburi. Picked her from the basket like picking a berry.” 
         Filler Text
         {ChangeMood("Kate", "NatDark")}
         * Same basket? 
@@ -1734,7 +1734,7 @@ EXTERNAL DropChange (spot)
 
 ==JonCh1Intar==
     {ShowCharacter("Jon", "Center", "NatDark")}
-    I approched someone playing with his scarf, balling it and unballing it, looking for pockets on his skirt before putting the scarf on and starting the cycle again. 
+    I approached someone playing with his scarf, balling it and un-balling it, looking for pockets on his skirt before putting the scarf on and starting the cycle again. 
     Filler Text
     “Did you see anything?” 
     Filler Text
@@ -1747,7 +1747,7 @@ EXTERNAL DropChange (spot)
     I took a moment and waited for him to calm down. 
     Filler Text
     {ChangeMood("Jon", "Nat")}
-    ???: “I saw this shadow, like a rift cut through the sky, blacker than night. It  twisted like lightning. It wrapped itself around the ferris wheel and then…pulsed.” 
+    ???: “I saw this shadow, like a rift cut through the sky, blacker than night. It twisted like lightning. It wrapped itself around the ferris wheel and then…pulsed.” 
         Filler Text 
         {ChangeMood("Jon", "NatDark")}
     **{keepBat}Push 
@@ -1796,14 +1796,14 @@ EXTERNAL DropChange (spot)
 
 ==ZeldaCh1Intar==
     {ShowCharacter("Zelda", "Center", "NatDark")}
-    I saw someone trying to hide her face in her shirt, turned away from the scene. Her hands were half hidden in her sleeves. 
+    I saw someone trying to hide her face in her shirt and turned away from the scene. Her hands were half hidden in her sleeves. 
     Filler Text
     *Talk 
 
         “Is everything alright?” 
         Filler Text
         {ChangeMood("Zelda", "Nat")}
-        ???: “I…I tried to…I tried to.. And she…I couldn’t…
+        ???: “I…I tried to…I tried to... And she…I couldn’t…
         Filler Text
         {ChangeMood("Zelda", "NatDark")}
         "I'm Rory, and you are?" 
@@ -1818,7 +1818,7 @@ EXTERNAL DropChange (spot)
     Zelda nodded. 
     Filler Text
     {ChangeMood("Zelda", "Nat")}
-    Zelda: “I had her…I had her arm… and she…she was..It was too strong…and..” 
+    Zelda: “I had her…I had her arm… and she…she was...It was too strong…and..” 
     Filler Text
     {ChangeMood("Zelda", "NatDark")}
     Her voice was shaking, tears brimming in her eyes. 
@@ -1830,7 +1830,7 @@ EXTERNAL DropChange (spot)
         Zelda: “god. God grabbed her and said..it said that she was a coward. That she could never pass the test. That she…she was our sacrifice.” 
         Filler Text
         {ChangeMood("Zelda", "NatDark")}
-        Zelda whipped tears from her eyes, and the small bit of blood that fell from her nose.  
+        Zelda whipped tears from her eyes and the small bit of blood that fell from her nose.  
         Filler Text
         {HideCharacter("Zelda")}
         -> TalkToPeople
@@ -1903,9 +1903,9 @@ EXTERNAL DropChange (spot)
     *Apologize 
         “Guess I can just wait til she’s done” 
         Filler Text
-        I waited there a long time. 
+        I waited there for a long time. 
         Filler Text
-        "Jess, I don't think she's going to finsih anytime soon? What if I just don't touch anything?"
+        "Jess, I don't think she's going to finish anytime soon? What if I just don't touch anything?"
         Filler Text
         {ChangeMood("Jess", "Nat")}
         Jess: "Nope."
@@ -1919,7 +1919,7 @@ EXTERNAL DropChange (spot)
         Jess: “Look, just, stand here. I don’t think getting closer is a smart idea” 
         Filler Text
         {ChangeMood("Jess", "NatDark")}
-        I turned my attention to the scene before me. Aubri, a tall individual dressed in simple fashion for a Hollywood star. Her cherry red heels matched her dress and her black hair was decorated with gold bands. Her blue gray eyes were open and face twisted in fear as she lay in the blood that came from a wound on her head. 
+        I turned my attention to the scene before me. Aubri is a tall individual dressed simply for a Hollywood star. Her cherry red heels matched her dress and her black hair was decorated with gold bands. Her blue-gray eyes were open and her face twisted in fear as she lay in the blood that came from a wound on her head. 
         Filler Text
         {HideCharacter("Jess")}
     ->Ch1RedRumIvnest
@@ -1942,7 +1942,7 @@ EXTERNAL DropChange (spot)
 		
 ==JessCh1Intar==
     {ShowCharacter("Jess", "Center", "NatDark")}
-    I apporched the person the decteive called Jess, her face was set with determination as she looked over the group of us. Her eyes narrowed slightly as if waiting to jump at someone who broke the rules. 
+    I approached the person the detective called Jess, her face was set with determination as she looked over the group of us. Her eyes narrowed slightly as if waiting to jump at someone who broke the rules. 
     Filler Text
     “Jess. Did you see anything?” 
     Filler Text
@@ -1999,11 +1999,11 @@ EXTERNAL DropChange (spot)
     {HideCharacter("Elias")}
     {ChangeMood("Jess", "NatDark")}
     {ShowCharacter("Bonnie", "Right", "Nat")}
-    ???: “But what if-there is something more going on?” 
+    ???: “But what if there is something more going on?” 
     Filler Text
     {ChangeMood("Bonnie", "NatDark")}
     {ChangeMood("Hendrix", "Nat")}
-    ???: “So what do you say Rory? You’re my sidekick on this, do you want to chase ghosts or be a real detective?” 
+    ???: “So what do you say, Rory? You’re my sidekick on this, do you want to chase ghosts or be a real detective?” 
     Filler Text
     {ChangeMood("Hendrix", "NatDark")}
     *{JonPush||RideCoaster||DRDoor||RCAttenent}Ghosts 
@@ -2064,11 +2064,11 @@ EXTERNAL DropChange (spot)
     {HideCharacter("Elias")}
     {ChangeMood("Jess", "NatDark")}
     {ShowCharacter("Bonnie", "Right", "Nat")}
-    ???: “But what if-there is something more going on?” 
+    ???: “But what if there is something more going on?” 
     Filler Text
     {ChangeMood("Bonnie", "NatDark")}
     {ChangeMood("Hendrix", "Nat")}
-    ???: “So what do you say Rory? You’re my sidekick on this, do you want to chase ghosts or be a real detective?” 
+    ???: “So what do you say, Rory? You’re my sidekick on this, do you want to chase ghosts or be a real detective?” 
     Filler Text
     {ChangeMood("Hendrix", "NatDark")}
     *{JonPush||RideCoaster||DRDoor||RCAttenent}Ghosts 
@@ -2129,11 +2129,11 @@ EXTERNAL DropChange (spot)
     {HideCharacter("Elias")}
     {ChangeMood("Jess", "NatDark")}
     {ShowCharacter("Bonnie", "Right", "Nat")}
-    Bonnie: “But what if-there is something more going on?” 
+    Bonnie: “But what if there is something more going on?” 
     Filler Text
     {ChangeMood("Bonnie", "NatDark")}
     {ChangeMood("Hendrix", "Nat")}
-    ???: “So what do you say Rory? You’re my sidekick on this, do you want to chase ghosts or be a real detective?” 
+    ???: “So what do you say, Rory? You’re my sidekick on this, do you want to chase ghosts or be a real detective?” 
     Filler Text
     {ChangeMood("Hendrix", "NatDark")}
     *{JonPush||RideCoaster||DRDoor||RCAttenent}Ghosts 
@@ -2194,11 +2194,11 @@ EXTERNAL DropChange (spot)
     {HideCharacter("Elias")}
     {ChangeMood("Jess", "NatDark")}
     {ShowCharacter("Bonnie", "Right", "Nat")}
-    ???: “But what if-there is something more going on?” 
+    ???: “But what if there is something more going on?” 
     Filler Text
     {ChangeMood("Bonnie", "NatDark")}
     {ChangeMood("Hendrix", "Nat")}
-    ???: “So what do you say Rory? You’re my sidekick on this, do you want to chase ghosts or be a real detective?” 
+    ???: “So what do you say, Rory? You’re my sidekick on this, do you want to chase ghosts or be a real detective?” 
     Filler Text
     {ChangeMood("Hendrix", "NatDark")}
     *{JonPush||RideCoaster||DRDoor||RCAttenent}Ghosts 
@@ -2259,11 +2259,11 @@ EXTERNAL DropChange (spot)
     {HideCharacter("Elias")}
     {ChangeMood("Jess", "NatDark")}
     {ShowCharacter("Bonnie", "Right", "Nat")}
-    ???: “But what if-there is something more going on?” 
+    ???: “But what if there is something more going on?” 
     Filler Text
     {ChangeMood("Bonnie", "NatDark")}
     {ChangeMood("Hendrix", "Nat")}
-    ???: “So what do you say Rory? You’re my sidekick on this, do you want to chase ghosts or be a real detective?” 
+    ???: “So what do you say, Rory? You’re my sidekick on this, do you want to chase ghosts or be a real detective?” 
     Filler Text
     {ChangeMood("Hendrix", "NatDark")}
     *{JonPush||RideCoaster||DRDoor||RCAttenent}Ghosts 
@@ -2295,4 +2295,3 @@ EXTERNAL DropChange (spot)
         End of Chapter 1: Journalist 
             ->END
     * ->Default
-
