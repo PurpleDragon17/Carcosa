@@ -1281,13 +1281,13 @@ EXTERNAL DropChange (spot)
     
     Filler Text 
     {ChangeMood("Hendrix", "NatDark")}
-    *Going on 
+    **Going on 
 
         “I just want to know what’s going on. After all, we were all called here together.” 
             
         Filler Text 
     
-    *Matter
+    **Matter
 
         “What’s it matter to you? Incapable of acting like a normal person?” 
 
@@ -1583,7 +1583,7 @@ EXTERNAL DropChange (spot)
         {HideCharacter("Hendrix")}
 		->CH1ed
 
-	*{(DRDoor||RCAttenent)&&(BonnieCh1Intar)}Bonnie 
+	**{(DRDoor||RCAttenent)&&(BonnieCh1Intar)}Bonnie 
 		 “I can see your point, but what if there’s really something?”
          Filler Text
          {ChangeMood("Hendrix", "Nat")}
@@ -1674,7 +1674,7 @@ EXTERNAL DropChange (spot)
         Filler Text
         {HideCharacter("Hendrix")}
 		->CH1ed
-	**{(DRDoor||RCAttenent)&&(BonnieCh1Intar)}Bonnie 
+	***{(DRDoor||RCAttenent)&&(BonnieCh1Intar)}Bonnie 
 		 “I can see your point, but what if there’s really something?”
          Filler Text
          {ChangeMood("Hendrix", "Nat")}
