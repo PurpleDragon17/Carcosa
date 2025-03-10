@@ -70,7 +70,7 @@ EXTERNAL DropChange (spot)
     -> WhoTalk
 
 ==WhoTalk== 
-    * The Artist
+    * Girl with Papers
         -> artist
     * Man with Plants
         -> manWplants
@@ -379,7 +379,7 @@ EXTERNAL DropChange (spot)
     Filler text
     {ChangeMood("Kate", "NatDark")}
 
-	She seemed to notice me immensely as I walked over. 
+	She seemed to notice me Immediately  as I walked over. 
 
     Filler Text 
     {ChangeMood ("Kate", "Nat")}
@@ -1572,7 +1572,7 @@ EXTERNAL DropChange (spot)
         Filler Text
         {HideCharacter("Hendrix")}
 		->CH1ed
-    **
+    **Silence
         I was stunned into silence for a moment. 
         Filler Text
 		Elias looked at me a bit confused. Did he see something I didn’t? 
@@ -1583,7 +1583,7 @@ EXTERNAL DropChange (spot)
         {HideCharacter("Hendrix")}
 		->CH1ed
 
-	**{(DRDoor||RCAttenent)&&(BonnieCh1Intar)}Bonnie 
+	**{BonnieCh1Intar}Bonnie 
 		 “I can see your point, but what if there’s really something?”
          Filler Text
          {ChangeMood("Hendrix", "Nat")}
@@ -1674,7 +1674,7 @@ EXTERNAL DropChange (spot)
         Filler Text
         {HideCharacter("Hendrix")}
 		->CH1ed
-	***{(DRDoor||RCAttenent)&&(BonnieCh1Intar)}Bonnie 
+	***{BonnieCh1Intar}Bonnie 
 		 “I can see your point, but what if there’s really something?”
          Filler Text
          {ChangeMood("Hendrix", "Nat")}
