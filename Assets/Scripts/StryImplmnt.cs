@@ -39,14 +39,20 @@ public class StryImplmnt : MonoBehaviour
     private GameStateManager _gameStateManager;
     private Story _story;
     private static string _loadedState;
-    private AudioSource m_AdioSource; 
+    private AudioSource m_AdioSource;
+    public AudioClip S1;
+    public AudioClip S2;
+    public AudioClip S3;
+    public int SN;
+    public AudioClip otherClip; 
 
 
 
     void Start()
     {
         m_AdioSource = GetComponent<AudioSource>();
-        m_AdioSource.Play(); 
+        m_AdioSource.Play();
+        SN = 1; 
         _characterManager = FindObjectOfType<CharacterManager>();
         dropChance = FindAnyObjectByType<DropChance>();
         StartStory();
@@ -391,8 +397,29 @@ public class StryImplmnt : MonoBehaviour
 
     public void Update()
     {
-       
-        
+
+        if (!m_AdioSource.isPlaying)
+        {
+            if(SN == 1)
+            {
+                otherClip = S2;
+                SN = 2;
+            }
+            else if(SN == 2)
+            {
+                otherClip = S3;
+                SN = 3;
+            }
+            else if (SN == 3)
+            {
+                otherClip = S1;
+                SN = 1;
+            }
+
+
+            m_AdioSource.clip = otherClip;
+            m_AdioSource.Play();
+        }
 
         if (Input.GetKey(KeyCode.S))
         {
