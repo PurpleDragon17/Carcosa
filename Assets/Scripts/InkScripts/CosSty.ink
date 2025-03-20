@@ -68,7 +68,6 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
     -> WhoTalk
-
 ==WhoTalk== 
     * Girl with Papers
         -> artist
@@ -80,7 +79,6 @@ EXTERNAL DropChange (spot)
         -> girlWcamera
     * 
         -> ExplorationChapter1
-
 == ExplorationChapter1== 
 
 
@@ -139,7 +137,6 @@ EXTERNAL DropChange (spot)
 
     Filler Text
     ->  ExCh1Loop
-
 ==ExCh1Loop==
     {ShowCharacter("Elias", "Center", "Nat")}
     {ChangeMood("Elias", "Nat")}
@@ -159,8 +156,6 @@ EXTERNAL DropChange (spot)
         -> mindway
             
     *   -> murderCh1
-
-
 ==artist== 
    
     I made my way over to the artist.
@@ -430,7 +425,6 @@ EXTERNAL DropChange (spot)
 ==darRide==
         
         -> DarkRideExplore
-
 ==rollerCoaster== 
      {DropChange(4)}
      
@@ -727,9 +721,6 @@ EXTERNAL DropChange (spot)
         -> DRDoor
     
     *   -> ExCh1Loop
-
-   
-
 ==DRAnima== 
     Walking past the animatronic it sprang to life 
     Filler Text
@@ -819,7 +810,6 @@ EXTERNAL DropChange (spot)
         -> RCBag
     *   
         -> CoasterSplit
-
 ==RCAttenent== 
     Filler text
     The attendant was dressed in the classic uniform, a dull yellow shirt with a turtleneck underneath it. 
@@ -876,8 +866,6 @@ EXTERNAL DropChange (spot)
         -> ExCh1Loop
     * Attendant 
         -> RideCoaster
-
-
 ==RideCoaster==
    
  I shook my head and made my way to the cart, taking a seat in the front, and lowering the lap bar til it clicked. 
@@ -1197,8 +1185,6 @@ EXTERNAL DropChange (spot)
     Or not. Maybe he would think I was flirting. 
     Filler Text
     -> ExCh1Loop
-
-
 ==murderCh1==
     {ChangeMood("Elias", "NatDark")}
     The speakers crackled to life again, this time a voice coming through. It sounded like some of the voice acting used for the rides, but something was still off about it. 
@@ -1323,7 +1309,7 @@ EXTERNAL DropChange (spot)
         
         Filler Text 
     {HideCharacter("Jon")}
-        -> TalkToPeople
+        -> InvestMurderCh1
     *We’re in trouble 
 
 		 “I…I can’t say that it’s not real” 
@@ -1338,7 +1324,7 @@ EXTERNAL DropChange (spot)
          
          Filler Text 
         {HideCharacter("Jon")}
-        -> TalkToPeople
+        -> InvestMurderCh1
 
 ==BonnieCh1Intar==
     {ShowCharacter("Bonnie", "Center", "NatDark")}
@@ -1372,7 +1358,7 @@ EXTERNAL DropChange (spot)
                 
             Filler Text 
             {HideCharacter("Bonnie")}
-            -> TalkToPeople
+            -> InvestMurderCh1
         *{RCAttenent}Remember 
              “I did see someone, at the coaster.” 
 
@@ -1382,7 +1368,7 @@ EXTERNAL DropChange (spot)
                     
             Filler Text 
             {HideCharacter("Bonnie")}
-            ->TalkToPeople
+            ->InvestMurderCh1
  
 ==Ch1RedRumIvnest==
 	*Body(Head) 
@@ -1475,7 +1461,7 @@ EXTERNAL DropChange (spot)
         Filler Text 
         ???" "Weird time for introductions, but I'm Sage"
         {HideCharacter("Sage")}
-        -> TalkToPeople
+        -> InvestMurderCh1
 
 	** I don’t think so
         “I don’t think so. Can actors be stupid?” 
@@ -1490,11 +1476,9 @@ EXTERNAL DropChange (spot)
         Filler Text 
         ???" "Weird time for introductions, but I'm Sage"
         {HideCharacter("Sage")}
-        -> TalkToPeople
-        -> TalkToPeople
+        -> InvestMurderCh1
     *See anything? 
     “Did you see anything?” 
-        
     Filler Text 
     {ChangeMood("Sage", "Nat")}
 	Sage: “Not really. I was looking for something to eat when I heard the announcement.” 
@@ -1502,7 +1486,7 @@ EXTERNAL DropChange (spot)
     Filler Text 
     
     {HideCharacter("Sage")}
-    -> TalkToPeople
+    -> InvestMurderCh1
 
 
 
@@ -1702,7 +1686,7 @@ EXTERNAL DropChange (spot)
             Kate: “No, I was in the one above her. Bonnie got the ride going.” 
             Filler Text
             {HideCharacter("Kate")}
-        -> TalkToPeople
+        ->  TalkToPeople
         *Look like? 
             “What did it look like? A hand?” 
             Filler Text
@@ -1716,7 +1700,7 @@ EXTERNAL DropChange (spot)
         Kate: “Bonnie got the ride running.” 
         Filler Text
         {HideCharacter("Kate")}
-    -> TalkToPeople
+    ->  TalkToPeople
 
 
 
@@ -1730,7 +1714,7 @@ EXTERNAL DropChange (spot)
         Elias: “Don’t look at me. I was with you the whole time.” 
         Filler Text
         {HideCharacter("Elias")}
-    -> TalkToPeople
+    ->  TalkToPeople
 
 ==JonCh1Intar==
     {ShowCharacter("Jon", "Center", "NatDark")}
@@ -1764,7 +1748,7 @@ EXTERNAL DropChange (spot)
         {ChangeMood("Jon", "Nat")}
         ???: "I'm a...Jon" 
         {HideCharacter("Jon")}
-        -> TalkToPeople
+        -> InvestMurderCh1
 
     *Breath 
         “Take a breath, you’re all right.” 
@@ -1833,31 +1817,31 @@ EXTERNAL DropChange (spot)
         Zelda whipped tears from her eyes and the small bit of blood that fell from her nose.  
         Filler Text
         {HideCharacter("Zelda")}
-        -> TalkToPeople
+        -> InvestMurderCh1
 
     ***Drop it 
 
             “Easy. It’s okay. Just take your time” 
             Filler Text
              {HideCharacter("Zelda")}
-            -> TalkToPeople
+            -> InvestMurderCh1
 
         **Drop it 
         
             “Easy. It’s okay. Just take your time” 
             Filler Text
              {HideCharacter("Zelda")}
-            -> TalkToPeople
+            -> InvestMurderCh1
 
     *Leave 
         
             I don’t think it’s a good idea. Maybe Hendrix should talk to her. 
             Filler Text
              {HideCharacter("Zelda")}
-        -> TalkToPeople
+        -> InvestMurderCh1
 ==PeopleOrCrime==
     *People 
-        -> TalkToPeople
+        -> InvestMurderCh1
     *{TalkToPeople} Crime Scene
         -> InvestMurderCh1
 
@@ -1894,6 +1878,8 @@ EXTERNAL DropChange (spot)
 
 ==InvestMurderCh1==
     {DropChange(15)}
+    When I was done talking to people, I realized if I wanted to know what was going on, I'd need to investigate. 
+    Filler text
     As Hendrix moved around the scene I tried to get closer, only to feel Jess’s powerful hand holding me back. 
     Filler Text
     {ShowCharacter("Jess", "Center", "Nat")}
@@ -1960,7 +1946,7 @@ EXTERNAL DropChange (spot)
         She had a smile that told me not to keep asking. 
         Filler Text
         {HideCharacter("Jess")}
-        -> TalkToPeople
+        -> InvestMurderCh1
     **Stealing? 
         “You mean stealing from the gift shop?” 
         Filler Text
@@ -1968,7 +1954,7 @@ EXTERNAL DropChange (spot)
         Jess: “Not my fault the place was unlocked.” 
         Filler Text
         {HideCharacter("Jess")}
-    -> TalkToPeople
+    -> InvestMurderCh1
 
 ==CH1edZelda==
  {ShowCharacter("Zelda", "Right", "Nat")}
