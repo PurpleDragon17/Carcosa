@@ -411,7 +411,7 @@ EXTERNAL DropChange (spot)
     Filler Text
     {ChangeMood("Kate", "Nat")}
 
-    Kate: "I'm going to start by giving you all a tour of the Hallowed Castle. Oh, camara person. I'll take it back now." 
+    Kate: "I'm going to start by giving you all a tour of the Hallowed Castle. Oh, camera person. I'll take it back now." 
 
     Filler Text 
     {ChangeMood("Kate", "NatDark")}
@@ -1272,6 +1272,23 @@ EXTERNAL DropChange (spot)
         “I just want to know what’s going on. After all, we were all called here together.” 
             
         Filler Text 
+         {ChangeMood("Hendrix", "Nat")}
+        ???: “Well I’m the detective. I will look over the scene first, don’t touch anything. Jess, Stand guard.” 
+            
+        Filler Text 
+        {ChangeMood("Hendrix", "NatDark")}
+        {ChangeMood("Jess", "Nat")}
+        Jess: “Yes ma’am.” 
+            
+        Filler Text 
+        {ChangeMood("Jess", "NatDark")}
+        I looked between the other nine people who were gathered here, then to the scene as the so-called dectecive poked around. I needed to do something. It would be easer to start with the people I knew.  
+            
+        Filler Text 
+        {HideCharacter("Hendrix")}
+        {HideCharacter("Jess")}
+        {HideCharacter("Kate")}
+        ->PeopleOrCrime
     
     **Matter
 
