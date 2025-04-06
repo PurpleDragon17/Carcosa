@@ -19,6 +19,7 @@ EXTERNAL DropChange (spot)
         {DropChange(6)}
             -> ExCh1Loop
         ** Murder
+            {DropChange(7)}
             -> murderCh1
 ==Opening== 
     {DropChange(0)}
@@ -88,13 +89,13 @@ EXTERNAL DropChange (spot)
     There was a soft clicking of a speaker, but there was no voice. 
 
     Filler Text
-    {ShowCharacter("Aburi", "Center", "Nat")}
+    {ShowCharacter("Aubri", "Center", "Nat")}
 
-    Aubri: “What was that?” 
+    Aburi: “What was that?” 
 
 
     Filler Text
-    {ChangeMood ("Aburi", "NatDark")}
+    {ChangeMood ("Aubri", "NatDark")}
     {ShowCharacter("Warren", "Left", "Nat")}
 
     Warren: “A technical malfunction?.” 
@@ -106,11 +107,11 @@ EXTERNAL DropChange (spot)
 
     Filler Text
     {ChangeMood("Kate", "NatDark")}
-    {ChangeMood("Aburi", "Nat")}
+    {ChangeMood("Aubri", "Nat")}
     Aburi: “This might be our sign to leave, everyone else did." 
 
     Filler Text
-    {ChangeMood("Aburi", "NatDark")}
+    {ChangeMood("Aubri", "NatDark")}
     {ChangeMood("Kate", "Nat")}
     Kate: “She has a point. Well, time to get some exclusive footage?” 
 
@@ -1858,7 +1859,7 @@ EXTERNAL DropChange (spot)
         -> InvestMurderCh1
 ==PeopleOrCrime==
     *People 
-        -> InvestMurderCh1
+        -> TalkToPeople
     *{TalkToPeople} Crime Scene
         -> InvestMurderCh1
 
@@ -1903,7 +1904,6 @@ EXTERNAL DropChange (spot)
     Jess: “Easy now, can’t have you messing up the detective’s work, now can we?” 
     Filler Text
     {ChangeMood("Jess", "NatDark")}
-    *Apologize 
         “Guess I can just wait til she’s done” 
         Filler Text
         I waited there for a long time. 
@@ -1913,9 +1913,6 @@ EXTERNAL DropChange (spot)
         {ChangeMood("Jess", "Nat")}
         Jess: "Nope."
         Filler Text
-        {HideCharacter("Jess")}
-        ->PeopleOrCrime
-    *{JessCh1Intar} Push 
         “Are you really thinking this will atone you for being a  thief?” 
         Filler Text
         {ChangeMood("Jess", "Nat")}
