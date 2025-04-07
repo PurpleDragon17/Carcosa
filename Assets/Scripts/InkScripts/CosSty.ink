@@ -159,7 +159,7 @@ EXTERNAL DropChange (spot)
     *   -> murderCh1
 ==artist== 
    
-    I made my way over to the artist.
+    I made my way over to the girl with a bunch of papers.
 
     {ShowCharacter("Aubri", "Center", "NatDark")}
     Filler Text 
@@ -253,7 +253,10 @@ EXTERNAL DropChange (spot)
 
 	Filler Text 
     {ChangeMood("Warren", "NatDark")}
-	 “I mean guess-” 
+	 The man's voice was quite, but filled with an inviting excitment. 
+     
+     Filler Text 
+     “I mean guess-” 
 
 	Filler Text 
     {ChangeMood("Warren", "Nat")}
@@ -330,7 +333,7 @@ EXTERNAL DropChange (spot)
 ==readingMan==
     {ShowCharacter("Elias", "Center", "Nat")}
     
-	I approached the man sitting alone on one of the prop rocks. 
+	I approached the man sitting alone on one of the prop vases. 
     {ChangeMood("Elias", "NatDark")}
 	Filler Text 
 
@@ -342,7 +345,10 @@ EXTERNAL DropChange (spot)
 
 	Filler Text 
      {ChangeMood("Elias", "NatDark")}
-	 “You here for the Halloween event?” 
+	 The man didn't look up from his book as he spoke. He sounded board. 
+
+     Filler text 
+     “You here for the Halloween event?” 
 
 	Filler Text 
      {ChangeMood("Elias", "Nat")}
@@ -350,6 +356,10 @@ EXTERNAL DropChange (spot)
 
 	Filler Text 
      {ChangeMood("Elias", "NatDark")}
+
+     His voice was a bitter a snowstorm and clear as crystal. 
+     Filler Text 
+
 	 “Name’s Rory.” 
 
 	Filler Text 
@@ -375,7 +385,7 @@ EXTERNAL DropChange (spot)
     Filler text
     {ChangeMood("Kate", "NatDark")}
 
-	She seemed to notice me Immediately  as I walked over. 
+	Her voice sounded unsure and soft, despite the clear determination in her etes. She seemed to notice me immediately  as I walked over. 
 
     Filler Text 
     {ChangeMood ("Kate", "Nat")}
@@ -385,7 +395,7 @@ EXTERNAL DropChange (spot)
     Filler Text
     {ChangeMood("Kate", "NatDark")}
 
-    She didn't exactly give me time to respond before she shoved a video camera in my hand. 
+    I would have gusses she sounded story but when she didn't exactly give me time to respond before shoving a video camera in my hand, I had my doughts. 
 
     Filler Text 
 
@@ -393,7 +403,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
     
-    She took a breath and her whole demeanor changed, panic becoming bubbly excitement. 
+    She took a breath and her whole demeanor changed, panic becoming bubbly excitement, and her hard to place acept became one of a clear Californa native. 
 
     Filler Text 
     {ChangeMood("Kate", "Nat")}
@@ -529,7 +539,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text
     {ChangeMood("Elias", "NatDark")}
-     “Fine, the speaker here decided that despite the warning from the sailor he would go to the island and when he gets there his mind is nearly torn apart by the malevolent spirit he calls the jester until a goddess that’s not named spares him but claims his eyes as a price.” 
+     “Fine, fine.  the speaker here decided that despite the warning from the sailor he would go to the island. When he gets there his mind is nearly torn apart by the malevolent spirit he calls the jester, until a goddess that’s not named spares him.  But then she claims his eyes as a price.” 
 
     Filler Text
     {ChangeMood("Elias", "Nat")}
@@ -1254,7 +1264,10 @@ EXTERNAL DropChange (spot)
         Kate: “I know what I saw! It was too big to be a person! People don’t have tentacles!” 
         
         Filler Text 
-     {ChangeMood("Kate", "NatDark")}
+        {HideCharacter("Hendrix")}
+        {HideCharacter("Jess")}
+        {HideCharacter("Kate")}
+        ->PeopleOrCrime
     *Someone? 
         "You mean someone?"
         Filler Text
@@ -1766,6 +1779,7 @@ EXTERNAL DropChange (spot)
         {ChangeMood("Jon", "Nat")}
         ???: "I'm a...Jon" 
         {HideCharacter("Jon")}
+        Filler Text
         -> InvestMurderCh1
 
     *Breath 
