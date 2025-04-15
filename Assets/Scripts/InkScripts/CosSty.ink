@@ -43,7 +43,7 @@ EXTERNAL DropChange (spot)
     {DropChange(9)}
     {HideCharacter("Rory")}
     {ShowCharacter("Blank", "Center", "Nat")}
-    The lady behind the counter looked at the letter I gave her. Her eyebrows narrowed. 
+    The lady behind the counter looked at the letter I gave her. Her eyes narrowed. 
 
     Filler Text 
 
@@ -199,7 +199,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
 
-    I looked her over again, perfect makeup and a dress perfectly tailored to her body. Not to mention the golden bracelets pearl neckless. She looked like old Hollywood money. 
+    I looked her over again, perfect makeup and a dress perfectly tailored to her body. Not to mention the golden bracelets and pearl neckless. She looked like old Hollywood money. 
 
     Filler Text 
     {ChangeMood("Aubri", "Nat")}
@@ -325,7 +325,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
 
-    I stood back up and backed away. 
+    I stood up and backed away. 
 	
     Filler Text
     {HideCharacter("Warren")}
@@ -1009,7 +1009,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
     {ChangeMood("Elias", "NatDark")}
-    He was back to his stuck-up tone, rolling his eyes. A thought crossed my mind. Maybe I should give him the bat. 
+    He was back to his stuck-up self, rolling his eyes. A thought crossed my mind. Maybe I should give him the bat. 
     
     Filler Text
     * Give 
