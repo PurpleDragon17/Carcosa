@@ -7,6 +7,7 @@ EXTERNAL DropChange (spot)
 
 
 ==Sym== 
+{DropChange(12)}
      Chose Where to Begin 
     * New Game 
         -> Opening

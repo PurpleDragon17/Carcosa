@@ -400,12 +400,12 @@ public class StryImplmnt : MonoBehaviour
 
         if (!m_AdioSource.isPlaying)
         {
-            if(SN == 1)
+            if (SN == 1)
             {
                 otherClip = S2;
                 SN = 2;
             }
-            else if(SN == 2)
+            else if (SN == 2)
             {
                 otherClip = S3;
                 SN = 3;
@@ -438,7 +438,18 @@ public class StryImplmnt : MonoBehaviour
             Debug.Log("Game Closed");
         }
 
-       
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            if (PauseMenubackground.activeSelf == true)
+            {
+                PauseMenubackground.SetActive(false);
+            }
+            else
+            {
+                PauseMenubackground.SetActive(true);
+            }
+
+        }
     }
 
 
