@@ -7,7 +7,7 @@ EXTERNAL DropChange (spot)
 
 
 ==Sym== 
-{DropChange(12)}
+    {DropChange(12)}
      Chose Where to Begin 
     * New Game 
         -> Opening
@@ -15,12 +15,18 @@ EXTERNAL DropChange (spot)
         Select Chapter 
         ** Meet People
             {DropChange(6)}
+            Chapter Selected, Meet People 
+            Filler Text
             -> WhoTalk
         ** Explore 
         {DropChange(6)}
+        Chapter Selected, Explore
+        Filler Text
             -> ExCh1Loop
         ** Murder
             {DropChange(7)}
+            Chapter Selected, Murder 
+            Filler Text
             -> murderCh1
 ==Opening== 
     {DropChange(0)}
@@ -147,7 +153,7 @@ EXTERNAL DropChange (spot)
     Filler Text
 
     * Dark Ride 
-        -> darRide
+        -> DarkRideExplore
             
     * Roller Coaster
         -> rollerCoaster
@@ -434,9 +440,6 @@ EXTERNAL DropChange (spot)
     {HideCharacter("Kate")}
 
     -> WhoTalk
-==darRide==
-        
-        -> DarkRideExplore
 ==rollerCoaster== 
      {DropChange(4)}
      
@@ -1255,6 +1258,11 @@ EXTERNAL DropChange (spot)
             Kate: “I’m sorry. It was just…big. And it reached into the cart and threw her out.” 
             
             Filler Text 
+            Filler Text 
+        {HideCharacter("Hendrix")}
+        {HideCharacter("Jess")}
+        {HideCharacter("Kate")}
+        ->PeopleOrCrime
         
         ** Not possible
 	
@@ -1425,7 +1433,7 @@ EXTERNAL DropChange (spot)
 
 ==Ch1BW==
 
-    The bracelets along her right arm had been moved, shifted up to her forearm rather than resting on her wrist. There I saw she had a small tattoo on her wrist. It looked almost like a circle with multiple lines enraged together. 
+    The bracelets along her right arm had been moved, shifted up to her forearm rather than resting on her wrist. There I saw she had a small tattoo on her wrist. It looked almost like a circle with multiple lines tangled together. 
             
     Filler Text 
     
@@ -1542,7 +1550,7 @@ EXTERNAL DropChange (spot)
                     
     Filler Text 
     {ChangeMood("Hendrix", "NatDark")}
-	*{JonCh1Intar}Jon
+	**{JonCh1Intar}Jon
          “I think you should hear Jon’s story. It might prove that-”     
 
     Filler Text 
@@ -1629,6 +1637,51 @@ EXTERNAL DropChange (spot)
         {ChangeMood("Hendrix", "NatDark")}
         {HideCharacter("Sage")}
         {HideCharacter("Kate")}
+        **{JonCh1Intar}Jon
+	 “I think you should hear Jon’s story. It might prove that-” 
+     Filler Text
+    {ChangeMood("Hendrix", "Nat")}
+	???: “Prove what? That it’s something supernatural? Oh please. Have you seen anything supernatural?” 
+    Filler Text
+    {ChangeMood("Hendrix", "NatDark")}
+	***{CoasterSplit}Remember 
+		 “I was trapped on the roller coaster. I-I thought I was going to die there. The statue moved, tried to slam her sword onto me.” 
+         Filler Text
+         {ChangeMood("Hendrix", "Nat")}
+		???: “And you expect me to” 
+        Filler Text
+        {ChangeMood("Hendrix", "NatDark")}
+        {ShowCharacter("Elias", "Right", "Nat")}
+		Elias: “I can vouch for her. I saw it too. There’s more going on here than it seems.” 
+        Filler Text
+        {ChangeMood("Elias", "NatDark")}
+		The detective shook her head, ginger braid swaying with the movement. 
+        Filler Text
+        {ChangeMood("Hendrix", "Nat")}
+		???: “Look, if you all want to spend your time chasing ghosts, be my guest. I’m going to call this in.” 
+        Filler Text
+        {HideCharacter("Hendrix")}
+        {HideCharacter("Elias")}
+		->CH1ed
+		
+	***{(not DRDoor)&&(not RCAttenent)}Agree 
+		 “I guess you have a point, I mean, I haven’t seen anything weird” 
+         Filler Text
+		Elias looked at me a bit confused. Did he see something I didn’t? 
+        Filler Text
+        {ChangeMood("Hendrix", "Nat")}
+		???: “I’m going to call this in” 
+        Filler Text
+        {HideCharacter("Hendrix")}
+		->CH1ed
+	***{BonnieCh1Intar}Bonnie 
+		 “I can see your point, but what if there’s really something?”
+         Filler Text
+         {ChangeMood("Hendrix", "Nat")}
+		???: “Then be a ghost hunter, just leave me out of this. I have to call this in”
+        Filler Text
+        {HideCharacter("Hendrix")}
+		->CH1ed
         
     *{not SageCh1Intar}One of us? 
         {ShowCharacter("Sage", "Left", "Nat")}
@@ -1873,6 +1926,8 @@ EXTERNAL DropChange (spot)
              {HideCharacter("Zelda")}
         -> InvestMurderCh1
 ==PeopleOrCrime==
+    What should I do? 
+    Filler Text
     *People 
         -> TalkToPeople
     *{TalkToPeople} Crime Scene
