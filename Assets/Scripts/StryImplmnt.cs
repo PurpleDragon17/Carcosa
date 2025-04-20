@@ -450,6 +450,15 @@ public class StryImplmnt : MonoBehaviour
             }
 
         }
+
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            AudioListener.volume = 0;
+        }
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            AudioListener.volume = 1;
+        }
     }
 
 
