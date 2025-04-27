@@ -72,7 +72,7 @@ EXTERNAL DropChange (spot)
 
     Filler Text 
 
-    I wasn’t the first one there, finding the others scattered around the room in small groups. Who should I approach? 
+    I wasn’t the first one there, finding the others scattered around the room. Who should I approach? 
 
     Filler Text 
     -> WhoTalk
