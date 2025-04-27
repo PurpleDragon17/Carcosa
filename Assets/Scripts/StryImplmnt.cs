@@ -44,7 +44,10 @@ public class StryImplmnt : MonoBehaviour
     public AudioClip S2;
     public AudioClip S3;
     public int SN;
-    public AudioClip otherClip; 
+    public AudioClip otherClip;
+   // public bool ShowText;
+    public GameObject TextLogImage;
+    public TMP_Text Log; 
 
 
 
@@ -228,8 +231,12 @@ public class StryImplmnt : MonoBehaviour
 
     public void NL()
     {
+        string Bubble;
+        Bubble = Log.text;
         LoadNextNM();
         stDs.text = LoadNextNM().ToString();
+        Log.text = Bubble + "\n" + stDs.text; 
+
         Debug.Log(stDs.text);
     }
 
@@ -371,6 +378,19 @@ public class StryImplmnt : MonoBehaviour
         Choses6Button.SetActive(false);
         Chose7Button.SetActive(false);
         Choses8Button.SetActive(false);
+    }
+
+    public void TextLog()
+    {
+        if (TextLogImage.activeSelf == true)
+        {
+            TextLogImage.SetActive(false);
+        }
+        else
+        {
+            TextLogImage.SetActive(true);
+        }
+
     }
 
     public void StartStory()
